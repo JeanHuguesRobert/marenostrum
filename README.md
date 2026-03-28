@@ -167,7 +167,7 @@ Nous vous demandons :
 - **De produire localement.**
 - **De stocker collectivement.**
 - **De garantir souverainement.**
-- **De tracer transparentement.**
+- **De tracer en toute transparence.**
 - **De décider démocratiquement.**
 
 **Car l’énergie n’est pas une ressource — c’est un droit.**
