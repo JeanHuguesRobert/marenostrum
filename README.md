@@ -189,12 +189,10 @@ Et comme l’a dit un autre stratège :
 
 ## **X. LICENCE SOUVERAINE**
 
-Ce manifeste est publié sous le **Code de la Lumière**,  
-**Licence : Creative Commons Attribution – Partage dans les mêmes conditions 4.0 International.**
+Ce projet est publié sous licence CC BY-SA 4.0.
 
-*Que chacun puisse s’en emparer, l’adapter, le diffuser —*  
-*À condition de citer la source,*  
-*Et de partager toute œuvre dérivée sous les mêmes termes.*
+Voir le fichier LICENSE.md pour les conditions complètes.
 
+Ce manifeste est publié sous le **Code de la Lumière**,
 **Car la lumière est un bien commun.**  
 **Et la lumière ne se divise pas.**
