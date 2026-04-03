@@ -1,84 +1,81 @@
-# AI Safety Is Primarily an Infrastructure Problem (Conjecture)
+**Title:** From Photons to Inferences: Why AI Safety Needs Compute Exergy and Deliberate Topology Choices
 
-*Cross-posted from the MareNostrum working paper series. Full paper: [github.com/JeanHuguesRobert/marenostrum](https://github.com/JeanHuguesRobert/marenostrum)*
-
----
-
-## 1. The Claim
-
-Model-level alignment work is necessary but insufficient. The binding constraint on AI safety at deployment scale is not the model — it is the **opacity of the infrastructure through which models run**.
-
-A perfectly aligned model on opaque infrastructure is less safe than a moderately aligned model on transparent, auditable, democratically governed infrastructure. This is because the primary vector of AI harm in deployed systems is not misalignment *per se*, but **undetectable computation at scale**.
-
-Corollary: infrastructure governance is a necessary precondition for alignment governance to be meaningful. Without it, all alignment policies are contingent on the goodwill of compute owners.
+**TL;DR:**  
+The deepest AI safety problem is not inside the models — it is the physical infrastructure that runs them. I propose **Safe Compute Exergy (SCE)**, a traceable unit that measures *useful* compute (energy contextualized by efficiency, SLA and governance). I also compare **orbital** vs **terrestrial** compute topologies and argue that we should consciously choose (and hybridize) them. This is the practical implementation of the conjecture that “AI Safety Is Primarily an Infrastructure Problem.”
 
 ---
 
-## 2. The Model
+### The Core Claim
 
-Three layers, each necessary, none sufficient:
+Most AI safety research focuses on models, evaluations, or international treaties. These are necessary but increasingly insufficient. As frontier training and inference become extremely energy-intensive, the **physical substrate and its governance** will dominate long-term safety outcomes.
 
-**Layer 1 — Physical substrate**: computation is grounded in territorial energy production (solar exergy). Every inference is linked to an energy event, a physical location, a governance jurisdiction. This makes "who is running what, on what resources" answerable by construction.
+Energy is now the real bottleneck. Orbital compute proposals are gaining traction. We need to think seriously about *how* we build the infrastructure, not just *how much* we build.
 
-**Layer 2 — Democratic governance**: nested assemblies with imperative, revocable mandates govern the infrastructure. Open-source software is a non-negotiable structural invariant — not a policy that can be overridden, but a constitutional constraint. This makes capture costly and visible.
+### Safe Compute Exergy (SCE) — A New Primitive
 
-**Layer 3 — Auditable inference registry**: every inference request is logged to a tamper-evident ledger. Not content surveillance — structural impossibility of *unregistered* computation at scale. Harmful outputs cannot be deployed undetectably.
+**Compute exergy** is the thermodynamic-inspired concept of measuring not raw joules or raw FLOP, but the fraction of resources that can actually be converted into useful inferences under real constraints.
 
-The proposed safety property: **opacity elimination**. Not alignment by intent, but unobservability made architecturally impossible.
+Operational formula:
+\[
+X_c = E \times \eta_{hw} \times \eta_{sys} \times \eta_{sla} \times \eta_{traceability}
+\]
+
+The atomic unit is the **CXU** (Compute eXergy Unit): a guaranteed, auditable, insurable capacity to deliver standardized inferences with explicit SLA tiers (Critical / Standard / Spot).
+
+Key mechanisms:
+- Physical anchoring (TEE + certified power metering + attestation)
+- Exergy Lock Protocol (graduated cryptographic and performance degradation under coercion)
+- Democratic governance layer (1 person = 1 voice with imperative mandates)
+- Built-in funding for independent AI safety research (0.1% of issuance)
+
+Full specification: [safe-compute-exergy-cdc.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/safe-compute-exergy-cdc.md)
+
+### Compute Topologies Matter More Than We Admit
+
+I recently wrote a comparative analysis of two emerging paradigms:
+
+- **Orbital topology** (SpaceX / Starship-enabled data centers, massive solar access, low gravity cooling)
+- **Terrestrial / Mediterranean topology** (localized renewable energy + fiber interconnects + regional governance)
+
+Full paper: [infrastructure_topologies_for_compute_sovereignty.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_topologies_for_compute_sovereignty.md)
+
+**Summary of trade-offs**:
+- Orbital wins heavily on raw scale, solar abundance, and potentially lower marginal energy cost.
+- Terrestrial wins on exergy measurability, lower latency for many use cases, democratic accountability, and credible resistance mechanisms (Exergy Lock is far more practical on the ground).
+- Both have serious sovereignty risks: orbital creates extreme dependency on launch providers and space jurisdiction; terrestrial risks fragmentation and slower scaling.
+
+We should not let one topology win by default. Deliberate design and hybridization are possible and necessary.
+
+### Democratic Humans in the Loop (DHIL)
+
+Technical alignment alone cannot solve infrastructure-level power concentration. DHIL proposes keeping real humans meaningfully involved in the **governance** of the physical compute layer.
+
+Full document: [DHIL.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/DHIL.md)
+
+### Current State of the Project
+
+We now have a coherent triptych:
+- Foundational conjecture (`infrastructure_is_all_you_need.md`)
+- Operational mechanism (`safe-compute-exergy-cdc.md`)
+- Comparative topology analysis (`infrastructure_topologies_for_compute_sovereignty.md`)
+
+Open discussion thread: [Issue #1](https://github.com/JeanHuguesRobert/marenostrum/issues/1)
+
+### Seeking Sharp Feedback
+
+I am especially looking for critique on:
+- Is the SCE model (exergy + CXU + Exergy Lock) technically and economically credible, or does it introduce too much overhead?
+- Does the orbital vs terrestrial comparison miss critical factors (economics, geopolitics, timelines)?
+- Is “1 person = 1 voice” at the infrastructure governance level a viable safety mechanism, or does it create unacceptable friction in a fast-moving arms race?
+- How should we think about hybrid orbital-terrestrial architectures?
+
+### Why This Matters Now
+
+The energy/compute discussion is reaching a fever pitch. Major players are making multi-hundred-billion-dollar bets on infrastructure. The choices we make (or fail to make) in the next 12–24 months will be very hard to reverse.
+
+If infrastructure is indeed the dominant safety lever, then we should treat it with the same seriousness we treat alignment techniques.
 
 ---
 
-## 3. What This Predicts
-
-If the conjecture is correct, the following should be observable:
-
-- **P1**: Systems with mandatory inference registries will exhibit measurably lower rates of large-scale harmful deployment than equivalent systems without registries, controlling for model capability.
-- **P2**: Governance capture attempts in systems with imperative/revocable mandates will be detectably slower and more visible than in systems with representative delegation, measurable as time-to-detection of policy deviation.
-- **P3**: The marginal safety return of model-level alignment work decreases as infrastructure opacity increases — i.e., alignment improvements on opaque infrastructure produce smaller observed safety gains than the same improvements on transparent infrastructure.
-
-These are testable. I do not currently have the data to test them. That is part of why I am posting this.
-
----
-
-## 4. Failure Modes (Explicit)
-
-I expect this architecture to fail or underperform under the following conditions:
-
-**F1 — Shadow compute**: actors route inference through unregistered infrastructure in non-participating jurisdictions. The registry is only as complete as its territorial coverage. Partial adoption may produce a false sense of security worse than no registry at all.
-
-**F2 — Oracle capture**: IoT sensors and energy metering hardware (the physical grounding of Layer 1) are themselves vulnerable to compromise. A corrupted energy certificate breaks material traceability at the root.
-
-**F3 — Delegate collusion**: imperative mandate systems assume constituents can evaluate delegate behavior. If the subject matter (AI infrastructure governance) is sufficiently technical, informed revocation becomes practically impossible — reproducing the expert capture problem in a democratic wrapper.
-
-**F4 — GPU dependency**: the physical substrate layer assumes territorial renewable energy, but the compute layer currently depends on GPU supply chains that are globally concentrated (TSMC, NVIDIA). Energy sovereignty without semiconductor sovereignty is partial sovereignty.
-
-**F5 — Fragmentation cost**: a federated system of democratic compute cooperatives may be too slow and too fragmented to respond to rapidly evolving model capabilities. The antifragility argument addresses this partially — structural constraints don't require deliberative response — but I am not confident this fully resolves the speed asymmetry.
-
-**F6 — Economic non-viability**: the model assumes compute token export (via fiber) generates sufficient surplus to sustain governance infrastructure. This is modeled but not empirically validated.
-
----
-
-## 5. Open Questions
-
-- What is the minimum viable territorial scale for an inference registry to be meaningful rather than trivially circumventable?
-- Can formal game-theoretic analysis bound the capture resistance of imperative mandate governance under adversarial conditions?
-- Is there a metric for "governance opacity" of AI inference that could ground P1 empirically?
-- How does this interact with the EU AI Act's conformity assessment regime? Does mandatory registration complement or duplicate existing obligations?
-
----
-
-## 6. Call for Critique
-
-I am specifically looking for:
-
-- **Steelmanned versions of F1–F6** that I have underestimated
-- **Additional failure modes** I have not considered
-- **Prior work** on compute governance as a safety variable — I am aware of GovAI (Oxford) and CSET (Georgetown) outputs; pointers to closer work welcome
-- **Objections to the falsifiability** of P1–P3 — if these predictions are not actually testable, I want to know before I invest further in this direction
-
-A prototype deployment (100–1000 participants, single cooperative, simplified registry, Mediterranean solar territory) is under consideration as an empirical testbed. Methodological input on experimental design would be particularly valuable.
-
----
-
-*Jean Hugues Noël Robert, baron Mariani — Institut Mariani R&D / C.O.R.S.I.C.A.*  
-*Full working paper and MareNostrum governance documents: [github.com/JeanHuguesRobert/marenostrum](https://github.com/JeanHuguesRobert/marenostrum)*
+**Repository**: https://github.com/JeanHuguesRobert/marenostrum  
+All documents are living and open for contribution.
