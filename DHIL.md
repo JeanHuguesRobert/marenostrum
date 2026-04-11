@@ -1,4 +1,4 @@
-# Democratic Humans in the Loop:
+# DHITL, Democratic Humans In The Loop
 ## Why Infrastructure Is All You Need for AI Safety
 
 **Jean Hugues Noël Robert, baron Mariani**
