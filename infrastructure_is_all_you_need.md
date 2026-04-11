@@ -2,7 +2,7 @@
 ## Toward a Structural Theory of AI Safety Grounded in Compute Sovereignty and Democratic Energy Governance
 
 **Jean Hugues Noël Robert, baron Mariani**  
-Institut Mariani R&D — C.O.R.S.I.C.A. (Association loi 1901, est. 1995)  
+Institut Mariani — C.O.R.S.I.C.A. (Association loi 1901, est. 1995)  
 1 cours Paoli, F-20250 Corte, Corsica, France  
 <jhr@baronsmariani.org> · <institutmariani@gmail.com>  
 
@@ -204,5 +204,5 @@ The author thanks the members of C.O.R.S.I.C.A. for sustained intellectual engag
 
 ---
 
-*© 2026 Jean Hugues Noël Robert, baron Mariani — Institut Mariani R&D / C.O.R.S.I.C.A.*  
+*© 2026 Jean Hugues Noël Robert, baron Mariani — Institut Mariani / C.O.R.S.I.C.A.*  
 *This document is published under the Creative Commons license specified in [LICENSE.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/LICENSE.md) in the MareNostrum repository. The repository is the authoritative reference for all derived formats.*
