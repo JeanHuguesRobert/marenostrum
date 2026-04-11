@@ -173,7 +173,7 @@ Ostrom, E. (1990). *Governing the Commons: The Evolution of Institutions for Col
 
 Robert, J.-H. N. (2026). *Charte du Soleil Méditerranéen / Charter of the Mediterranean Sun* (v1.0). MareNostrum Working Documents. https://github.com/JeanHuguesRobert/marenostrum
 
-Robert, J.-H. N. (2026). Constellia: A fractal architecture for energy, food, and digital sovereignty in island territories. *Proceedings of ICOME'26* (accepted). Université de Corse Pasquale Paoli, Corte.
+Robert, J.-H. N. (2026). Constellia: A fractal architecture for energy, food, and digital sovereignty in island territories. *Proceedings of ICOME'26* (submitted). Université de Corse Pasquale Paoli, Corte.
 
 Sevilla, J., Heim, L., Ho, A., Besiroglu, T., Hobbhahn, M., & Villalobos, P. (2022). Compute trends across three eras of machine learning. *arXiv preprint arXiv:2202.05924*.
 
