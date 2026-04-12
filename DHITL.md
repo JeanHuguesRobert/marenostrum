@@ -409,6 +409,6 @@ The Cogentia framework's roadmap includes a "Cogentia Match" (inter-profile comp
 
 *"The sun does not belong to anyone. The infrastructure through which it becomes useful intelligence should not either."*
 
-*Working paper, Institut Mariani R&D, Corte, Corsica — April 2026*
+*Working paper, Institut Mariani, Corte, Corsica — April 2026*
 *Contact: jhr@baronsmariani.org*
 *Published in the open: github.com/JeanHuguesRobert/marenostrum — CC BY-SA 4.0*
