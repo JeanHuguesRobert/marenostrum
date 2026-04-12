@@ -2,7 +2,7 @@
 ## Why Infrastructure Is All You Need for AI Safety
 
 **Jean Hugues Noël Robert, baron Mariani**
-Institut Mariani R&D, Corte, Corsica
+Institut Mariani, 1 cours Paoli, F-20250 Corte, Corsica
 jhr@baronsmariani.org
 
 *Draft — April 2026 — Open work. Published in the open at `github.com/JeanHuguesRobert/marenostrum`. CC BY-SA 4.0. Not for citation without attribution.*
