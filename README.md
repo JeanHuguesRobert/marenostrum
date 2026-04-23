@@ -3,6 +3,8 @@
 **Mare Nostrum 1.0**  
 *Ou : Comment la Méditerranée, par la volonté de ses peuples et la puissance du soleil, doit reprendre le contrôle de son destin énergétique.*
 
+En pratique potentiellement : [Constellia](./constellia.md).
+
 ---
 
 **Document Fondateur**  
