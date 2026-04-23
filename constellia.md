@@ -1,6 +1,6 @@
 # CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES
 
-**Jean Hugues Robert** and **Guillermo Valdes**  
+**Jean Hugues Noël Robert** and **Guillermo Valdes**  
 Institut Mariani / C.O.R.S.I.C.A.  
 1 cours Paoli, F-20250 Corte, France  
 institutmariani@gmail.com, jhr@baronsmariani.org
