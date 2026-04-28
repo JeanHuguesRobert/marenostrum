@@ -301,7 +301,7 @@ Formally: let *d(t)* be the "democratic correction speed" (the rate at which Lay
 
 **S4 (Cognitive Sovereignty)**: The cognitive augmentation tools (Layer 4) remain means and not ends — instruments that increase the quality of human judgment without displacing it.
 
-**S5 (Physical and Algorithmic Distribution)**: No single actor controls a sufficient fraction of Layer 1 (energy) or Layer 5 (compute hardware) to unilaterally override Layer 3 decisions. *Extension (v0.2):* No single actor controls a sufficient fraction of Layer 5 (algorithmic control — outer optimizer authority for training runs in the crucial core) to unilaterally determine training outcomes. Both CECI (hardware concentration) and ACCI (algorithmic control concentration, defined in Appendix A) must remain below threshold. A system with low CECI and high ACCI is not S5-stable.
+**S5 (Physical and Algorithmic Distribution)**: No single actor controls a sufficient fraction of Layer 1 (energy) or Layer 5 (compute hardware) to unilaterally override Layer 3 decisions. *Extension (v0.2):* No single actor controls a sufficient fraction of Layer 5 (algorithmic control — outer optimizer authority for training runs in the crucial core) to unilaterally determine training outcomes. Both CECI (hardware concentration) and ACCI (algorithmic control concentration, defined in Appendix A) must remain below their respective thresholds. ACCI thresholds are set lower than CECI thresholds (0.15/0.25 vs 0.25/0.40) because outer optimizer capture is faster, less visible, and less reversible than hardware concentration at equal HHI. A system with low CECI and high ACCI is not S5-stable.
 
 **S6 (Cryptographic Integrity)**: The technical substrate (Layer 5) maintains its integrity against known and foreseeable attacks, including post-quantum cryptographic breaks.
 
@@ -311,7 +311,7 @@ The framework is approaching instability when any of the following are observed:
 
 - Democratic decision cycles on AI governance exceed 18 months on crucial-core questions (S1 violation)
 - Actors whose interests diverge from collective welfare control >30% of Layer 1 or Layer 5 hardware resources (S5-hardware violation)
-- Any single actor controls the outer optimizer for >30% of global frontier training compute in the crucial core without democratic accountability (S5-algorithmic violation, ACCI warning)
+- Any single actor controls the outer optimizer for >15% of global frontier training compute in the crucial core without democratic accountability (S5-algorithmic violation, ACCI warning — threshold lower than hardware equivalent due to irreversibility of weight encoding)
 - The CXU market shows η_gov → 0 for the majority of compute in a given jurisdiction (indicating governance collapse)
 - Digital twin recommendation acceptance rates exceed 95% without evidence of active deliberation (S4 violation)
 - Any single actor accumulates >20% of global Compute Exergy capacity (S5 warning threshold)
@@ -449,7 +449,15 @@ ACCI_T = Σ_φ [Xc(φ) × Σ_i W(φ,i)²] / Σ_φ Xc(φ)
 
 This is a compute-weighted average of per-run HHI over algorithmic control, where the weighting is by Compute Exergy of the training run.
 
-**Safety thresholds:** ACCI_T > 0.25 is an S5-algorithmic violation warning. ACCI_T > 0.40 constitutes a structural instability condition independent of CECI.
+**Safety thresholds:** ACCI_T > 0.15 is an S5-algorithmic violation warning. ACCI_T > 0.25 constitutes a structural instability condition requiring emergency governance response.
+
+These thresholds are deliberately set lower than the corresponding CECI thresholds (0.25/0.40) for three compounding reasons:
+
+*Invisibility:* Hardware concentration (CECI) is externally observable from datacenter locations, chip counts, and energy consumption. Outer optimizer control (ACCI) is invisible without active declaration by the training run operator — it cannot be audited from the outside without access to gradient aggregation logs.
+
+*Speed:* Hardware concentration changes on the timescale of capital investment (months to years), allowing democratic governance to respond. Outer optimizer control can change at the timescale of a training run restart (hours), potentially outpacing governance cycles (S1 violation risk).
+
+*Irreversibility:* Redistributing hardware after a CECI violation is costly but achievable. Redistributing the *model weights* that a captured outer optimizer has already shaped is not achievable — the trained values persist after the hardware is redistributed. This asymmetry in reversibility justifies asymmetry in thresholds: the governance intervention must arrive earlier because the harm arrives later and cannot be undone.
 
 **Measurement:** ACCI requires attribution of outer optimizer control to specific legal entities — a new reporting requirement not covered by existing compute governance frameworks. DHITL v0.2 proposes that all training runs above the crucial-core threshold must register their outer optimizer operator with the democratic governance authority as a condition of CXU certification at η_gov ≥ 0.50.
 
@@ -459,7 +467,7 @@ This is a compute-weighted average of per-run HHI over algorithmic control, wher
 - High CECI, Low ACCI: concentrated hardware, distributed control — FM-9/FM-5 risk zone
 - High CECI, High ACCI: concentrated hardware, concentrated control — Dataist regime
 
-S5 stability requires both CECI < 0.25 and ACCI < 0.25.
+S5 stability requires CECI < 0.25 **and** ACCI < 0.15. The asymmetry is intentional: the ACCI warning fires earlier because algorithmic concentration is faster, less visible, and less reversible than hardware concentration at equal HHI.
 
 ---
 
@@ -494,6 +502,6 @@ We summarize the Cogentia framework's key concepts as they bear on the DHITL arc
 
 *"The sun does not belong to anyone. The compute it powers should not either. And the outer optimizer that determines what that compute learns must answer to the same democratic authority as everything else in the chain."*
 
-*Working paper, Institut Mariani, Corte, Corsica — April 2026*
+*Working paper v0.2, Institut Mariani, Corte, Corsica — April 2026*
 *Contact: jhr@baronsmariani.org*
 *Published in the open: github.com/JeanHuguesRobert/marenostrum — CC BY-SA 4.0*
