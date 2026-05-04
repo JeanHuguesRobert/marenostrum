@@ -3,8 +3,11 @@
 ## Extending Harari's Nexus Hypothesis Through Infrastructure Sovereignty
 
 **Jean Hugues Noël Robert, baron Mariani**
+
 Institut Mariani / C.O.R.S.I.C.A.
+
 1 cours Paoli, F-20250 Corte, Corsica, France
+
 jhr@baronsmariani.org
 
 MareNostrum Working Paper Series
