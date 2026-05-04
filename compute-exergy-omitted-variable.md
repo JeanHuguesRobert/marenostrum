@@ -66,7 +66,7 @@ The research question this paper poses is:
 
 This question is partly Harari's. In *Nexus* (2024) and *Homo Deus* (2017), Harari argues that information-processing networks have historically defined the structure of power, and that AI systems represent a qualitative shift in the concentration and speed of that processing. We accept this diagnosis. We argue it requires one additional causal step: information networks are themselves a function of compute infrastructure, which is in turn a function of energy systems and their governance. Harari's "information architecture" does not float free of physical substrate.
 
-The paper proceeds as follows. Section 2 formalises the causal extension. Section 3 defines key terms and maps them onto the companion papers. Section 4 introduces the minimal state model. Section 5 interprets the Dataist regime as a phase phenomenon. Section 6 positions the paper relative to the compute governance literature. Section 7 states testable propositions. Section 8 develops the reinterpretation of trust. Section 9 grounds the argument in the Mediterranean case study. Section 10 acknowledges limitations. Section 11 concludes.
+The paper proceeds as follows. Section 2 formalises the causal extension. Section 3 defines key terms and maps them onto the companion papers. Section 4 introduces the minimal state model. Section 5 interprets the Dataist regime as a phase phenomenon. Section 6 positions the paper relative to the compute governance literature. Section 7 states testable propositions. Section 8 develops the reinterpretation of trust. Section 9 grounds the argument in the Mediterranean case study. Section 10 acknowledges limitations. Section 11 discusses governance implications. Section 12 concludes.
 
 ---
 
@@ -225,6 +225,38 @@ The phase-regime reading has a concrete implication. *Nexus* warns that we are i
 > *The Dataist attractor is only inevitable given current values of (K, T, G, E). Governing those variables directly — rather than attempting to constrain capability growth M — is the more effective and more tractable intervention point.*
 
 This is not an optimistic claim. The governance interventions required are substantial. It is a redirection of analytical attention toward the variables that are both causally prior and more amenable to democratic governance than capability growth itself.
+
+---
+
+---
+
+## Figure 1 — Causal Stack
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║  SOLAR ENERGY / EXERGY SOVEREIGNTY (E)                        ║
+║  Distributed · Ungovernable at source · Democratic commons    ║
+║  [Constellia: 10.8 GWp · 13.8 TWh/year surplus]               ║
+╠═══════════════════════════════════════════════════════════════╣
+║  COMPUTE INFRASTRUCTURE                                       ║
+║  Concentration (K) · Traceability (T) · Governance (G)        ║
+║  [DHITL: Xc, CXU, CECI · IIAYN: opacity elimination]          ║
+╠═══════════════════════════════════════════════════════════════╣
+║  INFORMATION NETWORKS / MODEL CAPABILITY (M)                  ║
+║  Where Harari's framework operates                            ║
+╠═══════════════════════════════════════════════════════════════╣
+║  INSTITUTIONAL POWER / ALGORITHMIC AUTHORITY (I)              ║
+║  I = f(M, K, T, G, E) · Dominant term: K/(T·G)                ║
+╚═══════════════════════════════════════════════════════════════╝
+
+↑  Democratic governance constrains all layers (DHITL Layer 3, 1p1v)
+↓  Traceability and accountability flow downward (IIAYN Layer 3, audit)
+
+Dataist regime D  : K high, T low,  G weak,   E captured → I collapses
+Democratic regime : K low,  T high, G strong, E sovereign → I maintained
+```
+
+*Figure 1: The causal stack from physical substrate to institutional power. Harari's framework operates at the third layer; this paper argues the first two layers are causally prior. Canonical SVG: `figures/infrastructure-stack.svg`*
 
 ---
 
@@ -427,8 +459,6 @@ If the substrate hypothesis is incorrect — if compute concentration and govern
 
 Both outcomes advance the research program.
 
----
-
 ## 12. Conclusion
 
 This paper proposes a limited but potentially consequential extension of Harari's information-power framework. The core claim:
@@ -443,7 +473,9 @@ The vault analogy from Constellia states the conclusion most precisely: Switzerl
 
 ---
 
-## Corpus Coherence Map
+---
+
+## Appendix A — Corpus Coherence Map
 
 The four papers constitute a single research program operating at four levels of abstraction, each answering a different question about the same conceptual pivot:
 
@@ -479,7 +511,7 @@ grounding; physical architecture requires political justification)
 
 ---
 
-## Literature Relation Matrix
+## Appendix B — Literature Relation Matrix
 
 | Literature stream | Primary focus | This paper's extension |
 |---|---|---|
@@ -490,36 +522,6 @@ grounding; physical architecture requires political justification)
 | Commons theory (Ostrom) | Governance of shared natural resources | Extends to compute-exergy as democratic commons; CECA 1951 as precedent |
 | AI safety frameworks | Model-level alignment and capability risk | Adds substrate-level antecedent conditions; upstream causal layer |
 | Constellia / island sovereignty | Physical energy-compute architecture | Provides empirical anchor for E, the ×31 multiplier, and P3 testbed conditions |
-
----
-
-## Figure 1 — Causal Stack
-
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  SOLAR ENERGY / EXERGY SOVEREIGNTY (E)                        ║
-║  Distributed · Ungovernable at source · Democratic commons    ║
-║  [Constellia: 10.8 GWp · 13.8 TWh/year surplus]               ║
-╠═══════════════════════════════════════════════════════════════╣
-║  COMPUTE INFRASTRUCTURE                                       ║
-║  Concentration (K) · Traceability (T) · Governance (G)        ║
-║  [DHITL: Xc, CXU, CECI · IIAYN: opacity elimination]          ║
-╠═══════════════════════════════════════════════════════════════╣
-║  INFORMATION NETWORKS / MODEL CAPABILITY (M)                  ║
-║  Where Harari's framework operates                            ║
-╠═══════════════════════════════════════════════════════════════╣
-║  INSTITUTIONAL POWER / ALGORITHMIC AUTHORITY (I)              ║
-║  I = f(M, K, T, G, E) · Dominant term: K/(T·G)                ║
-╚═══════════════════════════════════════════════════════════════╝
-
-↑  Democratic governance constrains all layers (DHITL Layer 3, 1p1v)
-↓  Traceability and accountability flow downward (IIAYN Layer 3, audit)
-
-Dataist regime D  : K high, T low,  G weak,   E captured → I collapses
-Democratic regime : K low,  T high, G strong, E sovereign → I maintained
-```
-
-Canonical filename: `figures/infrastructure-stack.svg`
 
 ---
 
