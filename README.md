@@ -1,199 +1,251 @@
-# **CHARTE SOUVERAINE POUR L’EXERGIE MÉDITERRANÉENNE**
+# MareNostrum
 
-**Mare Nostrum 1.0**  
-*Ou : Comment la Méditerranée, par la volonté de ses peuples et la puissance du soleil, doit reprendre le contrôle de son destin énergétique.*
+**Sovereign Energy and Compute Infrastructure for the Mediterranean**
 
-En pratique potentiellement : [Constellia](./constellia.md).
+*Jean Hugues Noël Robert, baron Mariani — Institut Mariani / C.O.R.S.I.C.A. — Corte, Corsica*  
+*jhr@baronsmariani.org — github.com/JeanHuguesRobert/marenostrum*
 
----
-
-**Document Fondateur**  
-**Version Printemps 2026 — Ère Post-Fossile**  
-**Dépôt Public :** `marenostrum` *(Archivé sur blockchain pour l’éternité)*
+> Living repository. Priority of ideas established by commit timestamp.  
+> Every document here is a conjecture open to challenge. Challenge via issues.
 
 ---
 
-## **PROCLAMATION AUX CITOYENS DU BASSIN MÉDITERRANÉEN**
+## What This Is
 
-*Citoyens, habitantes, acteurs locaux,*  
-*Vous qui, des colonnes d’Hercule aux rives de l’Orient, subissez ou profitez de l’astre invincible qui éclaire vos toits,*  
-*Écoutez la voix de l’aube : elle ne vient ni des lobbies, ni des algorithmes, ni des technocrates — elle vient de vous.*
+The Mediterranean receives more solar energy per square meter than any comparable inhabited region in the world. That energy currently goes to one of three places: into the atmosphere as heat, onto a grid it cannot fully absorb, or through a bottleneck interconnection that extracts its value before it reaches the territory that produced it.
 
-Car aujourd’hui, dans ce bassin béni où le soleil verse ses dons avec une générosité sans égale, **nous avons jusqu’ici gaspillé l’abondance comme un royaume gaspille ses réserves d’or** : nous avons produit sans stratégie, stocké sans vision, et oublié que **l’énergie n’est pas une marchandise, mais le socle invisible de notre liberté**.
+MareNostrum is the argument — technical, economic, legal, and political — that this is the wrong architecture.
 
-**Voici donc l’heure de la reconquête citoyenne.**
+The right architecture converts Mediterranean solar energy into sovereign compute tokens at the point of production, certifies their provenance cryptographically, and governs their issuance democratically. The result is a product worth ×10–×31 more per unit of physical energy than grid electricity export — because the product is not electrons. It is **certified inference under democratic governance**.
 
----
+The core thesis, developed in `infrastructure_is_all_you_need.md`:
 
-## **I. L’AXIOME FONDAMENTAL : SOUVERAINETÉ ÉNERGÉTIQUE = SOUVERAINETÉ DÉMOCRATIQUE**
-
-*Que nul ne se méprenne :*  
-**L’énergie n’est pas une ressource comme les autres. C’est le sang de nos sociétés, le carburant de nos économies, le garde-fou de nos libertés.**
-
-Or, aujourd’hui, les peuples méditerranéens **subissent** leur destin énergétique :
-
-- Leurs toits sont loués à des promoteurs spéculateurs.
-- Leurs réseaux sont contrôlés par des multinationales lointaines.
-- Leurs nuits d’hiver, où la lumière se fait rare, sont livrées à la merci de fournisseurs sans visage.
-
-**Cela est inacceptable.**
-
-Nous décrétons donc, au nom de la raison et de la justice :
-
-> **Le soleil méditerranéen appartient aux peuples qui l’habitent.**  
-> **Son usage, sa transformation, son stockage ne seront plus jamais le privilège d’une élite, mais un droit inaliénable pour chaque citoyen.**
+> Infrastructure is all you need. The dominant long-term variable in AI safety, economic sovereignty, and democratic governance is not the model — it is the physical and institutional substrate on which the model runs.
 
 ---
 
-## **II. LA RÉVOLUTION ÉNERGÉTIQUE : DE LA PRODUCTION BRUTE À LA DISPONIBILITÉ STRATÉGIQUE**
+## The Full Stack
 
-*Comme le disait un stratège moderne :*  
-*« On ne gagne pas une guerre avec des soldats sans armes, mais avec des soldats qui savent quand et où frapper. »*
+MareNostrum is organized as a vertical stack. Each layer is independently useful; the full value chain requires all of them.
 
-De même, **on ne dirige pas un système énergétique avec des mégawatts, mais avec une stratégie.**
-
-### **1. L’Ancien Régime Énergétique (l’Illusion du Progrès Illimité)**
-
-Sous l’ancien modèle, nous avions :
-
-- **Des centrales qui crachaient des kilowattheures comme des usines d’armes crachaient des obus** — sans se soucier du moment où ces kilowattheures seraient utiles.
-- **Des réseaux sourds et aveugles**, incapables de distinguer l’heure du jour où la lumière est abondante de celle où elle se fait désirer.
-- **Des stocks inutiles**, aussi coûteux qu’une armée de mercenaires au chômage.
-
-**Résultat :** Des montagnes de gaspillage, des factures exorbitantes, et une dépendance honteuse aux fournisseurs étrangers.
-
-### **2. Le Nouveau Contrat Social (la Loi du Soleil et de la Résilience)**
-
-Nous établissons désormais :
-
-- **La production ne sera plus un but, mais un outil.**
-- **Le stockage ne sera plus une dépense, mais un capital stratégique.**
-- **La disponibilité ne sera plus une chance, mais une garantie collective.**
-
-**Car un kilowattheure n’a de valeur que s’il est là quand on en a besoin** — comme un soldat n’a de valeur que s’il est sur le champ de bataille au moment du combat.
+```
+Mediterranean solar radiation
+        ↓
+Energy governance stack          MODEL → PRICING → CONTRACTS → GOVERNANCE → ARCHITECTURE
+        ↓
+Compute certification layer      safe_compute_exergy.md  (CXU, η_traceability, Exergy Lock)
+        ↓
+Fractal traceability register    traceable_governance.md  (Fractavolta architecture)
+        ↓
+Compute token market             Sovereign-tier CXU
+        ↓
+Democratic AI infrastructure     DHITL.md
+```
 
 ---
 
-## **III. L’ARCHITECTURE DE LA VICTOIRE : FLUX, CAPITAL, GARANTIE**
+## Repository Contents
 
-*Vauban, si près de nos côtes, aurait pu dire :*  
-*« Un bon système défensif doit prévoir tous les cas, même les plus imprévus. »*
+### Foundational Documents
 
-De même, un bon système énergétique doit :
+**`infrastructure_is_all_you_need.md`**  
+The root conjecture: AI safety, compute sovereignty, and democratic governance are primarily infrastructure problems. Model alignment without infrastructure governance is insufficient. The physical substrate and its governance will dominate long-term outcomes.
 
-1. **Flux** : Produire avec audace (panneaux solaires, éolien citoyen, hydrogène vert).
-2. **Capital** : Stocker avec intelligence (batteries, stations de transfert d’énergie, hydrogène).
-3. **Garantie** : Assurer avec fermeté (micro-réseaux locaux, contrats de rareté, traçabilité absolue).
+**`DHITL.md`** — Democratic Humans in the Loop  
+Five-layer architecture for keeping real humans in meaningful governance of the physical compute layer. Introduces the Compute Exergy Concentration Index as a structural measure of systemic AI risk.
 
-**Tout système qui néglige l’un de ces trois piliers est condamné à l’échec.**
+### Energy Governance Stack
 
----
+These four documents form a coherent system. Read in order.
 
-## **IV. L’ÉCONOMIE DE LA GARANTIE : DU KILOWATTHEURE À L’ASSURANCE COLLECTIVE**
+**`MODEL.md`**  
+The physical model: operational exergy, the scarcity variable R(t), and the distinction between raw energy and *useful* energy. Every pricing, contract, and governance formula in the stack derives from this document.
 
-*L’ère des marchés énergétiques opaques est révolue.*
+**`PRICING.md`**  
+How R(t) translates into price: the scarcity function f(R), base price p₀, guarantee premium structure. The product is not a kilowatt-hour — it is a unit of guaranteed availability under system constraint.
 
-Aujourd’hui, nous ne vendons plus des kilowattheures — nous vendons **une promesse** :  
-*« Quand le soleil se cache, quand les vents se taisent, quand la demande explose, l’énergie sera là. »*
+**`CONTRACTS.md`**  
+Four contract tiers (Spot / Standard / Security / Sovereign) formalized as availability commitments, with collateral requirements, compensation mechanisms, and the mutual insurance pool. CXU issuance tier is coupled to contract tier.
 
-Cette promesse, nous l’appelons **l’assurance collective méditerranéenne**.
+**`GOVERNANCE.md`**  
+How decisions are made: separation of operational, technical, and political decision types; the L₀–L₃ scale tower; democratic governance at L₃ (one person, one voice, imperative and revocable mandates); anti-capture design for four failure modes; benchmark governance.
 
-**Car une énergie qui n’est pas garantie n’est pas une énergie — c’est une loterie.**
+**`ARCHITECTURE.md`**  
+The closed loop: how the four layers connect, what the central variable R(t) drives across all of them, where storage sits as a transversal element, and what the system is ultimately for. Start here if you want the overview before reading the detail.
 
----
+### Compute Certification
 
-## **V. LA GOUVERNANCE SOUVERAINE : UN MANDAT SOUS CONTRÔLE PERMANENT**
+**`safe_compute_exergy.md`**  
+The CXU (Compute eXergy Unit): a physically grounded, cryptographically attested unit of verified useful compute. Defines η_traceability as the key differentiator for premium tiers. The photon-to-inference provenance chain. The Exergy Lock Protocol for sovereignty enforcement.
 
-*Comme le rappelait Hannah Arendt :*  
-*« Le pouvoir corrompt, le pouvoir absolu corrompt absolument. »*
+**`traceable_governance.md`**  
+The Fractavolta fractal governance architecture that implements the traceability register. Defines φ-invariance (the formal meaning of "fractal" in this context), append-only logs, and Merkle aggregation across scale levels. Required by SCE for η_traceability computation.
 
-Nous rejetons donc :
+### Comparative Analysis
 
-- Les gouvernements énergétiques lointains.
-- Les technocrates sans visage.
-- Les algorithmes opaques qui décident à notre place.
+**`infrastructure_topologies_for_compute_sovereignty.md`**  
+Orbital Topology vs. Territorial Topology: a comparative framework for compute sovereignty as a composite index S = f(R, P, D, G, F). Preliminary scenario analysis for Corsica, Sardinia, Sicily, and Tunisia. Three falsifiable hypotheses.
 
-**Notre système sera :**
+**`constellia.md`**  
+Fractal architecture for energy, food, and digital sovereignty in island territories. Submitted to ICOME'26 (co-authored with Guillermo Valdes).
 
-- **Démocratique** : une personne, une voix.
-- **Impératif** : les mandataires agiront sous le contrôle permanent des citoyens.
-- **Révocable** : à tout moment, le peuple pourra rappeler ses serviteurs s’ils faiblissent.
+### Applied Research
 
-**Car le soleil méditerranéen n’appartient pas aux élus — il appartient aux peuples.**
+**`corsica_forest_synergies.md`** *(in French)*  
+The Corsican forest as integrated territorial infrastructure and Ostromian commons: agroforestry, micro-STEP hydro, biochar pyrolysis, Flying Whales cargo airships, mule track logistics. Applies the three-layer MareNostrum model to a specific Corsican resource.
 
----
+**`lesswrong_post.md`**  
+LessWrong post: "From Photons to Inferences — Why AI Safety Needs Compute Exergy and Deliberate Topology Choices." Entry point for the AI safety audience.
 
-## **VI. LA TRAÇABILITÉ : LA PREUVE QUI RENVERSE LES TYRANS ÉNERGÉTIQUES**
+**`compute-exergy-omitted-variable.md`**  
+Compute exergy as the omitted variable in current AI governance frameworks.
 
-*Que celui qui n’a rien à cacher n’ait rien à craindre.*
+### Governance Documents
 
-Nous décrétons :
-
-- **Tout acte de gestion des ressources communes sera traçable, vérifiable, opposable.**
-- **Tout acte non traçable sera nul et non avenu.**
-- **La confiance ne sera plus un acte de foi, mais une certitude algorithmique et humaine.**
-
-**Car un système énergétique opaque est un système tyrannique.**
-
----
-
-## **VII. LA STRATÉGIE MÉDITERRANÉENNE : UN RÉSEAU SOUVERAIN DE LUMIÈRE**
-
-*La Méditerranée n’est pas un lac, mais un océan de possibilités.*
-
-Son génie réside dans :
-
-- La **complémentarité** de ses zones d’ensoleillement (Corse, Sicile, Sardaigne, Tunisie, Maroc, Péloponnèse…).
-- La **diversité** de ses climats (de la canicule à la tramontane).
-- Le **potentiel** de ses interconnexions (îles, côtes, hinterlands).
-
-**Mare Nostrum ne sera pas une fédération de nations — ce sera un réseau souverain, uni par le soleil et gouverné par les peuples.**
+**`LICENSE.md`** — CC BY-SA 4.0  
+**`PRICING.md`**, **`MODEL.md`**, **`CONTRACTS.md`**, **`GOVERNANCE.md`**, **`ARCHITECTURE.md`** — see above
 
 ---
 
-## **VIII. L’APPEL À L’ACTION : LA RÉSISTANCE ÉNERGÉTIQUE CITOYENNE**
+## The Charter
 
-*Citoyens, habitantes, acteurs locaux,*  
-*Vous qui portez en vous l’héritage des résistants, des pionniers, des innovateurs,*
-
-**Le moment est venu de prendre les armes — non pas contre des hommes, mais contre l’obscurité organisée.**
-
-Nous ne vous demandons pas :
-
-- Une révolution sanglante.
-- Une adhésion aveugle.
-- Une soumission à un nouveau dogme.
-
-Nous vous demandons :
-
-- **De produire localement.**
-- **De stocker collectivement.**
-- **De garantir souverainement.**
-- **De tracer en toute transparence.**
-- **De décider démocratiquement.**
-
-**Car l’énergie n’est pas une ressource — c’est un droit.**
+*What follows is the foundational political statement of the MareNostrum project. It is a manifesto, not a technical specification. The technical specifications are in the documents above.*
 
 ---
 
-## **IX. CONCLUSION : L’HÉRITAGE DE DEMAIN**
+### Proclamation to the Citizens of the Mediterranean Basin
 
-Cette charte n’est pas un traité gravé sur du parchemin et oublié dans les archives.
+*Citizens, inhabitants, local actors,*  
+*You who, from the Pillars of Hercules to the eastern shores, endure or benefit from the unconquerable star that lights your rooftops,*  
+*Listen to the voice of dawn: it comes not from lobbies, nor algorithms, nor technocrats — it comes from you.*
 
-**C’est un serment.**  
-Un serment que nous prêtons aujourd’hui,  
-**pour nos enfants, pour nos cités, pour la Méditerranée.**
+For today, in this blessed basin where the sun pours its gifts with unequalled generosity, **we have until now wasted abundance as a kingdom wastes its gold reserves**: we have produced without strategy, stored without vision, and forgotten that **energy is not a commodity, but the invisible foundation of our freedom**.
 
-Et comme l’a dit un autre stratège :  
-*« Impossible n’est pas méditerranéen. »*
+**The hour of citizen reconquest has come.**
 
 ---
 
-## **X. LICENCE SOUVERAINE**
+### I. The Foundational Axiom: Energy Sovereignty = Democratic Sovereignty
 
-Ce projet est publié sous licence CC BY-SA 4.0.
+**Energy is not a resource like the others. It is the blood of our societies, the fuel of our economies, the safeguard of our freedoms.**
 
-Voir le fichier LICENSE.md pour les conditions complètes.
+Yet today, Mediterranean peoples **suffer** their energy destiny:
+
+- Their rooftops are leased to speculative developers.
+- Their grids are controlled by distant multinationals.
+- Their winter nights, where light grows scarce, are left at the mercy of faceless suppliers.
+
+**This is unacceptable.**
+
+We therefore declare, in the name of reason and justice:
+
+> **The Mediterranean sun belongs to the peoples who inhabit it.**  
+> **Its use, transformation, and storage shall no longer be the privilege of an elite, but an inalienable right for every citizen.**
+
+---
+
+### II. The Energy Revolution: From Raw Production to Strategic Availability
+
+We do not sell kilowatt-hours. We sell a promise:  
+*"When the sun hides, when the winds fall silent, when demand surges, the energy will be there."*
+
+This promise is the **Mediterranean collective insurance**.
+
+**An energy that is not guaranteed is not energy — it is a lottery.**
+
+---
+
+### III. The Architecture of Sovereignty: Flow, Capital, Guarantee
+
+A sound energy system must:
+
+1. **Flow**: produce boldly — solar panels, citizen wind, green hydrogen.
+2. **Capital**: store intelligently — batteries, pumped hydro, hydrogen storage.
+3. **Guarantee**: assure firmly — local microgrids, scarcity contracts, absolute traceability.
+
+**Any system that neglects one of these three pillars is condemned to fail.**
+
+---
+
+### IV. Sovereign Governance: A Mandate Under Permanent Control
+
+We reject:
+- Distant energy governments.
+- Faceless technocrats.
+- Opaque algorithms that decide in our place.
+
+**Our system will be:**
+
+- **Democratic**: one person, one voice.
+- **Imperative**: delegates will act under the permanent control of citizens.
+- **Revocable**: at any moment, the people can recall their servants if they falter.
+
+**For the Mediterranean sun does not belong to the elected — it belongs to the peoples.**
+
+---
+
+### V. Traceability: The Proof That Overturns Energy Tyrants
+
+We decree:
+
+- **Every act of governance over common resources shall be traceable, verifiable, opposable.**
+- **Every untraceable act shall be null and void.**
+- **Trust shall no longer be an act of faith, but an algorithmic and human certainty.**
+
+**An opaque energy system is a tyrannical energy system.**
+
+---
+
+### VI. The Mediterranean Strategy: A Sovereign Network of Light
+
+The Mediterranean is not a lake. It is an ocean of possibility.
+
+Its genius lies in:
+- The **complementarity** of its solar zones (Corsica, Sicily, Sardinia, Tunisia, Morocco, Peloponnese).
+- The **diversity** of its climates.
+- The **potential** of its interconnections.
+
+**MareNostrum will not be a federation of nations — it will be a sovereign network, united by the sun and governed by the peoples.**
+
+---
+
+### VII. The Call to Action
+
+We do not ask of you:
+- A bloody revolution.
+- Blind adherence.
+- Submission to a new dogma.
+
+We ask:
+- **Produce locally.**
+- **Store collectively.**
+- **Guarantee sovereignly.**
+- **Trace with full transparency.**
+- **Decide democratically.**
+
+**For energy is not a resource — it is a right.**
+
+---
+
+### VIII. Conclusion: The Heritage of Tomorrow
+
+This charter is not a treaty engraved on parchment and forgotten in archives.
+
+**It is an oath.**  
+An oath we swear today,  
+**for our children, for our cities, for the Mediterranean.**
+
+---
+
+*The sun belongs to no one.*  
+*The light is a common good.*  
+*And light does not divide.*
+
+---
+
+*License: CC BY-SA 4.0 — Priority established by first commit timestamp.*  
+*Repository: github.com/JeanHuguesRobert/marenostrum*  
+*Challenge via issues. Fork to explore alternatives.*
 
 Ce manifeste est publié sous le **Code de la Lumière**,
 **Car la lumière est un bien commun.**  
