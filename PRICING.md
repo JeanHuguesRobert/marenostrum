@@ -1,154 +1,153 @@
-# Mare Nostrum — Modèle de pricing de la disponibilité énergétique
+# MareNostrum — Energy Availability Pricing Model
 
-## 1. Objet
-
-Ce document définit un modèle économique minimal permettant de valoriser la disponibilité énergétique dans un système fondé sur l’exergie opérationnelle.
-
-Il prolonge le modèle physique défini dans `MODEL.md` en introduisant une logique de prix dépendante de la rareté.
+*Institut Mariani / C.O.R.S.I.C.A. — Corte, Corsica*  
+*Living document — CC BY-SA 4.0 — Priority by commit timestamp*
 
 ---
 
-## 2. Hypothèse centrale
+## What This Document Is
 
-La valeur de l’énergie n’est pas constante.
+This document defines how the physical model in `MODEL.md` translates into economic value. The central argument is simple: the product being sold is not a kilowatt-hour. It is a guarantee of availability under scarcity. Pricing a kilowatt-hour as a commodity ignores the only variable that determines its actual value to the user — whether it is there when needed.
 
-Elle dépend de sa capacité à être délivrée :
-- au bon moment
-- dans des conditions de contrainte
-- lorsque le système global est en tension
-
-Le produit économique n’est donc pas un kilowattheure, mais une **disponibilité garantie**.
+The pricing model is derived from the physics, not imposed on it. Every formula here follows directly from the scarcity variable R(t) defined in `MODEL.md`.
 
 ---
 
-## 3. Variable de rareté système
+## 1. Why Standard Energy Pricing Fails Here
 
-On définit la rareté globale :
+Spot electricity markets price energy on marginal cost of production. This works reasonably well for fossil fuel systems where the marginal cost of producing another unit of energy is relatively stable and production can be throttled on demand.
 
-R(t) = max(0, D(t) − P(t))
+It fails for solar-dominated island systems for two reasons.
 
-où :
-- D(t) : demande
-- P(t) : production
+First, the marginal cost of solar production is effectively zero during surplus — but the system still has capital costs that must be recovered. A pure spot price collapses to zero at the worst possible time for cost recovery.
 
-Cette variable détermine la tension du système.
+Second, and more importantly, the thing users actually need is not energy in the abstract — it is energy at the moment they need it. A pricing model that does not reflect availability-under-scarcity gives no economic signal to invest in storage, no signal to shift deferrable demand to surplus periods, and no signal to reward operators who maintain availability commitments during stress events.
+
+The MareNostrum pricing model is designed to give all three signals correctly.
 
 ---
 
-## 4. Prix de l’énergie instantanée
+## 2. The Product Being Priced
 
-Le prix unitaire de l’énergie devient fonction de la rareté :
+Before defining the price formula, the product must be defined precisely.
 
+The product is **a unit of energy availability under system constraint**: energy that is delivered at time t, in a system state characterized by scarcity R(t), with a delivery guarantee G ∈ [0,1].
+
+This is not a kilowatt-hour. A kilowatt-hour is a physical quantity. What is being sold here is a kilowatt-hour *plus* the commitment to deliver it *plus* the infrastructure that makes that commitment credible *plus* the governance that enforces it.
+
+The pricing model must reflect all four components.
+
+---
+
+## 3. Base Price and Scarcity Function
+
+The unit price at time t is:
+
+```
 p(t) = p₀ · f(R(t))
+```
 
-où :
-- p₀ : prix de base
-- f : fonction croissante de la rareté
+where:
+- `p₀` is the base price — the price during surplus conditions (R(t) = 0)
+- `f` is a scarcity function, strictly increasing in R(t), with f(0) = 1
 
-Deux formes simples :
+Two canonical forms for f, appropriate for different market contexts:
 
-- linéaire :
-  f(R) = 1 + αR
+**Linear** — `f(R) = 1 + α·R`  
+Appropriate when scarcity events are moderate and relatively frequent. The price increases proportionally to the deficit. Simple to communicate, easy to audit.
 
-- exponentielle :
-  f(R) = exp(αR)
+**Exponential** — `f(R) = exp(α·R)`  
+Appropriate when the system is dominated by rare, high-severity scarcity events. The price increases steeply as scarcity deepens, creating strong incentives for storage investment and demand flexibility. Better reflects the actual risk structure of island solar systems.
 
----
-
-## 5. Interprétation économique
-
-### Situation normale
-- R(t) ≈ 0
-- prix proche du prix de base
-- énergie abondante
-
-### Situation tendue
-- R(t) > 0
-- augmentation rapide du prix
-- valeur marginale élevée de la disponibilité
-
-### Situation critique
-- forte rareté
-- prix dominé par la capacité de livraison, non par la production
+The parameter α is the scarcity sensitivity coefficient. It must be calibrated empirically from observed demand patterns and storage dynamics in each deployment context. A single Mediterranean-wide α is not appropriate: Tunisia's high-solar, high-demand profile calls for a different calibration than Corsica's more moderate and seasonal profile.
 
 ---
 
-## 6. Définition du produit
+## 4. Three Operating Regimes
 
-Le produit économique fondamental devient :
+**Surplus regime** (R(t) = 0, S(t) approaching C)  
+f(R) = 1. Price equals p₀. Energy is abundant; the system signal is: consume now, charge storage, defer nothing. Marginal value of additional production is low. This is the period during which deferrable compute workloads should run — batch inference, model training, data processing.
 
-> une unité de capacité de fourniture énergétique sous contrainte
+**Balance regime** (R(t) ≈ 0, S(t) partially charged)  
+f(R) ≈ 1. Price near p₀. Normal operating conditions. The system is meeting demand from production with storage as buffer. No special pricing signals needed.
 
-Autrement dit :
-- non pas “1 kWh”
-- mais “1 kWh garanti en situation de rareté”
-
----
-
-## 7. Structure assurantielle
-
-Le système peut être interprété comme une assurance :
-
-- l’utilisateur paie une prime
-- le système garantit une disponibilité
-- la rareté déclenche la valeur économique
-
-Le prix est donc structurellement un **prix du risque énergétique**.
+**Scarcity regime** (R(t) > 0, S(t) being discharged)  
+f(R) > 1, increasing rapidly. Price rises above p₀. The system is under stress. Every unit of energy delivered is worth more than in surplus. This is the period during which Sovereign-tier CXU commands its premium: the inference was produced using energy delivered under scarcity conditions, with full provenance traceability, and carries the corresponding certification.
 
 ---
 
-## 8. Couplage avec le stockage
+## 5. The Guarantee Premium
 
-Le stockage S(t) agit comme amortisseur de prix :
+The scarcity function captures time-varying value. But some users need more than real-time pricing — they need a forward commitment: a guarantee that energy will be available regardless of system state. This guarantee has a price.
 
-- plus S(t) est élevé
-- plus les pics de prix sont lissés
+The guarantee premium adds to the spot price:
 
-Mais sa valeur marginale augmente fortement en période de rareté prolongée.
+```
+p_guaranteed(t, G) = p(t) + G · risk_premium(t)
+```
 
----
+where:
+- G ∈ [0,1] is the guarantee level (defined in `CONTRACTS.md`)
+- `risk_premium(t)` is the cost of holding the storage reserves required to honor the guarantee at time t
 
-## 9. Propriété structurelle
+A G = 0 contract is pure spot: no guarantee, price equals p(t). A G = 1 contract is full guarantee: the operator commits to delivery regardless of R(t), and prices in the full cost of the storage reserves required to make that commitment credible.
 
-Le système est dominé par les événements rares.
-
-La distribution du prix n’est pas normale :
-- elle est asymétrique
-- avec des pics liés aux périodes de déficit énergétique
-
----
-
-## 10. Loi fondamentale
-
-Le prix n’est pas déterminé par la moyenne de production.
-
-Il est déterminé par :
-> la capacité du système à éviter l’échec en période de contrainte.
+The guarantee premium is not profit margin. It is the economic representation of the physical cost of maintaining reserves. A system that prices guarantees too cheaply will under-invest in storage and fail to honor commitments during stress events — destroying the value of the guarantee product.
 
 ---
 
-## 11. Conséquence stratégique
+## 6. Storage as Price Stabilizer
 
-Dans ce modèle :
-- produire plus réduit partiellement le risque
-- stocker réduit fortement la volatilité
-- mais seule la combinaison des deux garantit la stabilité du prix
+Storage S(t) dampens price volatility by absorbing the impact of production variability on R(t). When S(t) is high, the system can cover demand during production shortfalls without R(t) rising sharply — keeping prices near p₀ and protecting users from volatility.
 
----
+This creates a clear economic role for storage investment: it reduces the variance of the price distribution. Users who value price predictability should be willing to pay a premium for it — which is exactly what guaranteed contracts formalize.
 
-## 12. Extension
-
-Ce modèle constitue une base pour :
-- contrats de disponibilité énergétique
-- mécanismes d’assurance énergétique
-- marchés régionaux interconnectés (multi-zones méditerranéennes)
+The relationship between storage capacity C, scarcity frequency, and price volatility can be derived from the model in `MODEL.md`. Optimal C minimizes the expected cost of scarcity events (price spikes times their probability and depth) net of storage capital cost. This is a standard optimization problem once the local distribution of P(t) and D(t) is characterized.
 
 ---
 
-## 13. Lien avec le modèle physique
+## 7. Distribution Properties
 
-Ce pricing est directement dérivé de l’exergie opérationnelle :
+The price distribution in this model is not normal. It is right-skewed, with a heavy tail driven by rare but severe scarcity events.
 
-E = ∫ w(t) · U(t) dt
+This has two implications:
 
-Le prix est la projection économique de la valeur de disponibilité sous contrainte.
+**For operators**: average price is not the right planning metric. Expected worst-case price — the price during the top 5% of scarcity events — determines the economic case for storage investment. A system sized for average conditions will fail under stress; the price spike during that failure will be large.
+
+**For users**: standard energy contracts that average over time obscure the actual risk structure. A user whose operations are sensitive to energy availability should pay for a guaranteed contract priced on the tail distribution, not a spot contract priced on the mean.
+
+This is the same logic that makes insurance valuable: the expected payout is not the point. The point is protection against the tail event.
+
+---
+
+## 8. Connection to CXU Pricing
+
+The energy pricing model defined here is the physical layer beneath the CXU pricing structure in `safe_compute_exergy.md`.
+
+A compute job that runs at time t consumes energy priced at p(t). Its CXU cost reflects:
+
+- p(t) — the scarcity-adjusted energy cost
+- η_hw, η_sys, η_sla — hardware and operational efficiency factors
+- η_traceability — provenance completeness (the key differentiator for premium tiers)
+
+The Sovereign-tier CXU premium (×10–×31 over spot) corresponds to compute produced during scarcity conditions with full provenance traceability — energy that is both scarce and certified. The pricing model makes this premium structurally coherent: it is not marketing, it reflects the actual cost and value of the physical and governance infrastructure required to produce it.
+
+---
+
+## 9. What Remains to Be Calibrated
+
+The model structure is specified. Three parameters require empirical calibration for each deployment:
+
+**p₀** — the base price. Determined by the capital cost of the installation divided by the expected surplus-period energy volume. Deployment-specific.
+
+**α** — the scarcity sensitivity coefficient. Determined by fitting the price function to historical demand and production data, targeting a price distribution that creates correct incentives for the specific use-case mix of the territory.
+
+**The form of f** — linear vs. exponential. Determined by the severity distribution of scarcity events. If the 95th-percentile scarcity event is less than 2× the median, linear is appropriate. If it is 5× or more, exponential better captures the incentive structure.
+
+These are not weaknesses of the model. They are the parameters that make it accurate for a specific territory rather than generically wrong everywhere.
+
+---
+
+*Upstream: `MODEL.md` (physical definitions of R(t), U(t), E).*  
+*Downstream: `CONTRACTS.md` (formalization of the guarantee commitment), `GOVERNANCE.md` (arbitration of allocation under scarcity).*  
+*Related: `safe_compute_exergy.md` (CXU pricing layer built on this model).*
