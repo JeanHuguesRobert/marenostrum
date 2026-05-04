@@ -1,154 +1,154 @@
-# MareNostrum — CONTRATS de disponibilité énergétique
+# MareNostrum — Energy Availability Contracts
 
-## 1. Objet
-
-Ce document définit la couche contractuelle du système MareNostrum.
-
-Il formalise les engagements entre :
-- producteurs de capacité énergétique
-- consommateurs / collectivités
-- opérateurs de réseau
-
-Le contrat porte non pas sur l’énergie produite, mais sur la **capacité garantie de fourniture**.
+*Institut Mariani / C.O.R.S.I.C.A. — Corte, Corsica*  
+*Living document — CC BY-SA 4.0 — Priority by commit timestamp*
 
 ---
 
-## 2. Définition du service contractuel
+## What This Document Is
 
-Le service vendu est une unité de :
+This document defines the contractual layer of the MareNostrum system. Contracts are the mechanism by which the physical model (`MODEL.md`) and the pricing model (`PRICING.md`) become binding commitments between parties.
 
-> disponibilité énergétique sous contrainte de système
-
-Formalisée comme :
-
-- une quantité d’énergie (kWh)
-- livrable dans une fenêtre temporelle donnée
-- avec un niveau de garantie explicite
+The key distinction: a contract in this system is not an agreement to deliver a quantity of energy. It is an agreement to deliver a level of availability — a guarantee that energy will be there when needed, with explicit consequences if it is not. This distinction is not semantic. It changes what operators must invest in (storage reserves, not just generation capacity) and what users are actually buying (reliability, not commodity).
 
 ---
 
-## 3. Types de contrats
+## 1. What Is Being Contracted
 
-### 3.1 Contrat spot
-- livraison immédiate
-- prix dépendant de la rareté instantanée
-- faible garantie
+Standard energy contracts are delivery contracts: the seller commits to delivering X kilowatt-hours in a period, and the buyer pays for them. The timing of delivery within the period is typically the seller's choice.
 
----
+MareNostrum contracts are **availability contracts**: the seller commits to maintaining a specified availability level G throughout a period, regardless of system state. If demand arises and R(t) > 0, the contract holder is served before non-contracted demand. The storage reserves required to honor this commitment are the seller's responsibility to maintain.
 
-### 3.2 Contrat standard
-- livraison planifiée
-- tolérance de variation limitée
-- prix stabilisé par moyenne de rareté
+This is structurally closer to an insurance contract than a commodity contract. The user is buying protection against the tail event — the moment when energy is scarce and operations would otherwise be disrupted.
 
 ---
 
-### 3.3 Contrat de sécurité (ou assurance énergétique)
-- engagement de livraison même en situation de tension
-- activation des réserves et du stockage
-- prime de risque élevée
+## 2. Contract Types
+
+### 2.1 Spot Contract (G = 0)
+
+No advance commitment. Energy is available at the current market price p(t) when the buyer requests it. During surplus conditions, this is cheap and plentiful. During scarcity events, it is expensive and potentially unavailable — demand is served in order of contract priority, and spot buyers are last.
+
+Appropriate for: deferrable workloads, opportunistic compute, batch operations that can be scheduled during predicted surplus windows.
+
+### 2.2 Standard Contract (G ∈ (0, 0.8))
+
+A partial guarantee. The seller commits to serving the contracted demand with probability G over the contract period. During moderate scarcity events, standard contract holders are served before spot buyers. During severe scarcity events, service may be curtailed proportionally.
+
+Price: `p₀ · f(R̄) + G · risk_premium(R̄)` where R̄ is the expected scarcity level over the contract period.
+
+Appropriate for: general-purpose operations with some tolerance for occasional disruption, agentic AI workloads, commercial services.
+
+### 2.3 Security Contract (G ∈ [0.8, 1.0))
+
+High guarantee. The seller commits to serving contracted demand through all but the most severe system stress events. This requires the seller to maintain dedicated storage reserves sized for the contracted demand level across the expected distribution of scarcity events.
+
+Price reflects the full cost of those reserves plus the scarcity premium. Significantly higher than spot or standard.
+
+Appropriate for: critical infrastructure, medical systems, regulated financial operations, legal and judicial AI support, industrial processes where interruption causes cascading costs.
+
+### 2.4 Sovereign Contract (G = 1.0)
+
+Full guarantee. The seller commits to uninterrupted service under all system conditions, including the activation of the Exergy Lock Protocol (see `safe_compute_exergy.md`). This requires not only local storage reserves but redundant supply pathways and priority access to federation-level reserves.
+
+Sovereign contracts are the basis for Sovereign-tier CXU certification. A compute job run under a Sovereign contract, with full provenance traceability, earns the maximum η_traceability score and the corresponding market premium (×10–×31 over spot).
+
+Appropriate for: public infrastructure, democratic decision systems, safety-critical AI inference, sovereignty-sensitive government operations.
 
 ---
 
-## 4. Niveau de garantie
+## 3. The Guarantee Coefficient G
 
-Chaque contrat est défini par un coefficient G :
+G is defined operationally, not aspirationally. G = 0.95 means the operator commits to serving contracted demand in 95% of scarcity-hours over the contract period, measured ex post against observed system data.
 
-G ∈ [0,1]
+This makes G auditable. The contract register (implemented via the Fractavolta governance layer, see `traceable_governance.md`) records:
+- every scarcity event during the contract period
+- the system's delivery performance for each contract holder during each event
+- cumulative G delivered vs. G committed
 
-- G = 0 → aucune garantie (marché spot)
-- G = 1 → garantie totale en période critique
+A contract holder who received G_delivered < G_committed is automatically entitled to compensation at the rate specified in §5.
 
-Le prix est proportionnel à G et à la rareté attendue.
-
----
-
-## 5. Mécanisme de déclenchement
-
-En cas de tension système R(t) élevée :
-
-- activation du stockage
-- redirection de flux
-- priorisation des contrats à haut G
-
-Les contrats deviennent hiérarchisés selon :
-1. niveau de garantie
-2. criticité d’usage
-3. ancienneté contractuelle
+G is not a probability — it is a service-level commitment backed by physical infrastructure and financial collateral.
 
 ---
 
-## 6. Rôle du stockage
+## 4. Activation Hierarchy Under Scarcity
 
-Le stockage agit comme :
+When R(t) > 0 and storage S(t) is being discharged, the system must allocate available energy across competing demands. The allocation hierarchy is:
 
-- amortisseur contractuel
-- réserve de sécurité
-- outil d’exécution des engagements
+1. **Sovereign contracts (G = 1.0)**: served first, always. Reserve drawdown is authorized unconditionally.
+2. **Security contracts (G ≥ 0.8)**: served from dedicated reserves. If reserves are insufficient, partial curtailment applies proportionally within this tier.
+3. **Standard contracts (G < 0.8)**: served from shared reserves after Sovereign and Security demands are met. Curtailment probability = 1 − G per scarcity-hour.
+4. **Spot buyers**: served from whatever remains after contracted demand is met. No guarantee; curtailment is possible at any scarcity level.
+5. **Export**: served last, only after all contracted and spot demand is fully met.
 
-Sans stockage, les contrats à forte garantie deviennent impossibles à honorer.
-
----
-
-## 7. Non-livraison et compensation
-
-En cas de défaut de livraison :
-
-- compensation automatique financière
-- indexation sur prix de rareté instantané
-- possibilité de basculement vers crédit énergétique futur
+This hierarchy is not discretionary. It is encoded in the governance layer and executed automatically based on real-time R(t) measurements. No operator has the authority to override the hierarchy for individual transactions — doing so would generate a governance escalation event (a cross-level trace in the Fractavolta register).
 
 ---
 
-## 8. Architecture institutionnelle
+## 5. Non-Delivery and Compensation
 
-Le système nécessite trois rôles :
+When a contracted delivery fails — G_delivered falls below G_committed for a given period — compensation is automatic:
 
-- Producteurs (capacité physique)
-- Opérateurs (allocation et arbitrage)
-- Assureur énergétique (gestion du risque systémique)
+```
+Compensation = (G_committed − G_delivered) · E_contracted · p_scarcity
+```
 
----
+where `p_scarcity` is the scarcity-weighted price during the shortfall period, and `E_contracted` is the contracted energy volume.
 
-## 9. Couplage avec le pricing
+Compensation is paid in one of two forms:
+- **Financial credit**: immediate credit against future invoices, calculated at the scarcity price
+- **Energy credit**: future delivery of equivalent energy at guaranteed availability, credited to the contract holder's reserve account
 
-Le prix contractuel est :
-
-Prix = Prix énergie (PRICING.md) + Prime de garantie (G × risque système)
-
----
-
-## 10. Propriété fondamentale
-
-Un contrat énergétique n’est pas un échange de matière.
-
-C’est un **transfert de responsabilité sur la continuité énergétique**.
+The choice between forms is specified in the contract. Compensation is calculated automatically from the audit log and does not require the contract holder to file a claim.
 
 ---
 
-## 11. Extension possible
+## 6. Collateral Requirements
 
-Ce modèle permet :
+Operators offering Security and Sovereign contracts must post collateral proportional to their commitment. Collateral serves two functions: it backs the compensation mechanism if delivery fails, and it creates a financial incentive for operators to maintain the storage reserves required to honor their commitments.
 
-- marchés régionaux interconnectés
-- mutualisation méditerranéenne des risques
-- création d’instruments financiers adossés à la disponibilité énergétique
-- intégration dans des systèmes de gouvernance énergétique locale
+Minimum collateral by tier:
+- Standard: 10% of contract value
+- Security: 30% of contract value
+- Sovereign: 50% of contract value, plus membership in the mutual insurance pool (see §7)
 
----
-
-## 12. Lien avec le modèle physique
-
-Les contraintes contractuelles sont directement dérivées de la dynamique d’exergie :
-
-E = ∫ w(t) · U(t) dt
-
-Un contrat est une contrainte imposée sur U(t) dans le temps.
+Collateral is held in the system's insurance layer and released at contract expiry, minus any compensation payments made during the period.
 
 ---
 
-## 13. Principe directeur
+## 7. Mutual Insurance Pool
 
-La valeur du système ne réside pas dans la production brute.
+No individual operator's storage reserves can guarantee immunity against prolonged regional scarcity events — multi-day cloud cover, sustained heatwaves driving demand above all forecasts, or coordinated infrastructure failure. Events at this scale require mutual insurance across the federation.
 
-Elle réside dans la **continuité garantie de la disponibilité sous contrainte réelle**.
+The mutual pool is funded by a levy on Security and Sovereign contract premiums (provisionally: 5% of the guarantee premium component). It is governed by the federation governance layer (L₃ in the Fractavolta scale tower) and activated only for events that exceed individual operator reserve capacity by a defined threshold.
+
+Activation conditions are predefined, multi-party verifiable, and publicly auditable — a governance escalation event in the Fractavolta register, not a discretionary decision.
+
+---
+
+## 8. Traceability of Contract Execution
+
+Every contract event — issuance, activation, delivery measurement, compensation calculation, collateral adjustment — is recorded as a signed trace tuple in the Fractavolta register:
+
+```
+τ = (contract_id, event_type, timestamp, R(t), G_delivered, compensation, sig)
+```
+
+This creates a complete, append-only audit trail of every contract's lifecycle. A regulator at L₃ can verify that all contracts were honored according to their terms without accessing the content of individual compute jobs. A contract holder can verify their own delivery record without trusting the operator's self-reporting.
+
+Contract execution is not self-reported. It is computed automatically from the metered energy data and recorded by the cluster (L₁), not by the operator node (L₀). The operator cannot selectively omit unfavorable delivery events.
+
+---
+
+## 9. Relation to CXU Issuance
+
+CXU issuance in the MareNostrum system is conditional on contract tier. A compute job run under a Sovereign contract, with full provenance traceability, generates a Sovereign-tier CXU. The same job run under a Spot contract generates a Spot-tier CXU, regardless of the energy source.
+
+This coupling is intentional. The CXU tier reflects not just the energy source but the governance infrastructure that makes the provenance claim credible. A Sovereign-tier claim requires a Sovereign contract because the guarantee is what makes the claim verifiable and defensible — not just at the moment of issuance but indefinitely, through the audit trail in the contract register.
+
+---
+
+*Upstream: `MODEL.md` (physical constraints), `PRICING.md` (price formulas for G and risk_premium).*  
+*Downstream: `GOVERNANCE.md` (arbitration of allocation hierarchy under contested scarcity).*  
+*Related: `traceable_governance.md` (register infrastructure), `safe_compute_exergy.md` (CXU tier coupling).*
