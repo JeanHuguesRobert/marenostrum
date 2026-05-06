@@ -247,6 +247,3 @@ An oath we swear today,
 *Repository: github.com/JeanHuguesRobert/marenostrum*  
 *Challenge via issues. Fork to explore alternatives.*
 
-Ce manifeste est publié sous le **Code de la Lumière**,
-**Car la lumière est un bien commun.**  
-**Et la lumière ne se divise pas.**
