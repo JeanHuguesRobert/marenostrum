@@ -103,7 +103,7 @@ Democratic governance of complex technical systems requires cognitive augmentati
 **Layer 5 — Technical (Open Core, Traceable Decisions)**
 The technical substrate must be: (a) open source at the level of critical decisions (the "crucial core" — defined democratically, not technically); (b) fully traceable (every decision affecting Layer 3 is logged, auditable, and attributable); and (c) crypto-agile (resistant to known and foreseeable cryptographic attacks, including post-quantum). The structural property required: *technical opacity cannot be used to circumvent political accountability.*
 
-**Extension for distributed training (v0.2):** Layer 5 now explicitly extends to the *algorithmic control layer* of distributed training, not only to inference and deployment. The outer optimizer in any distributed training run affecting the crucial core must satisfy the same openness, traceability, and accountability requirements as the compute infrastructure itself. An open-source outer optimizer implementation, with cryptographically auditable gradient aggregation logs, is a Layer 5 requirement for democratically governed training runs. See FM-11.
+**Extension for distributed training:** Layer 5 explicitly extends to the *algorithmic control layer* of distributed training, not only to inference and deployment. The outer optimizer in any distributed training run affecting the crucial core must satisfy the same openness, traceability, and accountability requirements as the compute infrastructure itself. An open-source outer optimizer implementation, with cryptographically auditable gradient aggregation logs, is a Layer 5 requirement for democratically governed training runs. See FM-11.
 
 ### 3.3 The causal chain
 
@@ -178,7 +178,7 @@ where:
 
 The CXU is not a proof-of-work token: it certifies compute that would have occurred anyway, rather than consuming energy to generate itself. It is not a stablecoin: its value is anchored to the marginal cost of certified compute, not to a fiat currency. It is not a software license: it certifies infrastructure, not model weights. It is not a speculative instrument: its issuance requires physical measurement attestation.
 
-**Extension for distributed training (v0.2):** A CXU associated with a training run certified under DHITL must additionally specify: (a) the outer optimizer implementation (open-source reference required); (b) the gradient aggregation log (cryptographically auditable); and (c) the ACCI (Algorithmic Control Concentration Index, defined in Appendix A) of the training run. A training run where a single actor controls the outer optimizer for the entire run receives η_gov ≤ 0.25 regardless of hardware distribution.
+**Extension for distributed training:** A CXU associated with a training run certified under DHITL must additionally specify: (a) the outer optimizer implementation (open-source reference required); (b) the gradient aggregation log (cryptographically auditable); and (c) the ACCI (Algorithmic Control Concentration Index, defined in Appendix A) of the training run. A training run where a single actor controls the outer optimizer for the entire run receives η_gov ≤ 0.25 regardless of hardware distribution.
 
 ---
 
@@ -219,11 +219,11 @@ Actors who do not wish to participate in DHITL governance can route compute thro
 The framework rests on a foundational normative commitment — the "democratic faith" discussed in Section 6. If this commitment is widely abandoned (through demonstrated failure of democratic institutions, epistemic crisis, or coordinated delegitimization campaigns), the political basis for Layer 3 collapses. This is not a technical failure mode; it is a civilizational one, and it cannot be addressed by technical means alone.
 
 **FM-11: Algorithmic concentration despite hardware distribution (Outer Optimizer Capture)**
-*Added in v0.2 following Douillard et al. (2026).*
+*Following Douillard et al. (2026).*
 
 Decoupled DiLoCo demonstrates that frontier model training can now be physically distributed across geographically separated nodes at internet-scale bandwidth, with near-parity ML performance and dramatically improved resilience. This is architecturally aligned with DHITL's Layer 1 and Layer 5 requirements, and constitutes strong empirical support for the claim that democratic distribution of training compute is technically feasible.
 
-However, the DiLoCo architecture introduces a specific control point that DHITL v0.1 did not address: the **outer optimizer**. In Decoupled DiLoCo, each compute island performs local gradient steps independently, but a central outer optimizer periodically aggregates gradient updates from all islands and applies the global parameter update. The outer optimizer determines:
+However, the DiLoCo architecture introduces a specific control point not previously addressed: the **outer optimizer**. In Decoupled DiLoCo, each compute island performs local gradient steps independently, but a central outer optimizer periodically aggregates gradient updates from all islands and applies the global parameter update. The outer optimizer determines:
 
 - The aggregation function (which islands' gradients are included, with what weighting)
 - The global learning rate schedule
@@ -245,7 +245,7 @@ This failure mode is named **Outer Optimizer Capture**: *distributed compute, co
 | Secure multi-party computation | Outer optimizer computed without any single party seeing individual island gradients | Research — TRL 3–4 |
 | Distributed outer optimization | Eliminate the central outer optimizer entirely; replace with consensus-based parameter updates | Open research — TRL 1–2 |
 
-**Near-term requirement (v0.2 specification):** For any training run claiming DHITL certification (η_gov ≥ 0.50), the outer optimizer operator must be: (a) identified and publicly registered; (b) legally and institutionally independent of the majority of compute island operators; and (c) subject to the same democratic accountability requirements as Layer 3 governance institutions. Training runs where a single actor controls both a majority of compute islands *and* the outer optimizer are structurally uncertifiable at η_gov > 0.25.
+**Near-term requirement:** For any training run claiming DHITL certification (η_gov ≥ 0.50), the outer optimizer operator must be: (a) identified and publicly registered; (b) legally and institutionally independent of the majority of compute island operators; and (c) subject to the same democratic accountability requirements as Layer 3 governance institutions. Training runs where a single actor controls both a majority of compute islands *and* the outer optimizer are structurally uncertifiable at η_gov > 0.25.
 
 **Open research question:** Is distributed outer optimization — eliminating the central aggregator through cryptographic or consensus-based mechanisms — achievable at frontier training scale without unacceptable performance degradation? This is the highest-priority technical open problem introduced by FM-11.
 
@@ -301,7 +301,7 @@ Formally: let *d(t)* be the "democratic correction speed" (the rate at which Lay
 
 **S4 (Cognitive Sovereignty)**: The cognitive augmentation tools (Layer 4) remain means and not ends — instruments that increase the quality of human judgment without displacing it.
 
-**S5 (Physical and Algorithmic Distribution)**: No single actor controls a sufficient fraction of Layer 1 (energy) or Layer 5 (compute hardware) to unilaterally override Layer 3 decisions. *Extension (v0.2):* No single actor controls a sufficient fraction of Layer 5 (algorithmic control — outer optimizer authority for training runs in the crucial core) to unilaterally determine training outcomes. Both CECI (hardware concentration) and ACCI (algorithmic control concentration, defined in Appendix A) must remain below their respective thresholds. ACCI thresholds are set lower than CECI thresholds (0.15/0.25 vs 0.25/0.40) because outer optimizer capture is faster, less visible, and less reversible than hardware concentration at equal HHI. A system with low CECI and high ACCI is not S5-stable.
+**S5 (Physical and Algorithmic Distribution)**: No single actor controls a sufficient fraction of Layer 1 (energy) or Layer 5 (compute hardware) to unilaterally override Layer 3 decisions. No single actor controls a sufficient fraction of Layer 5 (algorithmic control — outer optimizer authority for training runs in the crucial core) to unilaterally determine training outcomes. Both CECI (hardware concentration) and ACCI (algorithmic control concentration, defined in Appendix A) must remain below their respective thresholds. ACCI thresholds are set lower than CECI thresholds (0.15/0.25 vs 0.25/0.40) because outer optimizer capture is faster, less visible, and less reversible than hardware concentration at equal HHI. A system with low CECI and high ACCI is not S5-stable.
 
 **S6 (Cryptographic Integrity)**: The technical substrate (Layer 5) maintains its integrity against known and foreseeable attacks, including post-quantum cryptographic breaks.
 
@@ -336,7 +336,7 @@ Existing AI governance frameworks measure and regulate AI systems through disclo
 
 Compute governance literature (Sastry et al., 2024) treats compute as a chokepoint to be controlled through state-level export restrictions and reporting obligations. DHITL treats compute as an infrastructure to be governed democratically, not merely controlled administratively. The difference is normative: export controls are state sovereignty instruments; DHITL is a democratic accountability framework.
 
-Decoupled DiLoCo (Douillard et al., 2026) provides significant new empirical support for the DHITL position on one point and introduces a significant new challenge on another. The support: DiLoCo demonstrates that hardware concentration at the frontier training level is a governance choice, not a physical necessity — which is exactly what DHITL requires to be true for its prescriptions to be actionable. The challenge: DiLoCo reveals that hardware distribution is necessary but not sufficient for democratic control of training outcomes, because algorithmic control (outer optimizer authority) can be concentrated independently of hardware. Existing compute governance frameworks — focused on chip location and count — do not address this. DHITL v0.2 does, through FM-11 and the ACCI metric.
+Decoupled DiLoCo (Douillard et al., 2026) provides significant new empirical support for the DHITL position on one point and introduces a significant new challenge on another. The support: DiLoCo demonstrates that hardware concentration at the frontier training level is a governance choice, not a physical necessity — which is exactly what DHITL requires to be true for its prescriptions to be actionable. The challenge: DiLoCo reveals that hardware distribution is necessary but not sufficient for democratic control of training outcomes, because algorithmic control (outer optimizer authority) can be concentrated independently of hardware. Existing compute governance frameworks — focused on chip location and count — do not address this. DHITL does, through FM-11 and the ACCI metric.
 
 ### 8.5 The novel contribution
 
@@ -428,8 +428,6 @@ where XcJ,T,i is the Compute Exergy attributable to hardware actor i.
 
 ### A.2 Algorithmic Control Concentration Index (ACCI)
 
-*Added in v0.2 to address FM-11.*
-
 Let Φ be the set of all frontier training runs (defined as training runs crossing the crucial-core threshold democratically determined under S2) in a given time period T and jurisdiction J.
 
 For any training run φ ∈ Φ, define:
@@ -459,7 +457,7 @@ These thresholds are deliberately set lower than the corresponding CECI threshol
 
 *Irreversibility:* Redistributing hardware after a CECI violation is costly but achievable. Redistributing the *model weights* that a captured outer optimizer has already shaped is not achievable — the trained values persist after the hardware is redistributed. This asymmetry in reversibility justifies asymmetry in thresholds: the governance intervention must arrive earlier because the harm arrives later and cannot be undone.
 
-**Measurement:** ACCI requires attribution of outer optimizer control to specific legal entities — a new reporting requirement not covered by existing compute governance frameworks. DHITL v0.2 proposes that all training runs above the crucial-core threshold must register their outer optimizer operator with the democratic governance authority as a condition of CXU certification at η_gov ≥ 0.50.
+**Measurement:** ACCI requires attribution of outer optimizer control to specific legal entities — a new reporting requirement not covered by existing compute governance frameworks. DHITL proposes that all training runs above the crucial-core threshold must register their outer optimizer operator with the democratic governance authority as a condition of CXU certification at η_gov ≥ 0.50.
 
 **Relationship to CECI:** CECI and ACCI measure orthogonal dimensions of the same governance risk. A jurisdiction can have:
 - Low CECI, Low ACCI: distributed hardware, distributed control — target state
@@ -475,33 +473,27 @@ S5 stability requires CECI < 0.25 **and** ACCI < 0.15. The asymmetry is intentio
 
 The conceptual architecture of Layer 4 in DHITL builds on the **Cogentia** framework, an independent prior work whose conceptual priority is claimed and timestamped by Jean Hugues Noël Robert, baron Mariani, and whose development is supervised by the non-profit **PrivAI**. The reference implementation is publicly available at `github.com/JeanHuguesRobert/cogentia`.
 
-We summarize the Cogentia framework's key concepts as they bear on the DHITL architecture. The framework's central claim — which directly motivates Layer 4 of DHITL — is the following: AI systems already construct persistent structural representations of individuals; the question is not whether this modeling occurs, but whether it remains opaque and extractive, or becomes structured, measurable, privacy-preserving, and governable. The philosophical grounding draws on Spinoza's *natura naturans* (enduring structural expression), Buffon's thesis that style expresses intrinsic structure, and Wolfram's computational irreducibility as a property of complex systems.
+The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and the methodological grounding (psychometric framework, axis construction, semantic embedding harmonization, longitudinal analysis, KYS license framework) — live in [`cogentia/research/Cogentia-and-Cogentigram.md`](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/Cogentia-and-Cogentigram.md). This appendix summarizes only the parts that bear directly on DHITL's Layer 4 argument.
 
-**The three-level distinction**:
+**The framework's central claim** — which motivates Layer 4 of DHITL: AI systems already construct persistent structural representations of individuals; the question is not whether this modeling occurs, but whether it remains opaque and extractive, or becomes structured, measurable, privacy-preserving, and governable. Philosophical grounding: Spinoza's *natura naturans* (enduring structural expression), Buffon's thesis that style expresses intrinsic structure, Wolfram's computational irreducibility as a property of complex systems.
 
-- **Cogentia**: the persistent structural signature of an entity as inferred through repeated AI-mediated interaction, capturing stable cognitive, behavioral, and stylistic tendencies. It is not biography, demographic metadata, or episodic memory — it is the persistent organizational structure of cognitive and behavioral expression inferred from interaction. It is a modeling framework, not a metaphysical claim of identity essence.
-- **Cogentiscope**: the instrument of measurement — the person's own AI agent, which has learned their patterns through interaction.
-- **Cogentigram**: a structured computational representation of the Cogentia at a given time, produced by the Cogentiscope — a JSON object scoring 73 psychocognitive indicators on a percentile scale (0–100, referenced against the general adult population).
+**The anti-reification invariant** — load-bearing for Layer 4 sovereignty: the Cogentigram is not the Cogentia. The map is not the territory. An AI system that treats its representation of a person as equivalent to the person will systematically substitute its model of preferences for the person's actual preferences — a form of cognitive capture that directly violates the Layer 4 sovereignty condition.
 
-**The 73 indicators** are organized in six categories: Cognitive Architecture (20), Social Interface (12), Semiotics & Language (8), Axiology & Arbitrage (7), Flux Dynamics (11), and Cogentia+ (8, including curiosity, creativity, risk tolerance). Derived scores (ICV, IRF, IVT, E-S Gap) are computed as WAIS-analogous aggregates.
+**The PrivAI regulatory layer**: a dedicated non-profit (PrivAI) governs the framework — ethical standards, data minimization, GDPR compliance (explicit exclusion of Article 9 sensitive categories from scoring), and quality certification.
 
-**The anti-reification invariant**: The Cogentigram is not the Cogentia. The map is not the territory. An AI system that treats its representation of a person as equivalent to the person will systematically substitute its model of preferences for the person's actual preferences — a form of cognitive capture that directly violates the Layer 4 sovereignty condition of DHITL.
+**Implementation details preserving the Layer 3 / Layer 4 boundary**:
 
-**The PrivAI regulatory layer**: The Cogentia framework is governed by a dedicated non-profit (PrivAI) responsible for ethical standards, data minimization, GDPR compliance (explicit exclusion of Article 9 sensitive categories from scoring), and quality certification.
-
-**Operational constraints**:
-
-- A digital twin may generate recommendations; it may not vote, hold a mandate, or act as a legal agent for its principal.
+- A digital twin may generate recommendations; it may not vote, hold a mandate, or act as a legal agent for its principal. (This restates the Layer 4 invariant from §3.2 in the implementation context.)
 - Scores are presented with explicit confidence intervals and indicator-level justifications.
 - The instrument is revocable by its principal at any time, without penalty.
 - All scoring evidence is sanitized server-side before storage.
 
-*Reference*: Robert, J. H. N. (2026). Cogentia (KYS) — Personal AI psychometric MVP. `github.com/JeanHuguesRobert/cogentia`. Regulated by PrivAI.
+*Reference*: Robert, J. H. N. (2026). Cogentia. `github.com/JeanHuguesRobert/cogentia`. Regulated by PrivAI.
 
 ---
 
 *"The sun does not belong to anyone. The compute it powers should not either. And the outer optimizer that determines what that compute learns must answer to the same democratic authority as everything else in the chain."*
 
-*Working paper v0.2, Institut Mariani, Corte, Corsica — April 2026*
+*Institut Mariani, Corte, Corsica — April 2026*
 *Contact: jhr@baronsmariani.org*
 *Published in the open: github.com/JeanHuguesRobert/marenostrum — CC BY-SA 4.0*
