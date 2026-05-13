@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/CONTRACTS.md
+last_stamped_at: 2026-05-13
+---
 # MareNostrum — Energy Availability Contracts
 
 *Institut Mariani / C.O.R.S.I.C.A. — Corte, Corsica*  

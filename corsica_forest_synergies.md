@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/corsica_forest_synergies.md
+last_stamped_at: 2026-05-13
+---
 # Valorisation synergétique de la forêt corse
 ## Vers une souveraineté alimentaire, énergétique et numérique dans le cadre méditerranéen
 

@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/constellia.md
+last_stamped_at: 2026-05-13
+---
 # CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES
 
 **Jean Hugues Noël Robert** and **Guillermo Valdes**  

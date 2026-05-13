@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/compute-exergy-omitted-variable.md
+last_stamped_at: 2026-05-13
+---
 # Compute Exergy as an Omitted Variable in AI Governance
 
 ## Extending Harari's Nexus Hypothesis Through Infrastructure Sovereignty

@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/lesswrong_post.md
+last_stamped_at: 2026-05-13
+---
 **Title:** From Photons to Inferences: Why AI Safety Needs Compute Exergy and Deliberate Topology Choices
 
 **TL;DR:**  

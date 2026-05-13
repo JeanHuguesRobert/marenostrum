@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_topologies_for_compute_sovereignty.md
+last_stamped_at: 2026-05-13
+---
 # Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty
 
 **Jean Hugues Noël Robert, baron Mariani**,

@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/safe_compute_exergy.md
+last_stamped_at: 2026-05-13
+---
 # Safe Compute Exergy (SCE)
 
 **Author:** Institut Mariani / C.O.R.S.I.C.A. · Corte, Corse, France  

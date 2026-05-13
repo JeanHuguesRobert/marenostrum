@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/GOVERNANCE.md
+last_stamped_at: 2026-05-13
+---
 # MareNostrum — Governance of the Energy System
 
 *Institut Mariani / C.O.R.S.I.C.A. — Corte, Corsica*  

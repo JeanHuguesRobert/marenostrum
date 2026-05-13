@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/ARCHITECTURE.md
+last_stamped_at: 2026-05-13
+---
 # MareNostrum — System Architecture
 
 *Institut Mariani / C.O.R.S.I.C.A. — Corte, Corsica*  

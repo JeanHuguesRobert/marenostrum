@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/DHITL.md
+last_stamped_at: 2026-05-13
+---
 # DHITL, Democratic Humans In The Loop
 
 ## Why Infrastructure Is All You Need for AI Safety

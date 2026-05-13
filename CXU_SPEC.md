@@ -1,3 +1,7 @@
+---
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/CXU_SPEC.md
+last_stamped_at: 2026-05-13
+---
 # CXU_SPEC — Compute eXergy Unit Specification
 
 **Version**: 0.1 (Draft)
