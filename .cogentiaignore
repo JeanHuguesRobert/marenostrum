@@ -1,0 +1,5 @@
+# MareNostrum — non-research markdown files.
+# Built-in defaults (README, LICENSE, TODO, CHANGELOG, …) are always applied.
+
+# Typo of ARCHITECTURE.md — should be renamed or removed; ignored for now.
+ARCHITECURE.md
