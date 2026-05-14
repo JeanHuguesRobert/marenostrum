@@ -32,6 +32,7 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 | [Model](../MODEL.md) | this repo | 2025–2026 |
 | [Contracts](../CONTRACTS.md) | this repo | 2025–2026 |
 | [Pricing](../PRICING.md) | this repo | 2025–2026 |
+| [Corpus Status](corpus-status.md) *(living view — auto-refreshed by `cogentia.js corpus-status`)* | this repo | refreshable |
 
 ---
 
