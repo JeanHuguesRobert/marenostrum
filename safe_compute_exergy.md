@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/safe_compute_exergy.md
-last_stamped_at: 2026-05-13
+last_stamped_at: 2026-05-15
 ---
 # Safe Compute Exergy (SCE)
 

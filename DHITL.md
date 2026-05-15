@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/DHITL.md
-last_stamped_at: 2026-05-13
+last_stamped_at: 2026-05-15
 ---
 # DHITL, Democratic Humans In The Loop
 

@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_is_all_you_need.md
-last_stamped_at: 2026-05-13
+last_stamped_at: 2026-05-15
 ---
 # Infrastructure Is All You Need
 ## Toward a Structural Theory of AI Safety Grounded in Compute Sovereignty and Democratic Energy Governance

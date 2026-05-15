@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/EDF.md
-last_stamped_at: 2026-05-13
+last_stamped_at: 2026-05-15
 ---
 # EDF, Solaire et ZNI : Anatomie d'une Captation de Ressource — Le cas de la Corse
 

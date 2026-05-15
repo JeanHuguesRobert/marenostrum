@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/CONTRACTS.md
-last_stamped_at: 2026-05-13
+last_stamped_at: 2026-05-15
 ---
 # MareNostrum — Energy Availability Contracts
 

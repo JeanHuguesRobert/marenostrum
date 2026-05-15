@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/POLICY_PAPER.md
-last_stamped_at: 2026-05-13
+last_stamped_at: 2026-05-15
 ---
 # Mare Nostrum: Energy Sovereignty as Democratic Commons
 ## A Framework for Solar-Dominant Mediterranean Island Systems
