@@ -21,7 +21,7 @@ The argument, in one paragraph:
 
 This is the economic case for cooperative sovereign compute. It is also the strategic case for France and Europe: distributed, democratically governed AI infrastructure is harder to capture, harder to disable, and harder to monopolise than centralised hyperscaler infrastructure.
 
-MareNostrum defines the architecture, the governance, the pricing, and the contracts for this infrastructure. [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta) builds it.
+MareNostrum defines the architecture, the governance, the pricing, and the contracts for the energy + compute substrate. [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta) operates it as an integrated four-layer stack — energy, compute, cognition ([Cogentia](https://github.com/JeanHuguesRobert/cogentia)), and civic ([inseme](https://github.com/JeanHuguesRobert/inseme)).
 
 ---
 
@@ -135,13 +135,19 @@ Read in order. Each document derives from the one before it.
 
 ## Ecosystem
 
-MareNostrum is the strategic layer of a three-repository ecosystem:
+MareNostrum is the strategic layer of a five-repository corpus. It specifies; the others build, tool, run, and govern.
 
 | Repository | Role |
 |---|---|
-| **MareNostrum** | **Strategic framework. Sovereign compute for France/Europe. Governance, pricing, contracts, network theory.** |
-| [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta) | Engineering firm + software publisher. Implements the MareNostrum architecture. DC-native EPN nodes. Mariani Village / Dilorta. |
-| [barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani) | Political and institutional framework. Plan 2038. Corsican senatorial candidacy. |
+| **MareNostrum** | **Strategic framework. Sovereign compute for France/Europe. Governance, pricing, contracts, network theory, DHITL axiom.** |
+| [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta) | Engineering firm + software publisher + stack operator. Implements the MareNostrum architecture across four layers. DC-native EPN nodes, Mariani Village / Dilorta, Inference Packet Networks. |
+| [Cogentia](https://github.com/JeanHuguesRobert/cogentia) | Cognitive infrastructure tooling. `cogentia.js` CLI, Cogentia Commons methodology, the `cogentia.continuation.v1` provider-neutral resumption protocol. |
+| [inseme](https://github.com/JeanHuguesRobert/inseme) | Platform — COP runtime, briques, Kudocracy.Survey, Inseme Agora, Ophélia AI mediator, Atlas of Biodiversity. Multi-instance per-commune deployment. |
+| [barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani) | Political and institutional framework. Plan 2038. Corsican senatorial candidacy. *Discours de la seconde méthode* — the corpus methodology. |
+
+The MareNostrum stack diagram above (Mediterranean solar radiation → energy governance → compute certification → traceability → token market → DHITL → local revenue distribution → popular adherence) is the **energy / compute / governance** stack specifically. The cognition layer (Cogentia tooling) and civic layer (inseme platform) ride on top — see [FractaVolta](https://fractavolta.com) for the integrated picture.
+
+This repository (MareNostrum) is **early-stage and intentionally so**. It is a corpus of papers, not yet a consortium. The repository is the proposal; the consortium is what comes next. See [fractavolta.com/marenostrum](https://fractavolta.com/marenostrum) for the framing of the consortium proposal.
 
 ---
 
