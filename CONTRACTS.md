@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/CONTRACTS.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # MareNostrum — Energy Availability Contracts
 
@@ -156,3 +156,13 @@ This coupling is intentional. The CXU tier reflects not just the energy source b
 *Upstream: `MODEL.md` (physical constraints), `PRICING.md` (price formulas for G and risk_premium).*  
 *Downstream: `GOVERNANCE.md` (arbitration of allocation hierarchy under contested scarcity).*  
 *Related: `traceable_governance.md` (register infrastructure), `safe_compute_exergy.md` (CXU tier coupling).*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

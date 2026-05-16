@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/PAPER_SUN_TO_SOVEREIGNTY.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession
 
@@ -474,3 +474,13 @@ The EPCI Sud-Corse alone accounts for 30.4% of total tourist tax collected — c
 ---
 
 *End of Appendix A. All figures reproduced from ATC (2026) with full source attribution. Raw data collected by the Observatoire du Tourisme de la Corse from the 19 intercommunal bodies of Corsica, INSEE, Flux Vision Orange, AirDNA, and Airbnb France. No modification has been made to the original figures.*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/EDF.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # EDF, Solaire et ZNI : Anatomie d'une Captation de Ressource — Le cas de la Corse
 
@@ -2046,3 +2046,13 @@ Le guichet CRE stockage Corse (clôture décembre 2025) est ouvert. Y candidater
 **R.BENCH.5 — Publier annuellement un "baromètre de convergence"**
 Sur le modèle du benchmarking européen des systèmes insulaires (IREN2 — Island Renewables 2020 Network), publier chaque année l'écart de la Corse par rapport aux meilleures pratiques insulaires sur chacune des dix dimensions du tableau 51. L'invisibilité de l'écart est une condition de sa persistance.
 
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

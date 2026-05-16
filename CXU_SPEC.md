@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/CXU_SPEC.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # CXU_SPEC — Compute eXergy Unit Specification
 
@@ -505,3 +505,13 @@ These belong in subsequent drafts, after the basic telemetry schema stabilises.
 *Published under CC BY-SA 4.0*
 
 *`github.com/JeanHuguesRobert/marenostrum`*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

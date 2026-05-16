@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/constellia.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES
 
@@ -326,3 +326,13 @@ Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S., Högy, P., 
 *Submitted to ICOME'26 — International Conference on Materials and Energy*  
 *Corte, France, 10–12 June 2026*  
 *Topics: Power Systems, Smart Grids, Microgrids · Storage Technology: Battery, Hydrogen, Supercapacitors · Renewable and Sustainable Energy Systems · IoT, AI, and Energy Simulation Algorithms*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

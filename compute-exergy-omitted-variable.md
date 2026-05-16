@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/compute-exergy-omitted-variable.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # Compute Exergy as an Omitted Variable in AI Governance
 
@@ -603,3 +603,13 @@ Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S., Högy, P. (
 *Published under Creative Commons CC BY-SA 4.0.*
 *Canonical repository: https://github.com/JeanHuguesRobert/marenostrum*
 *Contact: jhr@baronsmariani.org*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

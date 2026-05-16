@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/GOVERNANCE.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # MareNostrum — Governance of the Energy System
 
@@ -156,3 +156,13 @@ These are open problems, not objections to the model. They are the next iteratio
 *Upstream: `MODEL.md`, `PRICING.md`, `CONTRACTS.md`.*  
 *Downstream: `ARCHITECTURE.md` (unified system description).*  
 *Related: `traceable_governance.md` (register infrastructure and fractal governance formalism), `safe_compute_exergy.md` (CXU governance layer).*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

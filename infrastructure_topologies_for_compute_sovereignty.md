@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_topologies_for_compute_sovereignty.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty
 
@@ -155,3 +155,13 @@ The paper’s main contribution is a framework that can be audited, criticized, 
 2. Robert, J. H., \& Valdes, G. (2026). *Constellia: A Fractal Architecture for Energy, Food, and Digital Sovereignty in Island Territories*. submitted to ICOME 2026.
 3. European Space Agency. (2023). *Space Debris: The Silent Threat*.
 4. ANME Tunisia. (2025). *Tunisia Solar Plan 2030: Pathways to 30% Renewables by 2030*.
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

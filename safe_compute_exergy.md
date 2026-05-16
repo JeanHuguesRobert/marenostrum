@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/safe_compute_exergy.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # Safe Compute Exergy (SCE)
 
@@ -467,3 +467,13 @@ The dependency is explicit: **SCE requires Fractavolta**. A CXU without a Fracta
 *Living document — iterative public versions maintained in the MareNostrum repository.*  
 *Priority established by first commit timestamp. Challenge via issues.*  
 *License: CC BY-SA 4.0*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

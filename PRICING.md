@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/PRICING.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # MareNostrum — Energy Availability Pricing Model
 
@@ -155,3 +155,13 @@ These are not weaknesses of the model. They are the parameters that make it accu
 *Upstream: `MODEL.md` (physical definitions of R(t), U(t), E).*  
 *Downstream: `CONTRACTS.md` (formalization of the guarantee commitment), `GOVERNANCE.md` (arbitration of allocation under scarcity).*  
 *Related: `safe_compute_exergy.md` (CXU pricing layer built on this model).*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

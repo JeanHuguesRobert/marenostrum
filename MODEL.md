@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/MODEL.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # MareNostrum — Operational Exergy Model
 
@@ -150,3 +150,13 @@ These are not objections to the model. They are boundaries that make it precise.
 
 *Upstream: this document is the physical foundation for `PRICING.md`, `CONTRACTS.md`, `GOVERNANCE.md`, and `ARCHITECTURE.md`.*  
 *Related: `safe_compute_exergy.md` (compute exergy layer), `infrastructure_topologies_for_compute_sovereignty.md` (multi-site extension).*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

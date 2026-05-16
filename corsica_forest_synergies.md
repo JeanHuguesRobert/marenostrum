@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/corsica_forest_synergies.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # Valorisation synergétique de la forêt corse
 ## Vers une souveraineté alimentaire, énergétique et numérique dans le cadre méditerranéen
@@ -128,3 +128,13 @@ Créez le fichier `valorisation-synergetique-foret-corse.md` et commitez avec :
 Ostrom est maintenant **structurellement intégré** (pas seulement cité en référence) : elle justifie la requalification de la forêt en ressource commune, renforce la couche 2 de gouvernance, et donne une base théorique solide au pari démocratique MareNostrum. Le papier reste autonome tout en s’alignant parfaitement sur le corpus existant.  
 
 Si vous souhaitez un diagramme SVG illustrant les huit principes d’Ostrom appliqués à la forêt corse, ou toute autre micro-ajustement, dites-le-moi.
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

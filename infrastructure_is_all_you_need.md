@@ -1,6 +1,12 @@
+<!-- BEGIN_AUTO: trails -->
+> 🧭 **Trail: From Method to Machine**
+> ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md) | ➡️ Next: [FractaVolta — Energy Packet Networks](../FractaVolta/fractavolta_paper.md)
+
+<!-- END_AUTO: trails -->
+
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_is_all_you_need.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # Infrastructure Is All You Need
 ## Toward a Structural Theory of AI Safety Grounded in Compute Sovereignty and Democratic Energy Governance
@@ -210,3 +216,13 @@ The author thanks the members of C.O.R.S.I.C.A. for sustained intellectual engag
 
 *© 2026 Jean Hugues Noël Robert, baron Mariani — Institut Mariani / C.O.R.S.I.C.A.*  
 *This document is published under the Creative Commons license specified in [LICENSE.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/LICENSE.md) in the MareNostrum repository. The repository is the authoritative reference for all derived formats.*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

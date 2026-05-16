@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/POLICY_PAPER.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # Mare Nostrum: Energy Sovereignty as Democratic Commons
 ## A Framework for Solar-Dominant Mediterranean Island Systems
@@ -293,3 +293,13 @@ Roques, F., Hiroux, C., Saguan, M. (2010). Optimal wind power deployment in Euro
 
 *This paper is published in the open under CC BY-SA 4.0.*
 *Cite as: Robert, J.H.N. (baron Mariani). (2026). Mare Nostrum: Energy Sovereignty as Democratic Commons. Institut Mariani R&D — C.O.R.S.I.C.A. Draft v0.1. github.com/JeanHuguesRobert/marenostrum*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

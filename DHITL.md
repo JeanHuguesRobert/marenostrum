@@ -1,6 +1,12 @@
+<!-- BEGIN_AUTO: trails -->
+> 🧭 **Trail: From Method to Machine**
+> ⬅️ Previous: [Radical Democracy as the Best AI Safety Strategy](../cogentia/research/democratic_ai_safety.md) | ➡️ Next: [Infrastructure is All You Need](infrastructure_is_all_you_need.md)
+
+<!-- END_AUTO: trails -->
+
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/DHITL.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # DHITL, Democratic Humans In The Loop
 
@@ -501,3 +507,13 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 *Institut Mariani, Corte, Corsica — April 2026*
 *Contact: jhr@baronsmariani.org*
 *Published in the open: github.com/JeanHuguesRobert/marenostrum — CC BY-SA 4.0*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->

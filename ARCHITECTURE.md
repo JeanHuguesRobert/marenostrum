@@ -1,6 +1,6 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/ARCHITECTURE.md
-last_stamped_at: 2026-05-15
+last_stamped_at: 2026-05-16
 ---
 # MareNostrum — System Architecture
 
@@ -178,3 +178,13 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 *This document synthesizes: `MODEL.md`, `PRICING.md`, `CONTRACTS.md`, `GOVERNANCE.md`.*  
 *Related ecosystem: `safe_compute_exergy.md`, `traceable_governance.md` (FractaVolta), `infrastructure_topologies_for_compute_sovereignty.md`, `DHITL.md`.*  
 *License: CC BY-SA 4.0 — Priority by commit timestamp.*
+
+
+<!-- BEGIN_AUTO: backlinks -->
+### Backlinks
+
+*These documents link to this file:*
+- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
+
+<!-- END_AUTO: backlinks -->
