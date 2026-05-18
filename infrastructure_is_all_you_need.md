@@ -3,7 +3,7 @@
 > ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md)
 
 > 🧭 **Trail: From Method to Machine**
-> ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md) | ➡️ Next: [FractaVolta — Energy Packet Networks](../FractaVolta/fractavolta_paper.md)
+> ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md) | ➡️ Next: [FractaVolta — Energy Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/fractavolta_paper.md)
 
 <!-- END_AUTO: trails -->
 
