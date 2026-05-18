@@ -1,4 +1,7 @@
 <!-- BEGIN_AUTO: trails -->
+> 🧭 **Trail: From Autonomia to DHITL**
+> ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md)
+
 > 🧭 **Trail: From Method to Machine**
 > ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md) | ➡️ Next: [FractaVolta — Energy Packet Networks](../FractaVolta/fractavolta_paper.md)
 
