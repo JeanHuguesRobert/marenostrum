@@ -1,6 +1,6 @@
 <!-- BEGIN_AUTO: trails -->
 > 🧭 **Trail: From Autonomia to DHITL**
-> ⬅️ Previous: [Democratic AI Safety](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/democratic_ai_safety.md) | ➡️ Next: [Infrastructure is All You Need](infrastructure_is_all_you_need.md)
+> ⬅️ Previous: [La pathologie du secret](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/pathologie_du_secret.md) | ➡️ Next: [Infrastructure is All You Need](infrastructure_is_all_you_need.md)
 
 > 🧭 **Trail: From Method to Machine**
 > ⬅️ Previous: [Democratic AI Safety](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/democratic_ai_safety.md) | ➡️ Next: [Infrastructure is All You Need](infrastructure_is_all_you_need.md)
