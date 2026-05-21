@@ -2,6 +2,8 @@
 author: "Jean Hugues Noël Robert, baron Mariani"
 affiliation: "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
 license: "CC BY-SA 4.0"
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/DHITL.md
+last_stamped_at: 2026-05-16
 ---
 <!-- BEGIN_AUTO: trails -->
 > 🧭 **Trail: From Autonomia to DHITL**
@@ -13,20 +15,11 @@ license: "CC BY-SA 4.0"
 <!-- END_AUTO: trails -->
 
 ---
-canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/DHITL.md
-last_stamped_at: 2026-05-16
----
 # DHITL, Democratic Humans In The Loop
 
 ## Why Infrastructure Is All You Need for AI Safety
 
-**Jean Hugues Noël Robert, baron Mariani**
-
-Institut Mariani, 1 cours Paoli, F-20250 Corte, Corsica
-
-jhr@baronsmariani.org
-
-*Draft — April 2026 — Open work. Published at `github.com/JeanHuguesRobert/marenostrum`. CC BY-SA 4.0. Not for citation without attribution.*
+*Draft — April 2026 — Open work, not for citation without attribution.*
 
 ---
 
@@ -404,11 +397,11 @@ Heim, L., Koessler, L., Soder, L., et al. (2024). Training compute thresholds: F
 
 Irving, G., & Askell, A. (2019). AI safety needs social scientists. *Distill*. https://distill.pub/2019/safety-needs-social-scientists/
 
-Mariani, J. H. R. (2026). Infrastructure is all you need: A three-layer architecture for sovereign AI governance. Companion working paper, Institut Mariani R&D. `github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_is_all_you_need.md`
-
 New York Legislature. (2025). Senate Bill S6953B — Responsible AI Safety and Education Act (RAISE Act). Signed 2025.
 
-Robert, J. H. N. (2026). Cogentia (KYS) — Know Your Self: Personal AI psychometric MVP. GitHub repository. `github.com/JeanHuguesRobert/cogentia`. Regulated by PrivAI.
+Robert, J. H. N. (2026). Infrastructure is all you need: A three-layer architecture for sovereign AI governance. Companion working paper. https://github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_is_all_you_need.md
+
+Robert, J. H. N. (2026). Cogentia (KYS) — Know Your Self: Personal AI psychometric MVP. GitHub repository. https://github.com/JeanHuguesRobert/cogentia. Regulated by PrivAI.
 
 Robert, J. H. N., & Valdes, G. (2026). Constellia: A fractal architecture for energy, food, and digital sovereignty in island territories. *Proceedings of ICOME'26* (submitted). Université de Corse Pasquale Paoli, Corte.
 
