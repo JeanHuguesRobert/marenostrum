@@ -165,7 +165,7 @@ These are open problems, not objections to the model. They are the next iteratio
 ### Backlinks
 
 *These documents link to this file:*
-- [Research Index — MareNostrum](research/index.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
 
 <!-- END_AUTO: backlinks -->

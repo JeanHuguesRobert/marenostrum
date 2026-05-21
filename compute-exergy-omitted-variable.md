@@ -612,7 +612,7 @@ Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S., Högy, P. (
 ### Backlinks
 
 *These documents link to this file:*
-- [Research Index — MareNostrum](research/index.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
 
 <!-- END_AUTO: backlinks -->

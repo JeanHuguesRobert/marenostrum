@@ -522,7 +522,7 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 
 *These documents link to this file:*
 - [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
-- [Research Index — MareNostrum](research/index.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
 
 <!-- END_AUTO: backlinks -->

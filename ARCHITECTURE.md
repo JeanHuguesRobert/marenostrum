@@ -187,7 +187,7 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 ### Backlinks
 
 *These documents link to this file:*
-- [Research Index — MareNostrum](research/index.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
 
 <!-- END_AUTO: backlinks -->

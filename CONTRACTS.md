@@ -165,7 +165,7 @@ This coupling is intentional. The CXU tier reflects not just the energy source b
 ### Backlinks
 
 *These documents link to this file:*
-- [Research Index — MareNostrum](research/index.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
 
 <!-- END_AUTO: backlinks -->

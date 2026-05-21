@@ -5,7 +5,7 @@ license: "CC BY-SA 4.0"
 ---
 <!-- BEGIN_AUTO: trails -->
 > 🧭 **Trail: From Autonomia to DHITL**
-> ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md) | ➡️ Next: [Research Index — Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/index.md)
+> ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md)
 
 > 🧭 **Trail: From Method to Machine**
 > ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md) | ➡️ Next: [FractaVolta — Energy Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/fractavolta_paper.md)
@@ -230,8 +230,8 @@ The author thanks the members of C.O.R.S.I.C.A. for sustained intellectual engag
 ### Backlinks
 
 *These documents link to this file:*
-- [Research Index — MareNostrum](research/index.md)
 - [DHITL, Democratic Humans In The Loop](DHITL.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
+- [Research Index — MareNostrum](research/index.md)
 
 <!-- END_AUTO: backlinks -->
