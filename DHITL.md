@@ -399,9 +399,9 @@ Irving, G., & Askell, A. (2019). AI safety needs social scientists. *Distill*. h
 
 New York Legislature. (2025). Senate Bill S6953B — Responsible AI Safety and Education Act (RAISE Act). Signed 2025.
 
-Robert, J. H. N. (2026). Infrastructure is all you need: A three-layer architecture for sovereign AI governance. Companion working paper. https://github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_is_all_you_need.md
+Robert, J. H. N. (2026). Infrastructure is all you need: A three-layer architecture for sovereign AI governance. Companion working paper. https://.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_is_all_you_need.md
 
-Robert, J. H. N. (2026). Cogentia (KYS) — Know Your Self: Personal AI psychometric MVP. GitHub repository. https://github.com/JeanHuguesRobert/cogentia. Regulated by PrivAI.
+Robert, J. H. N. (2026). Cogentia (KYS) — Know Your Self: Personal AI psychometric MVP.  repository. https://.com/JeanHuguesRobert/cogentia. Regulated by PrivAI.
 
 Robert, J. H. N., & Valdes, G. (2026). Constellia: A fractal architecture for energy, food, and digital sovereignty in island territories. *Proceedings of ICOME'26* (submitted). Université de Corse Pasquale Paoli, Corte.
 
@@ -482,7 +482,7 @@ S5 stability requires CECI < 0.25 **and** ACCI < 0.15. The asymmetry is intentio
 
 ## Appendix B: The Cogentia Framework (Prior Work)
 
-The conceptual architecture of Layer 4 in DHITL builds on the **Cogentia** framework, an independent prior work whose conceptual priority is claimed and timestamped by Jean Hugues Noël Robert, baron Mariani, and whose development is supervised by the non-profit **PrivAI**. The reference implementation is publicly available at `github.com/JeanHuguesRobert/cogentia`.
+The conceptual architecture of Layer 4 in DHITL builds on the **Cogentia** framework, an independent prior work whose conceptual priority is claimed and timestamped by Jean Hugues Noël Robert, baron Mariani, and whose development is supervised by the non-profit **PrivAI**. The reference implementation is publicly available at [`github.com/JeanHuguesRobert/cogentia`](https://github.com/JeanHuguesRobert/cogentia).
 
 The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and the methodological grounding (psychometric framework, axis construction, semantic embedding harmonization, longitudinal analysis, KYS license framework) — live in [`cogentia/research/Cogentia-and-Cogentigram.md`](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/Cogentia-and-Cogentigram.md). This appendix summarizes only the parts that bear directly on DHITL's Layer 4 argument.
 
@@ -499,7 +499,7 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 - The instrument is revocable by its principal at any time, without penalty.
 - All scoring evidence is sanitized server-side before storage.
 
-*Reference*: Robert, J. H. N. (2026). Cogentia. `github.com/JeanHuguesRobert/cogentia`. Regulated by PrivAI.
+*Reference*: Robert, J. H. N. (2026). Cogentia. https://github.com/JeanHuguesRobert/cogentia. Regulated by PrivAI.
 
 ---
 
@@ -507,7 +507,7 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 
 *Institut Mariani, Corte, Corsica — April 2026*
 *Contact: jhr@baronsmariani.org*
-*Published in the open: github.com/JeanHuguesRobert/marenostrum — CC BY-SA 4.0*
+*Published in the open: https://github.com/JeanHuguesRobert/marenostrum — CC BY-SA 4.0*
 
 
 <!-- BEGIN_AUTO: backlinks -->
