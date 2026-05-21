@@ -1,5 +1,8 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/CONTRACTS.md
+author: "Jean Hugues Noël Robert, baron Mariani"
+affiliation: "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+license: "CC BY-SA 4.0"
 last_stamped_at: 2026-05-16
 ---
 # MareNostrum — Energy Availability Contracts
@@ -162,7 +165,7 @@ This coupling is intentional. The CXU tier reflects not just the energy source b
 ### Backlinks
 
 *These documents link to this file:*
-- [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
+- [Corpus Status — marenostrum](research/corpus-status.md)
 
 <!-- END_AUTO: backlinks -->

@@ -172,7 +172,7 @@ The explicit transition pipeline converting solar exergy directly into political
 ### Backlinks
 
 *These documents link to this file:*
-- [Corpus Status — marenostrum](corpus-status.md)
 - [Research Index — MareNostrum](index.md)
+- [Corpus Status — marenostrum](corpus-status.md)
 
 <!-- END_AUTO: backlinks -->

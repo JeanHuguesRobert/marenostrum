@@ -145,7 +145,9 @@ MareNostrum is the strategic layer of a five-repository corpus. It specifies; th
 | [inseme](https://github.com/JeanHuguesRobert/inseme) | Platform — COP runtime, briques, Kudocracy.Survey, Inseme Agora, Ophélia AI mediator, Atlas of Biodiversity. Multi-instance per-commune deployment. |
 | [barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani) | Political and institutional framework. Plan 2038. Corsican senatorial candidacy. *Discours de la seconde méthode* — the corpus methodology. |
 
-The MareNostrum stack diagram above (Mediterranean solar radiation → energy governance → compute certification → traceability → token market → DHITL → local revenue distribution → popular adherence) is the **energy / compute / governance** stack specifically. The cognition layer (Cogentia tooling) and civic layer (inseme platform) ride on top — see [FractaVolta](https://fractavolta.com) for the integrated picture.
+The MareNostrum stack diagram above (Mediterranean solar radiation → energy governance → compute certification → traceability → token market → DHITL → local revenue distribution → popular adherence) is the **energy / compute / governance** stack specifically. The cognition layer (Cogentia tooling) and civic layer (inseme platform) ride on top, in the canonical FractaVolta four-layer stack — see [FractaVolta](https://fractavolta.com) for the integrated picture.
+
+The methodological doctrine that disciplines how every document in the corpus is published — *publish process, treat objections as first-class, structure for machine readability, let the corpus be its own evidence* — lives in [`barons-Mariani/research/second_method.md`](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md).
 
 This repository (MareNostrum) is **early-stage and intentionally so**. It is a corpus of papers, not yet a consortium. The repository is the proposal; the consortium is what comes next. See [fractavolta.com/marenostrum](https://fractavolta.com/marenostrum) for the framing of the consortium proposal.
 
@@ -278,6 +280,6 @@ for our children, for our cities, for the Mediterranean.
 ---
 
 *License: CC BY-SA 4.0 — Priority established by first commit timestamp.*
-*Repository: github.com/JeanHuguesRobert/marenostrum*
-*Challenge via issues. Fork to explore alternatives.*
+*Author: Jean Hugues Noël Robert, baron Mariani — Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica — jhr@baronsmariani.org*
+*Repository: github.com/JeanHuguesRobert/marenostrum — Challenge via issues. Fork to explore alternatives.*
 

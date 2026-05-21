@@ -3,7 +3,7 @@ title: "Corpus Status — marenostrum"
 description: "Current state of the marenostrum knowledge corpus — what is proved, what is open, what remains possible"
 layout: default
 nav_order: 2
-last_modified_at: 2026-05-20
+last_modified_at: 2026-05-21
 repository: "github.com/JeanHuguesRobert/marenostrum"
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/research/corpus-status.md
 last_stamped_at: 2026-05-16
@@ -24,11 +24,11 @@ last_stamped_at: 2026-05-16
 <!-- BEGIN_AUTO: registered_repos -->
 | Repository | research/index.md | Branch | Last commit |
 |---|---|---|---|
-| cogentia | ✅ | main | 2026-05-20 |
-| FractaVolta | ✅ | main | 2026-05-20 |
-| marenostrum | ✅ | main | 2026-05-18 |
-| barons-Mariani | ✅ | main | 2026-05-20 |
-| inseme | ✅ | main | 2026-05-20 |
+| cogentia | ✅ | main | 2026-05-21 |
+| FractaVolta | ✅ | main | 2026-05-21 |
+| marenostrum | ✅ | main | 2026-05-21 |
+| barons-Mariani | ✅ | main | 2026-05-21 |
+| inseme | ✅ | main | 2026-05-21 |
 <!-- END_AUTO: registered_repos -->
 
 ---
@@ -230,7 +230,25 @@ graph LR
 ### Backlinks
 
 *These documents link to this file:*
-- [Corpus Status — marenostrum](corpus-status.md)
+- [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
 - [Research Index — MareNostrum](index.md)
+- [DHITL, Democratic Humans In The Loop](../DHITL.md)
+- [Corpus Status — marenostrum](corpus-status.md)
+- [MareNostrum — System Architecture](../ARCHITECTURE.md)
+- [MareNostrum — Energy Availability Contracts](../CONTRACTS.md)
+- [CXU_SPEC — Compute eXergy Unit Specification](../CXU_SPEC.md)
+- [EDF, Solaire et ZNI : Anatomie d'une Captation de Ressource — Le cas de la Corse](../EDF.md)
+- [MareNostrum — Governance of the Energy System](../GOVERNANCE.md)
+- [MareNostrum — Operational Exergy Model](../MODEL.md)
+- [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
+- [Mare Nostrum: Energy Sovereignty as Democratic Commons](../POLICY_PAPER.md)
+- [MareNostrum — Energy Availability Pricing Model](../PRICING.md)
+- [Compute Exergy as an Omitted Variable in AI Governance](../compute-exergy-omitted-variable.md)
+- [CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES](../constellia.md)
+- [Valorisation synergétique de la forêt corse](../corsica_forest_synergies.md)
+- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md)
+- [lesswrong_post.md](../lesswrong_post.md)
+- [Safe Compute Exergy (SCE)](../safe_compute_exergy.md)
+- [Concept Index — marenostrum](concepts.md)
 
 <!-- END_AUTO: backlinks -->

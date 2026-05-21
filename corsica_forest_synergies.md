@@ -1,5 +1,8 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/corsica_forest_synergies.md
+author: "Jean Hugues Noël Robert, baron Mariani"
+affiliation: "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+license: "CC BY-SA 4.0"
 last_stamped_at: 2026-05-16
 ---
 # Valorisation synergétique de la forêt corse
@@ -134,7 +137,7 @@ Si vous souhaitez un diagramme SVG illustrant les huit principes d’Ostrom appl
 ### Backlinks
 
 *These documents link to this file:*
-- [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
+- [Corpus Status — marenostrum](research/corpus-status.md)
 
 <!-- END_AUTO: backlinks -->

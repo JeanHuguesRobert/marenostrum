@@ -1,3 +1,8 @@
+---
+author: "Jean Hugues Noël Robert, baron Mariani"
+affiliation: "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
+license: "CC BY-SA 4.0"
+---
 <!-- BEGIN_AUTO: trails -->
 > 🧭 **Trail: From Autonomia to DHITL**
 > ⬅️ Previous: [La pathologie du secret](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/pathologie_du_secret.md) | ➡️ Next: [Infrastructure is All You Need](infrastructure_is_all_you_need.md)
@@ -516,7 +521,8 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 ### Backlinks
 
 *These documents link to this file:*
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
 - [Research Index — MareNostrum](research/index.md)
+- [Corpus Status — marenostrum](research/corpus-status.md)
 
 <!-- END_AUTO: backlinks -->
