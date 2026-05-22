@@ -399,9 +399,9 @@ Irving, G., & Askell, A. (2019). AI safety needs social scientists. *Distill*. h
 
 New York Legislature. (2025). Senate Bill S6953B — Responsible AI Safety and Education Act (RAISE Act). Signed 2025.
 
-Robert, J. H. N. (2026). Infrastructure is all you need: A three-layer architecture for sovereign AI governance. Companion working paper. https://.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_is_all_you_need.md
+Robert, J. H. N. (2026). Infrastructure is all you need: A three-layer architecture for sovereign AI governance. Companion working paper. https://github.com/JeanHuguesRobert/marenostrum/blob/main/infrastructure_is_all_you_need.md
 
-Robert, J. H. N. (2026). Cogentia (KYS) — Know Your Self: Personal AI psychometric MVP.  repository. https://.com/JeanHuguesRobert/cogentia. Regulated by PrivAI.
+Robert, J. H. N. (2026). Cogentia (KYS) — Know Your Self: Personal AI psychometric MVP. GitHub repository. https://github.com/JeanHuguesRobert/cogentia. Regulated by PrivAI.
 
 Robert, J. H. N., & Valdes, G. (2026). Constellia: A fractal architecture for energy, food, and digital sovereignty in island territories. *Proceedings of ICOME'26* (submitted). Université de Corse Pasquale Paoli, Corte.
 
