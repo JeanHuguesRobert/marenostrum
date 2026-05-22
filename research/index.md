@@ -77,24 +77,24 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 ### Backlinks
 
 *These documents link to this file:*
-- [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
-- [MareNostrum — Energy Availability Contracts](../CONTRACTS.md)
-- [DHITL, Democratic Humans In The Loop](../DHITL.md)
-- [Corpus Status — marenostrum](corpus-status.md)
 - [MareNostrum — System Architecture](../ARCHITECTURE.md)
+- [Compute Exergy as an Omitted Variable in AI Governance](../compute-exergy-omitted-variable.md)
+- [CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES](../constellia.md)
+- [MareNostrum — Energy Availability Contracts](../CONTRACTS.md)
+- [Valorisation synergétique de la forêt corse](../corsica_forest_synergies.md)
 - [CXU_SPEC — Compute eXergy Unit Specification](../CXU_SPEC.md)
+- [DHITL, Democratic Humans In The Loop](../DHITL.md)
 - [EDF, Solaire et ZNI : Anatomie d'une Captation de Ressource — Le cas de la Corse](../EDF.md)
 - [MareNostrum — Governance of the Energy System](../GOVERNANCE.md)
+- [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
+- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md)
+- [lesswrong_post.md](../lesswrong_post.md)
 - [MareNostrum — Operational Exergy Model](../MODEL.md)
 - [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](../POLICY_PAPER.md)
-- [Compute Exergy as an Omitted Variable in AI Governance](../compute-exergy-omitted-variable.md)
-- [CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES](../constellia.md)
-- [Valorisation synergétique de la forêt corse](../corsica_forest_synergies.md)
-- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md)
-- [lesswrong_post.md](../lesswrong_post.md)
 - [MareNostrum — Energy Availability Pricing Model](../PRICING.md)
 - [Concept Index — marenostrum](concepts.md)
+- [Corpus Status — marenostrum](corpus-status.md)
 - [Safe Compute Exergy (SCE)](../safe_compute_exergy.md)
 
 <!-- END_AUTO: backlinks -->
