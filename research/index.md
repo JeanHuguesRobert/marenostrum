@@ -14,7 +14,7 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 ---
 
 *A map of what is, what is in progress, and what could be.*
-*See sibling indexes in [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md), [Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/index.md), [barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/index.md), [Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md).*
+*See sibling indexes in [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md), [Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/index.md), [barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/index.md), [Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md), [Inox](https://github.com/JeanHuguesRobert/Inox/blob/master/research/index.md).*
 
 ---
 
@@ -55,6 +55,7 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 | [DC-Native Energy Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/dc_native_epn.md) | FractaVolta |
 | [Invidia](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/invidia.md) | barons-Mariani |
 | [Inseme — deployable platform + COP runtime](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md) | inseme |
+| [Inox — language and runtime substrate](https://github.com/JeanHuguesRobert/Inox/blob/master/research/inox-spec.md) *(concatenative stack VM with strict control/data plane separation; intended runtime for nodes of the future Fractanet)* | Inox |
 
 ---
 
