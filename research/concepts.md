@@ -78,7 +78,7 @@ A cogentigram is a structured, partial, auditable and revisable representation o
 The core architectural axiom establishing democratic oversight within AI safety, ensuring humans retain ultimate loop control.
 
 **Reference documents:**
-- `DHITL.md`
+- [`DHITL.md`](../DHITL.md)
 
 ---
 
@@ -92,7 +92,7 @@ The core architectural axiom establishing democratic oversight within AI safety,
 The unified metric matching compute availability strictly to its direct thermodynamic physical constraints and exergy limits.
 
 **Reference documents:**
-- `CXU_SPEC.md`
+- [`CXU_SPEC.md`](../CXU_SPEC.md)
 
 ---
 
@@ -106,7 +106,7 @@ The unified metric matching compute availability strictly to its direct thermody
 A bounded availability paradigm ensuring computing infrastructure guarantees physical safety limits at the power and thermodynamic levels.
 
 **Reference documents:**
-- `safe_compute_exergy.md`
+- [`safe_compute_exergy.md`](../safe_compute_exergy.md)
 
 ---
 
@@ -120,7 +120,7 @@ A bounded availability paradigm ensuring computing infrastructure guarantees phy
 A network topology distributing democratic oversight and compute exergy safely.
 
 **Reference documents:**
-- `constellia.md`
+- [`constellia.md`](../constellia.md)
 
 ---
 
@@ -134,7 +134,7 @@ A network topology distributing democratic oversight and compute exergy safely.
 Specific ecological, thermal, and logistical integration points between the physical compute infrastructure and the natural Corsican environment.
 
 **Reference documents:**
-- `corsica_forest_synergies.md`
+- [`corsica_forest_synergies.md`](../corsica_forest_synergies.md)
 
 ---
 
@@ -151,7 +151,7 @@ The central doctrine arguing why AI Safety inherently requires Democratic Humans
 - DHITL
 
 **Reference documents:**
-- `infrastructure_is_all_you_need.md`
+- [`infrastructure_is_all_you_need.md`](../infrastructure_is_all_you_need.md)
 
 ---
 
@@ -165,14 +165,21 @@ The central doctrine arguing why AI Safety inherently requires Democratic Humans
 The explicit transition pipeline converting solar exergy directly into political and computational independence.
 
 **Reference documents:**
-- `PAPER_SUN_TO_SOVEREIGNTY.md`
+- [`PAPER_SUN_TO_SOVEREIGNTY.md`](../PAPER_SUN_TO_SOVEREIGNTY.md)
 
 
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
 *These documents link to this file:*
+- [CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES](../constellia.md)
+- [Valorisation synergétique de la forêt corse](../corsica_forest_synergies.md)
+- [CXU_SPEC — Compute eXergy Unit Specification](../CXU_SPEC.md)
+- [DHITL, Democratic Humans In The Loop](../DHITL.md)
+- [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
+- [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
 - [Corpus Status — marenostrum](corpus-status.md)
 - [Research Index — MareNostrum](index.md)
+- [Safe Compute Exergy (SCE)](../safe_compute_exergy.md)
 
 <!-- END_AUTO: backlinks -->

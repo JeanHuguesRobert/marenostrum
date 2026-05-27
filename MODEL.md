@@ -114,7 +114,7 @@ The model exhibits three qualitatively different operating regimes:
 
 **Scarcity** (P(t) < D(t)): production is insufficient. R(t) > 0. w(t) > 1. Storage is discharged to cover the deficit. If S(t) = 0 and R(t) > 0, the system cannot meet demand — a breach event occurs. The marginal value of storage in this regime is very high.
 
-**Key structural property**: the value of the system is dominated by its behavior during scarcity events, not by its average output. A system that rarely fails under stress is worth more than one with higher average production but frequent stress failures. This is the core argument for sizing storage generously and for the scarcity-weighted pricing model in `PRICING.md`.
+**Key structural property**: the value of the system is dominated by its behavior during scarcity events, not by its average output. A system that rarely fails under stress is worth more than one with higher average production but frequent stress failures. This is the core argument for sizing storage generously and for the scarcity-weighted pricing model in [`PRICING.md`](PRICING.md).
 
 ---
 
@@ -130,7 +130,7 @@ This is why the model treats storage capacity C as a first-class parameter. Opti
 
 ## 9. Relation to Safe Compute Exergy
 
-The MareNostrum energy model is the physical substrate of the Safe Compute Exergy (SCE) framework defined in `safe_compute_exergy.md`. The CXU (Compute eXergy Unit) is denominated in terms of the operational exergy E defined here, adjusted for hardware efficiency, system losses, SLA compliance, and provenance traceability.
+The MareNostrum energy model is the physical substrate of the Safe Compute Exergy (SCE) framework defined in [`safe_compute_exergy.md`](safe_compute_exergy.md). The CXU (Compute eXergy Unit) is denominated in terms of the operational exergy E defined here, adjusted for hardware efficiency, system losses, SLA compliance, and provenance traceability.
 
 Concretely: a compute job that runs during a high-R(t) period consumes energy with higher operational exergy than one running during surplus. The CXU cost of the job reflects this — not as a penalty, but as an accurate accounting of the value of the resource consumed.
 
@@ -142,7 +142,7 @@ This creates the correct incentive: compute operators who schedule jobs during s
 
 This model does not claim to be complete. It is a minimal formalization of the variables and relationships that drive the system's core behavior. Several important aspects are outside its scope:
 
-- **Multi-zone dynamics**: the model describes a single site. Mediterranean-scale interconnection between multiple sites requires a multi-node extension, which is partially addressed in `infrastructure_topologies_for_compute_sovereignty.md`.
+- **Multi-zone dynamics**: the model describes a single site. Mediterranean-scale interconnection between multiple sites requires a multi-node extension, which is partially addressed in [`infrastructure_topologies_for_compute_sovereignty.md`](infrastructure_topologies_for_compute_sovereignty.md).
 - **Demand forecasting**: D(t) is treated as an input. Forecasting it requires separate modeling.
 - **Production forecasting**: P(t) is treated as an input. Solar irradiance forecasting is a mature field; its integration is left to deployment-specific implementations.
 - **Storage degradation**: C is treated as constant. Battery capacity degrades over time; the model requires periodic recalibration.
@@ -151,15 +151,22 @@ These are not objections to the model. They are boundaries that make it precise.
 
 ---
 
-*Upstream: this document is the physical foundation for `PRICING.md`, `CONTRACTS.md`, `GOVERNANCE.md`, and `ARCHITECTURE.md`.*  
-*Related: `safe_compute_exergy.md` (compute exergy layer), `infrastructure_topologies_for_compute_sovereignty.md` (multi-site extension).*
+*Upstream: this document is the physical foundation for [`PRICING.md`](PRICING.md), [`CONTRACTS.md`](CONTRACTS.md), [`GOVERNANCE.md`](GOVERNANCE.md), and [`ARCHITECTURE.md`](ARCHITECTURE.md).*  
+*Related: [`safe_compute_exergy.md`](safe_compute_exergy.md) (compute exergy layer), [`infrastructure_topologies_for_compute_sovereignty.md`](infrastructure_topologies_for_compute_sovereignty.md) (multi-site extension).*
 
 
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
 *These documents link to this file:*
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
+- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](infrastructure_topologies_for_compute_sovereignty.md)
+- [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
+- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
+- [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
 
 <!-- END_AUTO: backlinks -->

@@ -16,7 +16,7 @@ last_stamped_at: 2026-05-26
 
 This document describes the MareNostrum system as a whole — how its layers connect, how information flows between them, what properties emerge from their combination, and what the system is ultimately for.
 
-It does not replace the layer-specific documents (`MODEL.md`, `PRICING.md`, `CONTRACTS.md`, `GOVERNANCE.md`). It is the map that shows how those documents fit together, and the argument for why the combination produces something the parts alone do not.
+It does not replace the layer-specific documents ([`MODEL.md`](MODEL.md), [`PRICING.md`](PRICING.md), [`CONTRACTS.md`](CONTRACTS.md), [`GOVERNANCE.md`](GOVERNANCE.md)). It is the map that shows how those documents fit together, and the argument for why the combination produces something the parts alone do not.
 
 ---
 
@@ -139,7 +139,7 @@ Storage S(t) appears in every layer:
 
 This is why storage investment is the central strategic decision in a MareNostrum deployment. Undersizing storage creates brittleness in every layer simultaneously: physical breaches, price volatility, contract failures, and governance crises all become more frequent and more severe. Oversizing storage wastes capital but reduces system risk.
 
-The optimal sizing is a function of local demand patterns, solar irradiance variability, contract mix (higher G_average requires more storage), and risk tolerance. It can be calculated from the model in `MODEL.md` once local parameters are characterized.
+The optimal sizing is a function of local demand patterns, solar irradiance variability, contract mix (higher G_average requires more storage), and risk tolerance. It can be calculated from the model in [`MODEL.md`](MODEL.md) once local parameters are characterized.
 
 ---
 
@@ -170,7 +170,7 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 
 ## 9. Open Problems at the System Level
 
-**Multi-zone consistency**: the model in `MODEL.md` describes a single site. A Mediterranean network of interconnected sites must coordinate R(t) across zones — energy that is scarce in Corsica may be surplus in Tunisia. The inter-zone allocation rules require extension of the governance model to handle cross-border scarcity events without creating dependency hierarchies that violate the foundational axiom. Partially addressed in `infrastructure_topologies_for_compute_sovereignty.md`; not yet formalized.
+**Multi-zone consistency**: the model in [`MODEL.md`](MODEL.md) describes a single site. A Mediterranean network of interconnected sites must coordinate R(t) across zones — energy that is scarce in Corsica may be surplus in Tunisia. The inter-zone allocation rules require extension of the governance model to handle cross-border scarcity events without creating dependency hierarchies that violate the foundational axiom. Partially addressed in [`infrastructure_topologies_for_compute_sovereignty.md`](infrastructure_topologies_for_compute_sovereignty.md); not yet formalized.
 
 **Simulation before deployment**: the feedback loop between layers should be tested computationally before physical deployment. A multi-agent simulation of the full stack under realistic Mediterranean demand and solar profiles would validate the stability of the pricing and contract mechanisms and identify calibration requirements for α and C. Not yet built.
 
@@ -178,8 +178,8 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 
 ---
 
-*This document synthesizes: `MODEL.md`, `PRICING.md`, `CONTRACTS.md`, `GOVERNANCE.md`.*  
-*Related ecosystem: `safe_compute_exergy.md`, `traceable_governance.md` (FractaVolta), `infrastructure_topologies_for_compute_sovereignty.md`, `DHITL.md`.*  
+*This document synthesizes: [`MODEL.md`](MODEL.md), [`PRICING.md`](PRICING.md), [`CONTRACTS.md`](CONTRACTS.md), [`GOVERNANCE.md`](GOVERNANCE.md).*  
+*Related ecosystem: [`safe_compute_exergy.md`](safe_compute_exergy.md), [`traceable_governance.md`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/traceable_governance.md) (FractaVolta), [`infrastructure_topologies_for_compute_sovereignty.md`](infrastructure_topologies_for_compute_sovereignty.md), [`DHITL.md`](DHITL.md).*  
 *License: CC BY-SA 4.0 — Priority by commit timestamp.*
 
 
@@ -187,7 +187,15 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 ### Backlinks
 
 *These documents link to this file:*
+- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
+- [DHITL, Democratic Humans In The Loop](DHITL.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](infrastructure_topologies_for_compute_sovereignty.md)
+- [MareNostrum — Operational Exergy Model](MODEL.md)
+- [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
+- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
+- [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
 
 <!-- END_AUTO: backlinks -->

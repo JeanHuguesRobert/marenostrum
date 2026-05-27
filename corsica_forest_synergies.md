@@ -137,6 +137,7 @@ Si vous souhaitez un diagramme SVG illustrant les huit principes d’Ostrom appl
 ### Backlinks
 
 *These documents link to this file:*
+- [Concept Index — marenostrum](research/concepts.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
 

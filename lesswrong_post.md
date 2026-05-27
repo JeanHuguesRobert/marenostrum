@@ -62,9 +62,9 @@ Full document: [DHIL.md](https://github.com/JeanHuguesRobert/marenostrum/blob/ma
 ### Current State of the Project
 
 We now have a coherent triptych:
-- Foundational conjecture (`infrastructure_is_all_you_need.md`)
+- Foundational conjecture ([`infrastructure_is_all_you_need.md`](infrastructure_is_all_you_need.md))
 - Operational mechanism (`safe-compute-exergy-cdc.md`)
-- Comparative topology analysis (`infrastructure_topologies_for_compute_sovereignty.md`)
+- Comparative topology analysis ([`infrastructure_topologies_for_compute_sovereignty.md`](infrastructure_topologies_for_compute_sovereignty.md))
 
 Open discussion thread: [Issue #1](https://github.com/JeanHuguesRobert/marenostrum/issues/1)
 
@@ -92,6 +92,8 @@ All documents are living and open for contribution.
 ### Backlinks
 
 *These documents link to this file:*
+- [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
+- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](infrastructure_topologies_for_compute_sovereignty.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
 

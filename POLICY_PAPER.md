@@ -256,11 +256,11 @@ Key technical documents:
 
 | File | Content |
 |------|---------|
-| `MODEL.md` | Physical layer: state variables P(t), D(t), S(t), R(t), operational exergy E |
-| `PRICING.md` | Economic layer: price function p(t) = p₀ · f(R(t)), linear and exponential forms |
-| `CONTRACTS.md` | Contract layer: reliability coefficient G, compensation mechanism, shedding hierarchy |
-| `GOVERNANCE.md` | Governance layer: one-person-one-vote architecture, traceability specification |
-| `ARCHITECTURE.md` | Integrated layer interaction and system invariants |
+| [`MODEL.md`](MODEL.md) | Physical layer: state variables P(t), D(t), S(t), R(t), operational exergy E |
+| [`PRICING.md`](PRICING.md) | Economic layer: price function p(t) = p₀ · f(R(t)), linear and exponential forms |
+| [`CONTRACTS.md`](CONTRACTS.md) | Contract layer: reliability coefficient G, compensation mechanism, shedding hierarchy |
+| [`GOVERNANCE.md`](GOVERNANCE.md) | Governance layer: one-person-one-vote architecture, traceability specification |
+| [`ARCHITECTURE.md`](ARCHITECTURE.md) | Integrated layer interaction and system invariants |
 
 All documents are published under CC BY-SA 4.0. Every revision is publicly timestamped and attributed. The repository is itself an implementation of the traceability principle it describes.
 
@@ -302,6 +302,11 @@ Roques, F., Hiroux, C., Saguan, M. (2010). Optimal wind power deployment in Euro
 ### Backlinks
 
 *These documents link to this file:*
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
+- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [MareNostrum — Operational Exergy Model](MODEL.md)
+- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
 

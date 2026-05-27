@@ -514,7 +514,9 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 ### Backlinks
 
 *These documents link to this file:*
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
 - [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
+- [Concept Index — marenostrum](research/concepts.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
 

@@ -14,9 +14,9 @@ last_stamped_at: 2026-05-26
 
 ## What This Document Is
 
-This document defines how the physical model in `MODEL.md` translates into economic value. The central argument is simple: the product being sold is not a kilowatt-hour. It is a guarantee of availability under scarcity. Pricing a kilowatt-hour as a commodity ignores the only variable that determines its actual value to the user — whether it is there when needed.
+This document defines how the physical model in [`MODEL.md`](MODEL.md) translates into economic value. The central argument is simple: the product being sold is not a kilowatt-hour. It is a guarantee of availability under scarcity. Pricing a kilowatt-hour as a commodity ignores the only variable that determines its actual value to the user — whether it is there when needed.
 
-The pricing model is derived from the physics, not imposed on it. Every formula here follows directly from the scarcity variable R(t) defined in `MODEL.md`.
+The pricing model is derived from the physics, not imposed on it. Every formula here follows directly from the scarcity variable R(t) defined in [`MODEL.md`](MODEL.md).
 
 ---
 
@@ -94,7 +94,7 @@ p_guaranteed(t, G) = p(t) + G · risk_premium(t)
 ```
 
 where:
-- G ∈ [0,1] is the guarantee level (defined in `CONTRACTS.md`)
+- G ∈ [0,1] is the guarantee level (defined in [`CONTRACTS.md`](CONTRACTS.md))
 - `risk_premium(t)` is the cost of holding the storage reserves required to honor the guarantee at time t
 
 A G = 0 contract is pure spot: no guarantee, price equals p(t). A G = 1 contract is full guarantee: the operator commits to delivery regardless of R(t), and prices in the full cost of the storage reserves required to make that commitment credible.
@@ -109,7 +109,7 @@ Storage S(t) dampens price volatility by absorbing the impact of production vari
 
 This creates a clear economic role for storage investment: it reduces the variance of the price distribution. Users who value price predictability should be willing to pay a premium for it — which is exactly what guaranteed contracts formalize.
 
-The relationship between storage capacity C, scarcity frequency, and price volatility can be derived from the model in `MODEL.md`. Optimal C minimizes the expected cost of scarcity events (price spikes times their probability and depth) net of storage capital cost. This is a standard optimization problem once the local distribution of P(t) and D(t) is characterized.
+The relationship between storage capacity C, scarcity frequency, and price volatility can be derived from the model in [`MODEL.md`](MODEL.md). Optimal C minimizes the expected cost of scarcity events (price spikes times their probability and depth) net of storage capital cost. This is a standard optimization problem once the local distribution of P(t) and D(t) is characterized.
 
 ---
 
@@ -129,7 +129,7 @@ This is the same logic that makes insurance valuable: the expected payout is not
 
 ## 8. Connection to CXU Pricing
 
-The energy pricing model defined here is the physical layer beneath the CXU pricing structure in `safe_compute_exergy.md`.
+The energy pricing model defined here is the physical layer beneath the CXU pricing structure in [`safe_compute_exergy.md`](safe_compute_exergy.md).
 
 A compute job that runs at time t consumes energy priced at p(t). Its CXU cost reflects:
 
@@ -155,16 +155,22 @@ These are not weaknesses of the model. They are the parameters that make it accu
 
 ---
 
-*Upstream: `MODEL.md` (physical definitions of R(t), U(t), E).*  
-*Downstream: `CONTRACTS.md` (formalization of the guarantee commitment), `GOVERNANCE.md` (arbitration of allocation under scarcity).*  
-*Related: `safe_compute_exergy.md` (CXU pricing layer built on this model).*
+*Upstream: [`MODEL.md`](MODEL.md) (physical definitions of R(t), U(t), E).*  
+*Downstream: [`CONTRACTS.md`](CONTRACTS.md) (formalization of the guarantee commitment), [`GOVERNANCE.md`](GOVERNANCE.md) (arbitration of allocation under scarcity).*  
+*Related: [`safe_compute_exergy.md`](safe_compute_exergy.md) (CXU pricing layer built on this model).*
 
 
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
 *These documents link to this file:*
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
+- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [MareNostrum — Operational Exergy Model](MODEL.md)
+- [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
+- [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
 
 <!-- END_AUTO: backlinks -->

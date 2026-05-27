@@ -30,7 +30,7 @@ Its foundational axiom is normative: **sovereign democratic governance (1 person
 
 ## Reader's Note
 
-This document formalizes an intuition emerging from the dialogue "Photons to Inferences" (April 2026) and extends the Mediterranean Exergy Charter and `infrastructure_is_all_you_need.md`.
+This document formalizes an intuition emerging from the dialogue "Photons to Inferences" (April 2026) and extends the Mediterranean Exergy Charter and [`infrastructure_is_all_you_need.md`](infrastructure_is_all_you_need.md).
 
 It is a living design artifact. Traceability is structural, not optional — and the same applies to this document's own revision history. Priority of ideas is established by commit timestamp.
 
@@ -476,6 +476,13 @@ The dependency is explicit: **SCE requires Fractavolta**. A CXU without a Fracta
 ### Backlinks
 
 *These documents link to this file:*
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
+- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
+- [MareNostrum — Operational Exergy Model](MODEL.md)
+- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
+- [Concept Index — marenostrum](research/concepts.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
 

@@ -14,7 +14,7 @@ last_stamped_at: 2026-05-26
 
 ## What This Document Is
 
-This document defines how decisions are made in the MareNostrum system. It sits above the physical, pricing, and contractual layers — but it does not override them. Physical constraints cannot be governed away; the model in `MODEL.md` sets hard limits that no governance decision can breach. Within those limits, governance determines how available resources are allocated, by whom, according to what principles.
+This document defines how decisions are made in the MareNostrum system. It sits above the physical, pricing, and contractual layers — but it does not override them. Physical constraints cannot be governed away; the model in [`MODEL.md`](MODEL.md) sets hard limits that no governance decision can breach. Within those limits, governance determines how available resources are allocated, by whom, according to what principles.
 
 The central design choice: governance is not a management layer added for regulatory compliance. It is the mechanism that prevents the technical system from being captured by any single actor — operator, regulator, or state. The architecture of the governance layer is designed so that capture is architecturally visible and therefore preventable.
 
@@ -106,7 +106,7 @@ The governance layer is explicitly designed to prevent four capture scenarios:
 
 ## 7. Governance of the Benchmark
 
-The reference inference I_ref (defined in `safe_compute_exergy.md`) is a governed convention that determines the CXU denomination. As hardware efficiency improves, a fixed I_ref becomes easier to achieve, creating inflationary pressure on CXU supply.
+The reference inference I_ref (defined in [`safe_compute_exergy.md`](safe_compute_exergy.md)) is a governed convention that determines the CXU denomination. As hardware efficiency improves, a fixed I_ref becomes easier to achieve, creating inflationary pressure on CXU supply.
 
 The L₃ governance body manages this through a defined update process:
 
@@ -156,16 +156,22 @@ These are open problems, not objections to the model. They are the next iteratio
 
 ---
 
-*Upstream: `MODEL.md`, `PRICING.md`, `CONTRACTS.md`.*  
-*Downstream: `ARCHITECTURE.md` (unified system description).*  
-*Related: `traceable_governance.md` (register infrastructure and fractal governance formalism), `safe_compute_exergy.md` (CXU governance layer).*
+*Upstream: [`MODEL.md`](MODEL.md), [`PRICING.md`](PRICING.md), [`CONTRACTS.md`](CONTRACTS.md).*  
+*Downstream: [`ARCHITECTURE.md`](ARCHITECTURE.md) (unified system description).*  
+*Related: [`traceable_governance.md`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/traceable_governance.md) (register infrastructure and fractal governance formalism), [`safe_compute_exergy.md`](safe_compute_exergy.md) (CXU governance layer).*
 
 
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
 *These documents link to this file:*
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
+- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
+- [MareNostrum — Operational Exergy Model](MODEL.md)
+- [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
+- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
+- [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
 
 <!-- END_AUTO: backlinks -->

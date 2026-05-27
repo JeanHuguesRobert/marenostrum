@@ -14,7 +14,7 @@ last_stamped_at: 2026-05-26
 
 ## What This Document Is
 
-This document defines the contractual layer of the MareNostrum system. Contracts are the mechanism by which the physical model (`MODEL.md`) and the pricing model (`PRICING.md`) become binding commitments between parties.
+This document defines the contractual layer of the MareNostrum system. Contracts are the mechanism by which the physical model ([`MODEL.md`](MODEL.md)) and the pricing model ([`PRICING.md`](PRICING.md)) become binding commitments between parties.
 
 The key distinction: a contract in this system is not an agreement to deliver a quantity of energy. It is an agreement to deliver a level of availability — a guarantee that energy will be there when needed, with explicit consequences if it is not. This distinction is not semantic. It changes what operators must invest in (storage reserves, not just generation capacity) and what users are actually buying (reliability, not commodity).
 
@@ -56,7 +56,7 @@ Appropriate for: critical infrastructure, medical systems, regulated financial o
 
 ### 2.4 Sovereign Contract (G = 1.0)
 
-Full guarantee. The seller commits to uninterrupted service under all system conditions, including the activation of the Exergy Lock Protocol (see `safe_compute_exergy.md`). This requires not only local storage reserves but redundant supply pathways and priority access to federation-level reserves.
+Full guarantee. The seller commits to uninterrupted service under all system conditions, including the activation of the Exergy Lock Protocol (see [`safe_compute_exergy.md`](safe_compute_exergy.md)). This requires not only local storage reserves but redundant supply pathways and priority access to federation-level reserves.
 
 Sovereign contracts are the basis for Sovereign-tier CXU certification. A compute job run under a Sovereign contract, with full provenance traceability, earns the maximum η_traceability score and the corresponding market premium (×10–×31 over spot).
 
@@ -68,7 +68,7 @@ Appropriate for: public infrastructure, democratic decision systems, safety-crit
 
 G is defined operationally, not aspirationally. G = 0.95 means the operator commits to serving contracted demand in 95% of scarcity-hours over the contract period, measured ex post against observed system data.
 
-This makes G auditable. The contract register (implemented via the Fractavolta governance layer, see `traceable_governance.md`) records:
+This makes G auditable. The contract register (implemented via the Fractavolta governance layer, see [`traceable_governance.md`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/traceable_governance.md)) records:
 - every scarcity event during the contract period
 - the system's delivery performance for each contract holder during each event
 - cumulative G delivered vs. G committed
@@ -156,16 +156,22 @@ This coupling is intentional. The CXU tier reflects not just the energy source b
 
 ---
 
-*Upstream: `MODEL.md` (physical constraints), `PRICING.md` (price formulas for G and risk_premium).*  
-*Downstream: `GOVERNANCE.md` (arbitration of allocation hierarchy under contested scarcity).*  
-*Related: `traceable_governance.md` (register infrastructure), `safe_compute_exergy.md` (CXU tier coupling).*
+*Upstream: [`MODEL.md`](MODEL.md) (physical constraints), [`PRICING.md`](PRICING.md) (price formulas for G and risk_premium).*  
+*Downstream: [`GOVERNANCE.md`](GOVERNANCE.md) (arbitration of allocation hierarchy under contested scarcity).*  
+*Related: [`traceable_governance.md`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/traceable_governance.md) (register infrastructure), [`safe_compute_exergy.md`](safe_compute_exergy.md) (CXU tier coupling).*
 
 
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
 *These documents link to this file:*
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [MareNostrum — Operational Exergy Model](MODEL.md)
+- [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
+- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
+- [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
 
 <!-- END_AUTO: backlinks -->
