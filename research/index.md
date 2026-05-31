@@ -101,7 +101,7 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 - [MareNostrum — Governance of the Energy System](../GOVERNANCE.md)
 - [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
 - [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md)
-- [lesswrong_post.md](../lesswrong_post.md)
+- [lesswrong post](../lesswrong_post.md)
 - [MareNostrum — Operational Exergy Model](../MODEL.md)
 - [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](../POLICY_PAPER.md)

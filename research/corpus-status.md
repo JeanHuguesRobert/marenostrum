@@ -3,7 +3,7 @@ title: "Corpus Status — marenostrum"
 description: "Current state of the marenostrum knowledge corpus — what is proved, what is open, what remains possible"
 layout: default
 nav_order: 2
-last_modified_at: 2026-05-30
+last_modified_at: 2026-05-31
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/research/corpus-status.md
 last_stamped_at: 2026-05-26
 license: CC BY-SA 4.0
@@ -27,13 +27,13 @@ creator: Jean Hugues Noël Robert, baron Mariani (généré automatiquement par 
 <!-- BEGIN_AUTO: registered_repos -->
 | Repository | research/index.md | Branch | Last commit |
 |---|---|---|---|
-| cogentia | ✅ | main | 2026-05-30 |
-| FractaVolta | ✅ | main | 2026-05-30 |
-| marenostrum | ✅ | main | 2026-05-30 |
-| barons-Mariani | ✅ | main | 2026-05-30 |
-| inseme | ✅ | main | 2026-05-29 |
-| Inox | ✅ | master | 2026-05-30 |
-| JeanHuguesRobert | ✅ | main | 2026-05-30 |
+| cogentia | ✅ | main | 2026-05-31 |
+| FractaVolta | ✅ | main | 2026-05-31 |
+| marenostrum | ✅ | main | 2026-05-31 |
+| barons-Mariani | ✅ | main | 2026-05-31 |
+| inseme | ✅ | main | 2026-05-31 |
+| Inox | ✅ | master | 2026-05-31 |
+| JeanHuguesRobert | ✅ | main | 2026-05-31 |
 <!-- END_AUTO: registered_repos -->
 
 ---
@@ -272,7 +272,7 @@ graph LR
 - [MareNostrum — Governance of the Energy System](../GOVERNANCE.md)
 - [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
 - [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md)
-- [lesswrong_post.md](../lesswrong_post.md)
+- [lesswrong post](../lesswrong_post.md)
 - [MareNostrum — Operational Exergy Model](../MODEL.md)
 - [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](../POLICY_PAPER.md)

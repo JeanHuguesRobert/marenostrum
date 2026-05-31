@@ -236,7 +236,7 @@ The author thanks the members of C.O.R.S.I.C.A. for sustained intellectual engag
 
 *These documents link to this file:*
 - [DHITL, Democratic Humans In The Loop](DHITL.md)
-- [lesswrong_post.md](lesswrong_post.md)
+- [lesswrong post](lesswrong_post.md)
 - [Concept Index — marenostrum](research/concepts.md)
 - [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
