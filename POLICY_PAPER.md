@@ -4,6 +4,9 @@ author: "Jean Hugues Noël Robert, baron Mariani"
 affiliation: "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
 license: "CC BY-SA 4.0"
 last_stamped_at: 2026-05-26
+title: "Mare Nostrum: Energy Sovereignty as Democratic Commons"
+date: "2026-03-28"
+status: "working-paper — auto-filled (frontmatter cleanup)"
 ---
 # Mare Nostrum: Energy Sovereignty as Democratic Commons
 ## A Framework for Solar-Dominant Mediterranean Island Systems
