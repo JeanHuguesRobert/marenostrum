@@ -7,7 +7,7 @@ status: "source document — draft under human validation"
 version: "0.6"
 language: "fr"
 license: "CC BY-SA 4.0"
-canonical_path: "marenostrum/research/pacte_anti_capture_solaire_inferentielle.fr.md"
+canonical_path: "marenostrum/research/pacte_anti_capture_solaire_inferentielle.md"
 source_or_derived: "source document"
 human_validation_required: true
 last_stamped_at: "2026-06-07"
@@ -1376,7 +1376,7 @@ Les chantiers suivants restent ouverts mais ne bloquent pas le one-pager :
 
 ## 20. Rapport minimal de rédaction
 
-- **Target document:** `pacte_anti_capture_solaire_inferentielle.fr.md`
+- **Target document:** `pacte_anti_capture_solaire_inferentielle.md`
 - **Type:** source document
 - **Status:** draft v0.6 stabilized for first derived product, under human validation
 - **Files produced or changed:** local Markdown draft only
