@@ -34,11 +34,9 @@ external_references:
   - "https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-chairmans-letter"
   - "https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-larry-fink"
 review_integrated:
-  - "review(5).md — Grok constructive external review, 2026-06-07"
-  - "autonomia(3).md — Autonomia v0.12, uploaded 2026-06-07"
-  - "review(6).md — Grok constructive external review of v0.3, 2026-06-07"
-  - "review(8).md — Grok constructive external review of v0.4, 2026-06-07"
-  - "human author review — v0.5 read and approved as very good, 2026-06-07"
+  - "Grok constructive external reviews — 2026-06-07"
+  - "Autonomia v0.12 cross-check — 2026-06-07"
+  - "Human author review — v0.5 approved for stabilization, 2026-06-07"
 ---
 
 # Pacte anti-capture solaire et inférentielle
