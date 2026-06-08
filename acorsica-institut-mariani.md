@@ -1,38 +1,14 @@
-# Lien avec C.O.R.S.I.C.A. et l’Institut Mariani
+---
+title: "Lien avec C.O.R.S.I.C.A. et l’Institut Mariani"
+status: "alias"
+corpus_role: "alias"
+canonical_document: "research/acorsica-institut-mariani.md"
+redirect_to: "research/acorsica-institut-mariani.md"
+redirected_at: "2026-06-07"
+redirect_reason: "corpus consolidation: institutional boundary note belongs under research"
+---
+# Document deplace
 
-Ce dépôt documente **MareNostrum**, cadre stratégique portant sur la souveraineté énergétique, le calcul souverain, l’exergie de calcul, DHITL (*Democratic Humans In The Loop*) et les infrastructures démocratiques de compute.
+Ce document a ete deplace le 2026-06-07.
 
-Il est lié à l’association **C.O.R.S.I.C.A.** et à l’**Institut Mariani** par des liens de recherche, de doctrine, de préfiguration et de stratégie territoriale.
-
-## Dépôts liés
-
-- C.O.R.S.I.C.A. / gouvernance : [`acorsica/gouvernance`](https://github.com/acorsica/gouvernance)
-- Institut Mariani : [`acorsica/institut-mariani`](https://github.com/acorsica/institut-mariani)
-- FractaVolta : [`JeanHuguesRobert/FractaVolta`](https://github.com/JeanHuguesRobert/FractaVolta)
-- Cogentia : [`JeanHuguesRobert/cogentia`](https://github.com/JeanHuguesRobert/cogentia)
-- Inseme : [`JeanHuguesRobert/inseme`](https://github.com/JeanHuguesRobert/inseme)
-
-## Rôle de MareNostrum
-
-MareNostrum documente une hypothèse stratégique : la souveraineté énergétique, la souveraineté numérique et la gouvernance démocratique des infrastructures d’IA doivent être pensées ensemble.
-
-Le principe DHITL y étend la notion technique de *human in the loop* vers sa condition politique : des humains démocratiquement responsables, capables d’exercer un jugement, et insérés dans une gouvernance traçable.
-
-L’invariant démocratique associé est :
-
-> une personne, une voix  
-> une personne, un vote
-
-## Lien avec C.O.R.S.I.C.A.
-
-C.O.R.S.I.C.A. agit dans une logique d’intérêt général en développant et documentant des communs démocratiques.
-
-MareNostrum constitue une partie du corpus stratégique qui éclaire ces communs, notamment sur les conditions matérielles de l’autonomie de capacité.
-
-## Principe de séparation
-
-Les liens entre MareNostrum, C.O.R.S.I.C.A., l’Institut Mariani, FractaVolta, Inseme, Cogentia ou d’autres dépôts sont des liens documentaires, doctrinaux, historiques ou techniques.
-
-Ils ne valent ni fusion institutionnelle, ni création automatique d’un consortium, ni financement, ni exploitation commerciale, ni soutien politique ou électoral.
-
-> L’interconnexion documentaire ne vaut pas confusion institutionnelle.
+Voir desormais : [research/acorsica-institut-mariani.md](research/acorsica-institut-mariani.md).

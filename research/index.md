@@ -27,6 +27,7 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 
 | Title | Location | Date |
 |---|---|---|
+| [Lien avec C.O.R.S.I.C.A. et l’Institut Mariani](acorsica-institut-mariani.md) *(institutional boundary note — MareNostrum, C.O.R.S.I.C.A. and Institut Mariani)* | this repo | 2026-06-03 |
 | [DHITL — Democratic Humans in the Loop](../DHITL.md) | this repo | 2026 |
 | [CXU Specification](../CXU_SPEC.md) | this repo | 2026 |
 | [Constellia](../constellia.md) *(ICOME'26, avec Guillermo Valdes)* | this repo | 2026 |
@@ -37,6 +38,7 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 | [From Photons to Inferences — LessWrong post on SCE + topology](../lesswrong_post.md) | this repo | 2026-05-08 |
 | [Mare Nostrum — Energy Sovereignty as Democratic Commons (Policy Paper)](../POLICY_PAPER.md) | this repo | 2026-05-08 |
 | [From Sun to Sovereignty — Communal Sovereign Funds vs Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md) | this repo | 2026-05-08 |
+| [Pacte anti-capture solaire et inférentielle (FR)](pacte_anti_capture_solaire_inferentielle.md) *(source document v0.6 — applies Autonomie de Capacité to territorial solar energy and inference capacity)* | this repo | 2026-06-07 |
 | [Valorisation synergétique de la forêt corse (FR)](../corsica_forest_synergies.md) | this repo | 2026-05-08 |
 | [EDF, Solaire et ZNI — Anatomie d'une captation de ressource (FR, v4.0)](../EDF.md) | this repo | 2026-05 |
 | [Architecture](../ARCHITECTURE.md) | this repo | 2025–2026 |
