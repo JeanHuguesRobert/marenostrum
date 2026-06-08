@@ -3,11 +3,10 @@ title: "Pacte anti-capture solaire et inférentielle"
 subtitle: "Application de l’Autonomie de Capacité à la transformation du soleil territorial en capacité d’inférence"
 author: "Jean Hugues Noël Robert"
 affiliation: "Institut Mariani / C.O.R.S.I.C.A. / Mare Nostrum / FractaVolta"
-status: "source document — draft under human validation"
+status: "working-paper"
 version: "0.6"
 language: "fr"
 license: "CC BY-SA 4.0"
-canonical_path: "marenostrum/research/pacte_anti_capture_solaire_inferentielle.md"
 source_or_derived: "source document"
 human_validation_required: true
 last_stamped_at: "2026-06-07"
@@ -37,6 +36,8 @@ review_integrated:
   - "Grok constructive external reviews — 2026-06-07"
   - "Autonomia v0.12 cross-check — 2026-06-07"
   - "Human author review — v0.5 approved for stabilization, 2026-06-07"
+date: "2026-06-07"
+corpus_role: "source"
 ---
 
 # Pacte anti-capture solaire et inférentielle
