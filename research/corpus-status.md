@@ -3,7 +3,7 @@ title: "Corpus Status — marenostrum"
 description: "Current state of the marenostrum knowledge corpus — what is proved, what is open, what remains possible"
 layout: default
 nav_order: 2
-last_modified_at: 2026-06-02
+last_modified_at: 2026-06-08
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/research/corpus-status.md
 last_stamped_at: 2026-06-01
 license: CC BY-SA 4.0
@@ -27,13 +27,13 @@ creator: Jean Hugues Noël Robert, baron Mariani (généré automatiquement par 
 <!-- BEGIN_AUTO: registered_repos -->
 | Repository | research/index.md | Branch | Last commit |
 |---|---|---|---|
-| cogentia | ✅ | main | 2026-06-02 |
-| FractaVolta | ✅ | main | 2026-06-02 |
-| marenostrum | ✅ | main | 2026-06-02 |
-| barons-Mariani | ✅ | main | 2026-06-02 |
-| inseme | ✅ | main | 2026-06-02 |
-| Inox | ✅ | master | 2026-06-02 |
-| JeanHuguesRobert | ✅ | main | 2026-06-02 |
+| cogentia | ✅ | main | 2026-06-08 |
+| FractaVolta | ✅ | main | 2026-06-08 |
+| marenostrum | ✅ | main | 2026-06-08 |
+| barons-Mariani | ✅ | main | 2026-06-08 |
+| inseme | ✅ | main | 2026-06-08 |
+| Inox | ✅ | master | 2026-06-08 |
+| JeanHuguesRobert | ✅ | main | 2026-06-08 |
 <!-- END_AUTO: registered_repos -->
 
 ---
@@ -199,6 +199,7 @@ graph LR
 <!-- BEGIN_AUTO: published -->
 | Title | Location | Date |
 |---|---|---|
+| [Lien avec C.O.R.S.I.C.A. et l’Institut Mariani](acorsica-institut-mariani.md) *(institutional boundary note — MareNostrum, C.O.R.S.I.C.A. and Institut Mariani)* | this repo | 2026-06-03 |
 | [DHITL — Democratic Humans in the Loop](../DHITL.md) | this repo | 2026 |
 | [CXU Specification](../CXU_SPEC.md) | this repo | 2026 |
 | [Constellia](../constellia.md) *(ICOME'26, avec Guillermo Valdes)* | this repo | 2026 |
@@ -209,6 +210,7 @@ graph LR
 | [From Photons to Inferences — LessWrong post on SCE + topology](../lesswrong_post.md) | this repo | 2026-05-08 |
 | [Mare Nostrum — Energy Sovereignty as Democratic Commons (Policy Paper)](../POLICY_PAPER.md) | this repo | 2026-05-08 |
 | [From Sun to Sovereignty — Communal Sovereign Funds vs Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md) | this repo | 2026-05-08 |
+| [Pacte anti-capture solaire et inférentielle (FR)](pacte_anti_capture_solaire_inferentielle.md) *(source document v0.6 — applies Autonomie de Capacité to territorial solar energy and inference capacity)* | this repo | 2026-06-07 |
 | [Valorisation synergétique de la forêt corse (FR)](../corsica_forest_synergies.md) | this repo | 2026-05-08 |
 | [EDF, Solaire et ZNI — Anatomie d'une captation de ressource (FR, v4.0)](../EDF.md) | this repo | 2026-05 |
 | [Architecture](../ARCHITECTURE.md) | this repo | 2025–2026 |
