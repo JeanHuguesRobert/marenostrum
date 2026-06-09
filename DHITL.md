@@ -26,6 +26,22 @@ status: "working-paper — auto-filled (frontmatter cleanup)"
 
 ---
 
+## Orientation
+
+Statut : document source souverain en version de travail.
+
+Fonction dans le corpus : poser l'axiome démocratique et l'architecture anti-capture de l'infrastructure IA, résumée par "Democratic Humans In The Loop".
+
+À lire avant : [Carte globale du Corpus](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/corpus-map.md), [Democratic AI Safety](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/democratic_ai_safety.md), [Pathologie du secret](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/pathologie_du_secret.md).
+
+À lire après : [Infrastructure is All You Need](infrastructure_is_all_you_need.md), [FractaVolta / PGN](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/PGN.md), [Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/COGENTIA.md).
+
+Dépend de : la distinction entre sécurité du modèle et gouvernance de l'infrastructure, le principe "One Human, One Voice", et l'idée de compute exergy traçable.
+
+Continuation : préciser les points de jonction avec FractaVolta, Cogentia et les instruments juridiques de gouvernance démocratique.
+
+Dernière consolidation : 2026-06-09 — ajout de la fiche d'orientation.
+
 ## Abstract
 
 Current AI safety discourse focuses on model-level interventions: alignment techniques, constitutional AI, red-teaming, capability evaluations. We argue this focus is necessary but insufficient. The deeper problem is structural: no model-level safeguard can remain effective if the infrastructure on which AI systems run is itself concentrated, opaque, or captured by actors whose interests diverge from humanity's collective welfare. We propose a framework we call **Democratic Humans in the Loop (DHITL)**, which extends the technical notion of "human in the loop" to its political precondition: a structurally democratic governance of compute infrastructure. We formalize a five-layer architecture — physical, economic, political, cognitive, and technical — and argue that this architecture is both necessary and, if correctly instantiated, sufficient to maintain meaningful human sovereignty over AI systems at civilizational scale. A key contribution is the concept of **Compute Exergy** (Xc), a measurable unit that quantifies useful, certified, traceable compute as distinct from raw computational power, enabling democratic oversight of AI infrastructure the way energy accounting enables grid governance. We identify eleven structural failure modes of current approaches — including FM-11, the outer optimizer governance gap introduced by Decoupled DiLoCo (Douillard et al., 2026) — position DHITL relative to existing AI safety frameworks, and outline formal conditions under which democratic correction remains faster than algorithmic drift.
