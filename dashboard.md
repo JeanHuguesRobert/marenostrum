@@ -17,6 +17,8 @@ tags:
   - machine-a-empecher
   - machine-a-explorer
   - impediment-observatory
+  - potentiel-accumule
+  - strategie-du-barrage
 ---
 
 # MareNostrum — Tableau de bord
@@ -29,6 +31,7 @@ corpus public
 → tests d’exposition
 → empêchements observés
 → apprentissages
+→ accumulation du potentiel
 → continuations
 → consortium ouvert
 ```
@@ -36,6 +39,8 @@ corpus public
 Il ne mesure pas seulement les succès. Il mesure aussi les apprentissages produits par les refus, silences, erreurs d’adressage, non-remises et cadrages institutionnels insuffisants.
 
 Il fonctionne donc comme un **observatoire des empêchements** : non pour personnaliser les refus, mais pour convertir les frictions institutionnelles en données d’apprentissage et en capacités réutilisables.
+
+Il sert aussi à suivre une stratégie d’attente active : lorsque le passage est bloqué, le travail prioritaire devient l’accumulation de potentiel en amont — corpus, outils, automatisations, formulations, preuves, dérivés et partenaires latents.
 
 ## 1. État général
 
@@ -45,6 +50,7 @@ Il fonctionne donc comme un **observatoire des empêchements** : non pour person
 | Traçabilité des interactions | active | Les interactions publiques significatives sont suivies dans `cogentia/interaction_packets/mail_trace.md`. |
 | Cadre institutionnel d’accueil | insuffisant | ICOME’26 a confirmé que MareNostrum ne se réduit pas à une session de colloque. |
 | Observatoire des empêchements | initialisé | Les tests d’exposition qualifient désormais les formes d’empêchement observées. |
+| Potentiel accumulé | en croissance | Les blocages sont convertis en temps de consolidation du corpus, des outils et des dérivés. |
 | Presse / espace public | faible | Aucun relais public fort identifié à ce stade. |
 | Partenaires potentiels | embryonnaire | Pistes énergie, recherche, autonomie alimentaire, institutions, mais pas encore de coalition. |
 | Consortium ouvert | à constituer | La suite doit passer d’une demande d’accueil à une construction progressive du cadre. |
@@ -98,8 +104,36 @@ proposition structurée
 | Réponse sans continuation | Réponse polie ou administrative ne transformant pas l’essai en suite. | convertir en apprentissage ; ne pas insister sans nouvel angle. |
 | Faible relais public | Sujet non constitué comme enjeu médiatique. | produire un dérivé public lisible et autonome. |
 | Dilution transversale | Proposition trop large pour être saisie par un seul acteur. | découper par publics : énergie, élus, recherche IA, finance, citoyen. |
+| Blocage récurrent | Même type de blocage déjà rencontré avec divers acteurs. | ne pas forcer ; consolider le corpus et attendre une nouvelle occasion. |
 
-## 5. Décision stratégique post-ICOME’26
+## 5. Stratégie du barrage : attente active et potentiel accumulé
+
+Lorsqu’un canal est bloqué, la règle n’est pas d’insister indéfiniment.
+
+La stratégie consiste à convertir le temps de blocage en accumulation de potentiel.
+
+```text
+blocage institutionnel
+→ non-insistance
+→ consolidation du corpus
+→ automatisation des outils
+→ accumulation du potentiel
+→ veille des occasions
+→ brèche imprévisible
+→ écoulement renforcé
+```
+
+| Élément | Définition opérationnelle | Indicateur possible |
+|---|---|---|
+| Barrage | Machine à empêcher ou cadre institutionnel qui bloque temporairement l’écoulement. | réponse négative, silence, non-remise, absence de relais. |
+| Eau accumulée | Corpus, preuves, outils, automatisations, dérivés, contacts latents. | nombre de documents, scripts, fiches, paquets, interactions tracées. |
+| Pression | Lisibilité, maturité, robustesse, capacité de réponse rapide. | capacité à produire un support adapté en moins d’une heure / un jour. |
+| Brèche | Occasion imprévisible d’écoulement. | crise, interlocuteur nouveau, invitation, besoin institutionnel, relais médiatique. |
+| Écoulement | Activation rapide du potentiel accumulé. | envoi ciblé, publication, note, rendez-vous, prototype, consortium. |
+
+Cette stratégie impose une forme de persévérance non linéaire : ne pas forcer le même passage, mais continuer à monter en puissance jusqu’à ce qu’un passage devienne possible.
+
+## 6. Décision stratégique post-ICOME’26
 
 Décision provisoire :
 
@@ -113,20 +147,21 @@ session spéciale
 → consortium ouvert
 ```
 
-## 6. Prochaines actions
+## 7. Prochaines actions
 
 | Priorité | Action | Support probable | Statut |
 |---:|---|---|---|
 | P1 | Rédiger une note post-ICOME’26 courte, non polémique | `research/post_icome26_conclusions.md` | à faire |
 | P1 | Transformer le journal de bord en leçon méthodologique réutilisable | `journal/2026-06-12-post-icome26.md` | fait |
 | P1 | Ajouter la lecture “machine à empêcher” au journal de bord | `journal/2026-06-12-post-icome26.md` | fait |
+| P1 | Ajouter la stratégie du barrage / potentiel accumulé | `journal/2026-06-12-post-icome26.md` + `dashboard.md` | fait |
 | P1 | Transformer le dashboard en observatoire des empêchements | `dashboard.md` | fait |
 | P2 | Produire un paquet d’introduction pour partenaires énergie | `research/operator_memo.md` ou `memos/energy_operators.md` | à faire |
 | P2 | Produire une version élus / collectivités | `memos/elected_officials.md` | à faire |
 | P2 | Identifier trois partenaires hors université | dashboard | à faire |
 | P3 | Formaliser un modèle minimal de consortium ouvert | `governance/open_consortium_model.md` | à faire |
 
-## 7. Documents liés
+## 8. Documents liés
 
 - [Journal de bord — Après ICOME’26](journal/2026-06-12-post-icome26.md)
 - [RFC: Infrastructure Is All You Need](https://github.com/JeanHuguesRobert/marenostrum/issues/1)
@@ -135,7 +170,7 @@ session spéciale
 - [Cogentia — Concept Index](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/concepts.md)
 - [Barons Mariani — Concept Index](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/concepts.md)
 
-## 8. Principe de lecture
+## 9. Principe de lecture
 
 Ce tableau de bord ne doit pas servir à produire un récit victimaire.
 
@@ -152,3 +187,5 @@ La question est :
 La machine à empêcher produit de l’impuissance lorsque les empêchements restent dispersés et non nommés.
 
 La machine à explorer commence lorsque ces empêchements deviennent observables, qualifiables et convertibles en continuations.
+
+La stratégie du barrage ajoute un principe d’action : lorsqu’un empêchement bloque l’écoulement immédiat, il faut augmenter le potentiel en amont plutôt que s’épuiser contre le barrage.
