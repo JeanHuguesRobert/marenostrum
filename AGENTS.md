@@ -10,7 +10,7 @@ It is a governed operational projection of the corpus for this repository.
 
 The source methodological reference is:
 
-- `cogentia/research/agent_configuration_layer.md`
+- [`cogentia/research/agent_configuration_layer.md`](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/agent_configuration_layer.md)
 
 ## Repository role
 
