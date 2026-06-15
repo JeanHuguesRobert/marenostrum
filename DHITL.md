@@ -533,10 +533,42 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — System Architecture](ARCHITECTURE.md)
-- [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
+- Barons Mariani
+- [Corpus Status — barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/corpus-status.md)
+- [Corsica2038 — De la prospective subie à l’autonomie de capacité](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/autonomia/corsica2038_contre_rapport_pruspettiva2050.md)
+- [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
+- [La seconde méthode comme généralisation prudente de l’agile](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/agile.md)
+- [Research Index — barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/index.md)
+- [Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/COGENTIA.md)
+- Cogentia
+- [Cogentia Commons — MVP Specification](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/cogentia_commons_mvp_spec.md)
+- [Cogentia Commons — Session Continuation Snapshot](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/cogentia_commons_continuation.md)
+- [Cogentia Workflows](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/cogentia_workflows.md)
+- [Research Index — Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/index.md)
+- [The Sovereign Digital Twin: Cogentia, Cogentigram, Cogentiscope](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/cogentia-digital-twin.md)
+- [Trail: From Autonomia to DHITL](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/trails/from_autonomia_to_dhitl.md)
+- [Trail: From Method to Machine](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/trails/from_method_to_machine.md)
+- For researchers
+- FractaVolta
+- [Guaranteed Inference](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/garanteed_inference.md)
+- [Le Réseau Inconscient](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/LE_RESEAU_INCONSCIENT.md)
+- MareNostrum
+- [Packetized Gravity Networks: Distributed Hydro-Energetic Infrastructure for Resilient Renewable Integration](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/PGN.md)
+- [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md)
+- [The Unconscious Grid](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/UNCONSCIOUS_GRID.md)
+- [Value-Shaped Solar and Containerized Compute](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/value_shaped_solar_and_containerized_compute.md)
+- [Research Index — Inox](https://github.com/JeanHuguesRobert/Inox/blob/master/research/index.md)
+- [The Inox Programming Language — Specification](https://github.com/JeanHuguesRobert/Inox/blob/master/research/inox-spec.md)
+- The Iɴᴏx programming language
+- [Research Index — Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md)
+- [Agent Brief — Representing Jean Hugues Noël Robert](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/agent_brief.md)
+- [Carte globale du Corpus](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/corpus-map.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
+- Jean Hugues Noël Robert, baron Mariani
+- [Project Context — Jean Hugues Noël Robert, baron Mariani](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/CONTEXT.md)
+- [Research Index — Jean Hugues Noël Robert (Profile / Entry Point)](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/index.md)
 - [Concept Index — marenostrum](research/concepts.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [lesswrong post](lesswrong_post.md)
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
 - [Research Index — MareNostrum](research/index.md)
-
 <!-- END_AUTO: backlinks -->

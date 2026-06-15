@@ -38,7 +38,7 @@ Key mechanisms:
 - Democratic governance layer (1 person = 1 voice with imperative mandates)
 - Built-in funding for independent AI safety research (0.1% of issuance)
 
-Full specification: [safe-compute-exergy-cdc.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/safe-compute-exergy-cdc.md)
+Full specification: [safe_compute_exergy.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/safe_compute_exergy.md)
 
 ### Compute Topologies Matter More Than We Admit
 
@@ -56,17 +56,17 @@ Full paper: [infrastructure_topologies_for_compute_sovereignty.md](https://githu
 
 We should not let one topology win by default. Deliberate design and hybridization are possible and necessary.
 
-### Democratic Humans in the Loop (DHIL)
+### Democratic Humans in the Loop (DHITL)
 
-Technical alignment alone cannot solve infrastructure-level power concentration. DHIL proposes keeping real humans meaningfully involved in the **governance** of the physical compute layer.
+Technical alignment alone cannot solve infrastructure-level power concentration. DHITL proposes keeping real humans meaningfully involved in the **governance** of the physical compute layer.
 
-Full document: [DHIL.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/DHIL.md)
+Full document: [DHITL.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/DHITL.md)
 
 ### Current State of the Project
 
 We now have a coherent triptych:
 - Foundational conjecture ([`infrastructure_is_all_you_need.md`](infrastructure_is_all_you_need.md))
-- Operational mechanism (`safe-compute-exergy-cdc.md`)
+- Operational mechanism (`safe_compute_exergy.md`)
 - Comparative topology analysis ([`infrastructure_topologies_for_compute_sovereignty.md`](infrastructure_topologies_for_compute_sovereignty.md))
 
 Open discussion thread: [Issue #1](https://github.com/JeanHuguesRobert/marenostrum/issues/1)
@@ -95,9 +95,6 @@ All documents are living and open for contribution.
 ### Backlinks
 
 *These documents link to this file:*
-- [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
-- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](infrastructure_topologies_for_compute_sovereignty.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Research Index — MareNostrum](research/index.md)
-
 <!-- END_AUTO: backlinks -->

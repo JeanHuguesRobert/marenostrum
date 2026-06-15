@@ -479,14 +479,16 @@ The dependency is explicit: **SCE requires Fractavolta**. A CXU without a Fracta
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — System Architecture](ARCHITECTURE.md)
-- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
-- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
-- [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
-- [MareNostrum — Operational Exergy Model](MODEL.md)
-- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
+- [Electricity in Containers](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/electricity_in_containers.md)
+- [Fractanet — Generalized Control Planes for Heterogeneous Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/fractanet.md)
+- [FractaTera](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/tera.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Concept Index — marenostrum](research/concepts.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [lesswrong post](lesswrong_post.md)
+- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
+- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [MareNostrum — Operational Exergy Model](MODEL.md)
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
 - [Research Index — MareNostrum](research/index.md)
-
 <!-- END_AUTO: backlinks -->
