@@ -135,7 +135,7 @@ Read in order. Each document derives from the one before it.
 
 ## Ecosystem
 
-MareNostrum is the strategic layer of a six-repository corpus. It specifies; the others build, tool, run, and govern.
+MareNostrum is the strategic layer of a multi-repository public corpus. It specifies; the others build, tool, run, govern, and publish derived appearances.
 
 | Repository | Role |
 |---|---|
@@ -145,6 +145,7 @@ MareNostrum is the strategic layer of a six-repository corpus. It specifies; the
 | [inseme](https://github.com/JeanHuguesRobert/inseme) | Platform — COP runtime, briques, Kudocracy.Survey, Inseme Agora, Ophélia AI mediator, Atlas of Biodiversity. Multi-instance per-commune deployment. |
 | [barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani) | Political and institutional framework. Plan 2038. Corsican senatorial candidacy. *Discours de la seconde méthode* — the corpus methodology. *Projet #1755* — first applied test of *autonomie de capacité*. |
 | [Inox](https://github.com/JeanHuguesRobert/Inox) | Language and runtime substrate (added 2026-05). Concatenative stack VM, strict control/data plane separation, designed for nodes of the future *Fractanet*. JS today, WASM and C/C++ next, ESP32 bare-metal eventually. |
+| [Ubikia](https://github.com/JeanHuguesRobert/ubikia) | Editorial derivation and publication layer. Source-first derived products, platform appearances, personas, and publication ledger. |
 
 The MareNostrum stack diagram above (Mediterranean solar radiation → energy governance → compute certification → traceability → token market → DHITL → local revenue distribution → popular adherence) is the **energy / compute / governance** stack specifically. The cognition layer (Cogentia tooling) and civic layer (inseme platform) ride on top, in the canonical FractaVolta four-layer stack — see [FractaVolta](https://fractavolta.com) for the integrated picture.
 
