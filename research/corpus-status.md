@@ -25,15 +25,17 @@ creator: Jean Hugues Noël Robert, baron Mariani (généré automatiquement par 
 ## Registered Repositories
 
 <!-- BEGIN_AUTO: registered_repos -->
-| Repository | research/index.md | Branch | Policy |
-|---|---|---|---|
-| cogentia | yes | main | all |
-| FractaVolta | yes | main | all |
-| marenostrum | yes | main | all |
-| barons-Mariani | yes | main | all |
-| inseme | yes | main | research |
-| Inox | yes | master | all |
-| JeanHuguesRobert | yes | main | all |
+| Repository | research/index.md | Branch | Policy | Visibility | Public presence |
+|---|---|---|---|---|---|
+| cogentia | yes | main | all | public | full |
+| FractaVolta | yes | main | all | public | full |
+| marenostrum | yes | main | all | public | full |
+| barons-Mariani | yes | main | all | public | full |
+| inseme | yes | main | research | public | full |
+| Inox | yes | master | all | public | full |
+| registre-mariani | yes | main | all | private | stub |
+| ubikia | yes | main | all | public | full |
+| JeanHuguesRobert | yes | main | all | public | full |
 <!-- END_AUTO: registered_repos -->
 
 ---
@@ -49,38 +51,41 @@ graph LR
   r_barons_mariani["barons-Mariani"]
   r_inseme["inseme"]
   r_inox["Inox"]
+  r_registre_mariani["registre-mariani"]
+  r_ubikia["ubikia"]
   r_jeanhuguesrobert["JeanHuguesRobert"]
-  r_jeanhuguesrobert -->|149| r_barons_mariani
-  r_cogentia -->|104| r_barons_mariani
-  r_jeanhuguesrobert -->|91| r_cogentia
-  r_jeanhuguesrobert -->|40| r_marenostrum
-  r_jeanhuguesrobert -->|34| r_fractavolta
-  r_fractavolta -->|33| r_marenostrum
-  r_jeanhuguesrobert -->|33| r_inox
-  r_fractavolta -->|32| r_cogentia
-  r_barons_mariani -->|29| r_cogentia
-  r_cogentia -->|21| r_inseme
-  r_cogentia -->|20| r_marenostrum
+  r_jeanhuguesrobert -->|143| r_barons_mariani
+  r_cogentia -->|101| r_barons_mariani
+  r_jeanhuguesrobert -->|99| r_cogentia
+  r_jeanhuguesrobert -->|43| r_marenostrum
+  r_fractavolta -->|40| r_cogentia
+  r_fractavolta -->|37| r_marenostrum
+  r_jeanhuguesrobert -->|36| r_fractavolta
+  r_jeanhuguesrobert -->|30| r_inox
+  r_barons_mariani -->|27| r_cogentia
+  r_cogentia -->|22| r_inseme
+  r_cogentia -->|19| r_marenostrum
+  r_fractavolta -->|18| r_inseme
   r_fractavolta -->|18| r_barons_mariani
-  r_jeanhuguesrobert -->|17| r_inseme
+  r_jeanhuguesrobert -->|16| r_inseme
   r_inseme -->|14| r_cogentia
-  r_barons_mariani -->|13| r_marenostrum
-  r_marenostrum -->|13| r_fractavolta
-  r_fractavolta -->|12| r_inseme
-  r_marenostrum -->|12| r_barons_mariani
+  r_marenostrum -->|12| r_fractavolta
+  r_marenostrum -->|12| r_cogentia
+  r_barons_mariani -->|11| r_marenostrum
   r_inox -->|11| r_barons_mariani
   r_inox -->|11| r_cogentia
+  r_marenostrum -->|11| r_barons_mariani
   r_inox -->|10| r_fractavolta
-  r_marenostrum -->|10| r_cogentia
+  r_fractavolta -->|8| r_inox
   r_inox -->|8| r_marenostrum
   r_inox -->|7| r_inseme
   r_inseme -->|7| r_inox
+  r_jeanhuguesrobert -->|7| r_ubikia
   r_barons_mariani -->|6| r_fractavolta
-  r_cogentia -->|6| r_fractavolta
-  r_cogentia -->|5| r_jeanhuguesrobert
+  r_cogentia -->|5| r_fractavolta
   r_barons_mariani -->|4| r_inox
   r_barons_mariani -->|4| r_jeanhuguesrobert
-  r_fractavolta -->|4| r_inox
+  r_cogentia -->|4| r_jeanhuguesrobert
   r_inseme -->|3| r_barons_mariani
   r_inseme -->|3| r_jeanhuguesrobert
   r_barons_mariani -->|2| r_inseme
@@ -480,6 +485,8 @@ graph LR
 | [Mare Nostrum — Energy Sovereignty as Democratic Commons (Policy Paper)](../POLICY_PAPER.md) | this repo | 2026-05-08 |
 | [From Sun to Sovereignty — Communal Sovereign Funds vs Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md) | this repo | 2026-05-08 |
 | [Pacte anti-capture solaire et inférentielle (FR)](pacte_anti_capture_solaire_inferentielle.md) *(source document v0.6 — applies Autonomie de Capacité to territorial solar energy and inference capacity)* | this repo | 2026-06-07 |
+| [MareNostrum — Tableau de bord](../dashboard.md) *(working dashboard for current doctrine, reservoir strategy and follow-up navigation)* | this repo | 2026-06-12 |
+| [Journal de bord — Après ICOME'26](../journal/2026-06-12-post-icome26.md) *(post-ICOME'26 working journal and terrain reconfiguration notes)* | this repo | 2026-06-12 |
 | [Valorisation synergétique de la forêt corse (FR)](../corsica_forest_synergies.md) | this repo | 2026-05-08 |
 | [EDF, Solaire et ZNI — Anatomie d'une captation de ressource (FR, v4.0)](../EDF.md) | this repo | 2026-05 |
 | [Architecture](../ARCHITECTURE.md) | this repo | 2025–2026 |
@@ -487,6 +494,7 @@ graph LR
 | [Model](../MODEL.md) | this repo | 2025–2026 |
 | [Contracts](../CONTRACTS.md) | this repo | 2025–2026 |
 | [Pricing](../PRICING.md) | this repo | 2025–2026 |
+| [AGENTS.md — Mare Nostrum](../AGENTS.md) *(local operational mandate for AI agents working in this repository)* | this repo | 2026-06-13 |
 | [Corpus Status](corpus-status.md) *(living view — auto-refreshed by `cogentia.js corpus-status`)* | this repo | refreshable |
 | [Concept Index](concepts.md) *(typed concept registry — mapped by `cogentia.js concepts`)* | this repo | refreshable |
 <!-- END_AUTO: published -->
@@ -520,25 +528,14 @@ graph LR
 - CECA 1951 as formal precedent for Mediterranean energy commons
 - Mediterranean Solar Radiation as a measurable commons: irradiance accounting framework
 - Hydraulic CXU: extending the exergy chain through gravitational storage (→ PGN)
-- [MareNostrum — System Architecture](../ARCHITECTURE.md)
-- [Compute Exergy as an Omitted Variable in AI Governance](../compute-exergy-omitted-variable.md)
-- [CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES](../constellia.md)
-- [MareNostrum — Energy Availability Contracts](../CONTRACTS.md)
-- [Valorisation synergétique de la forêt corse](../corsica_forest_synergies.md)
-- [CXU_SPEC — Compute eXergy Unit Specification](../CXU_SPEC.md)
-- [DHITL, Democratic Humans In The Loop](../DHITL.md)
-- [EDF, Solaire et ZNI : Anatomie d'une Captation de Ressource — Le cas de la Corse](../EDF.md)
-- [MareNostrum — Governance of the Energy System](../GOVERNANCE.md)
-- [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
-- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md)
-- [lesswrong post](../lesswrong_post.md)
-- [MareNostrum — Operational Exergy Model](../MODEL.md)
-- [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
-- [Mare Nostrum: Energy Sovereignty as Democratic Commons](../POLICY_PAPER.md)
-- [MareNostrum — Energy Availability Pricing Model](../PRICING.md)
-- [Concept Index — marenostrum](concepts.md)
+- [Research Index — barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/index.md)
+- [Research Index — Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/index.md)
+- MareNostrum
+- [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md)
+- [Research Index — Inox](https://github.com/JeanHuguesRobert/Inox/blob/master/research/index.md)
+- [Research Index — Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md)
+- [Research Index — Jean Hugues Noël Robert (Profile / Entry Point)](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/index.md)
 - [Corpus Status — marenostrum](corpus-status.md)
-- [Safe Compute Exergy (SCE)](../safe_compute_exergy.md)
 <!-- END_AUTO: possibilities -->
 
 ---
@@ -551,25 +548,6 @@ graph LR
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — System Architecture](../ARCHITECTURE.md)
-- [Compute Exergy as an Omitted Variable in AI Governance](../compute-exergy-omitted-variable.md)
-- [CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES](../constellia.md)
-- [MareNostrum — Energy Availability Contracts](../CONTRACTS.md)
-- [Valorisation synergétique de la forêt corse](../corsica_forest_synergies.md)
-- [CXU_SPEC — Compute eXergy Unit Specification](../CXU_SPEC.md)
-- [DHITL, Democratic Humans In The Loop](../DHITL.md)
-- [EDF, Solaire et ZNI : Anatomie d'une Captation de Ressource — Le cas de la Corse](../EDF.md)
-- [MareNostrum — Governance of the Energy System](../GOVERNANCE.md)
-- [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
-- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md)
-- [lesswrong post](../lesswrong_post.md)
-- [MareNostrum — Operational Exergy Model](../MODEL.md)
-- [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
-- [Mare Nostrum: Energy Sovereignty as Democratic Commons](../POLICY_PAPER.md)
-- [MareNostrum — Energy Availability Pricing Model](../PRICING.md)
-- [Concept Index — marenostrum](concepts.md)
-- [Corpus Status — marenostrum](corpus-status.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Research Index — MareNostrum](index.md)
-- [Safe Compute Exergy (SCE)](../safe_compute_exergy.md)
-
 <!-- END_AUTO: backlinks -->
