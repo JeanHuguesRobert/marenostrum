@@ -162,14 +162,13 @@ These are not objections to the model. They are boundaries that make it precise.
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — System Architecture](ARCHITECTURE.md)
-- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
-- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
-- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](infrastructure_topologies_for_compute_sovereignty.md)
+- [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
+- [Electricity in Containers](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/electricity_in_containers.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
+- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
 - [MareNostrum — Energy Availability Pricing Model](PRICING.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
 - [Research Index — MareNostrum](research/index.md)
-- [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
-
 <!-- END_AUTO: backlinks -->

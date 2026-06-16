@@ -167,10 +167,9 @@ The paper’s main contribution is a framework that can be audited, criticized, 
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — System Architecture](ARCHITECTURE.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [lesswrong post](lesswrong_post.md)
 - [MareNostrum — Operational Exergy Model](MODEL.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
 - [Research Index — MareNostrum](research/index.md)
-
 <!-- END_AUTO: backlinks -->

@@ -190,15 +190,10 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
-- [DHITL, Democratic Humans In The Loop](DHITL.md)
-- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
-- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](infrastructure_topologies_for_compute_sovereignty.md)
-- [MareNostrum — Operational Exergy Model](MODEL.md)
+- [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
-- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
+- [MareNostrum — Operational Exergy Model](MODEL.md)
 - [Research Index — MareNostrum](research/index.md)
-- [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
-
 <!-- END_AUTO: backlinks -->

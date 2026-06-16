@@ -167,13 +167,11 @@ These are not weaknesses of the model. They are the parameters that make it accu
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — System Architecture](ARCHITECTURE.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
+- [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
 - [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
 - [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
 - [MareNostrum — Operational Exergy Model](MODEL.md)
-- [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [MareNostrum — System Architecture](ARCHITECTURE.md)
 - [Research Index — MareNostrum](research/index.md)
-- [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
-
 <!-- END_AUTO: backlinks -->

@@ -305,12 +305,6 @@ Roques, F., Hiroux, C., Saguan, M. (2010). Optimal wind power deployment in Euro
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — System Architecture](ARCHITECTURE.md)
-- [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
-- [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
-- [MareNostrum — Operational Exergy Model](MODEL.md)
-- [MareNostrum — Energy Availability Pricing Model](PRICING.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Research Index — MareNostrum](research/index.md)
-
 <!-- END_AUTO: backlinks -->

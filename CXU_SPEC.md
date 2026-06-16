@@ -517,8 +517,14 @@ These belong in subsequent drafts, after the basic telemetry schema stabilises.
 ### Backlinks
 
 *These documents link to this file:*
+- Barons Mariani
+- [Research Index — Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/index.md)
+- For researchers
+- [Fractanet — Generalized Control Planes for Heterogeneous Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/fractanet.md)
+- FractaVolta
+- MareNostrum
+- [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Concept Index — marenostrum](research/concepts.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
-
 <!-- END_AUTO: backlinks -->

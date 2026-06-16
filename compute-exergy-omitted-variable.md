@@ -615,7 +615,7 @@ Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S., Högy, P. (
 ### Backlinks
 
 *These documents link to this file:*
-- [Corpus Status — marenostrum](research/corpus-status.md)
+- [Fractanet — Generalized Control Planes for Heterogeneous Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/fractanet.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Research Index — MareNostrum](research/index.md)
-
 <!-- END_AUTO: backlinks -->

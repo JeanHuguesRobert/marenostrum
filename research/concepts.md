@@ -176,14 +176,5 @@ The explicit transition pipeline converting solar exergy directly into political
 ### Backlinks
 
 *These documents link to this file:*
-- [CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES](../constellia.md)
-- [Valorisation synergétique de la forêt corse](../corsica_forest_synergies.md)
-- [CXU_SPEC — Compute eXergy Unit Specification](../CXU_SPEC.md)
-- [DHITL, Democratic Humans In The Loop](../DHITL.md)
-- [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
-- [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
-- [Corpus Status — marenostrum](corpus-status.md)
 - [Research Index — MareNostrum](index.md)
-- [Safe Compute Exergy (SCE)](../safe_compute_exergy.md)
-
 <!-- END_AUTO: backlinks -->
