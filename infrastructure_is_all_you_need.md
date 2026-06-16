@@ -76,7 +76,7 @@ The physical grounding of this claim is non-trivial. Computation requires energy
 
 We propose a layered model in which safety properties emerge from the interaction of three levels, each necessary and none individually sufficient.
 
-![Three-layer architecture for structural AI safety](architecture-layers.svg)
+![Three-layer architecture for structural AI safety](architecture_layers.svg)
 *Figure 1. The three-layer architecture proposed in this paper, with associated safety properties and the analogy to Vaswani et al. (2017). Canonical source: [github.com/JeanHuguesRobert/marenostrum](https://github.com/JeanHuguesRobert/marenostrum).*
 
 ### Layer 1 — Physical Substrate (Solar Exergy)
@@ -232,11 +232,14 @@ The author thanks the members of C.O.R.S.I.C.A. for sustained intellectual engag
 ### Backlinks
 
 *These documents link to this file:*
+- [Trail: From Autonomia to DHITL](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/trails/from_autonomia_to_dhitl.md)
+- [Trail: From Method to Machine](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/trails/from_method_to_machine.md)
+- [Packetized Gravity Networks: Distributed Hydro-Energetic Infrastructure for Resilient Renewable Integration](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/PGN.md)
+- [Carte globale du Corpus](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/corpus-map.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
+- [Concept Index — marenostrum](research/concepts.md)
 - [DHITL, Democratic Humans In The Loop](DHITL.md)
 - [lesswrong post](lesswrong_post.md)
-- [Concept Index — marenostrum](research/concepts.md)
-- [Corpus Status — marenostrum](research/corpus-status.md)
 - [Research Index — MareNostrum](research/index.md)
 - [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
-
 <!-- END_AUTO: backlinks -->
