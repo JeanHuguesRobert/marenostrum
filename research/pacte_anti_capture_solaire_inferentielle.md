@@ -1397,6 +1397,7 @@ Les chantiers suivants restent ouverts mais ne bloquent pas le one-pager :
 ### Backlinks
 
 *These documents link to this file:*
+- [Rendre capable — noyau doctrinal provisoire](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/noyau_doctrinal_rendre_capable.md)
 - [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Research Index — MareNostrum](index.md)
 <!-- END_AUTO: backlinks -->

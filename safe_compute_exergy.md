@@ -479,6 +479,7 @@ The dependency is explicit: **SCE requires Fractavolta**. A CXU without a Fracta
 ### Backlinks
 
 *These documents link to this file:*
+- [Rendre capable — noyau doctrinal provisoire](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/noyau_doctrinal_rendre_capable.md)
 - [Electricity in Containers](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/electricity_in_containers.md)
 - [Fractanet — Generalized Control Planes for Heterogeneous Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/fractanet.md)
 - [FractaTera](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/tera.md)
