@@ -39,6 +39,8 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 | [Mare Nostrum — Energy Sovereignty as Democratic Commons (Policy Paper)](../POLICY_PAPER.md) | this repo | 2026-05-08 |
 | [From Sun to Sovereignty — Communal Sovereign Funds vs Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md) | this repo | 2026-05-08 |
 | [Pacte anti-capture solaire et inférentielle (FR)](pacte_anti_capture_solaire_inferentielle.md) *(source document v0.6 — applies Autonomie de Capacité to territorial solar energy and inference capacity)* | this repo | 2026-06-07 |
+| [MareNostrum — Tableau de bord](../dashboard.md) *(working dashboard for current doctrine, reservoir strategy and follow-up navigation)* | this repo | 2026-06-12 |
+| [Journal de bord — Après ICOME'26](../journal/2026-06-12-post-icome26.md) *(post-ICOME'26 working journal and terrain reconfiguration notes)* | this repo | 2026-06-12 |
 | [Valorisation synergétique de la forêt corse (FR)](../corsica_forest_synergies.md) | this repo | 2026-05-08 |
 | [EDF, Solaire et ZNI — Anatomie d'une captation de ressource (FR, v4.0)](../EDF.md) | this repo | 2026-05 |
 | [Architecture](../ARCHITECTURE.md) | this repo | 2025–2026 |
@@ -46,6 +48,7 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 | [Model](../MODEL.md) | this repo | 2025–2026 |
 | [Contracts](../CONTRACTS.md) | this repo | 2025–2026 |
 | [Pricing](../PRICING.md) | this repo | 2025–2026 |
+| [AGENTS.md — Mare Nostrum](../AGENTS.md) *(local operational mandate for AI agents working in this repository)* | this repo | 2026-06-13 |
 | [Corpus Status](corpus-status.md) *(living view — auto-refreshed by `cogentia.js corpus-status`)* | this repo | refreshable |
 | [Concept Index](concepts.md) *(typed concept registry — mapped by `cogentia.js concepts`)* | this repo | refreshable |
 
@@ -92,24 +95,12 @@ This repository hosts [DHITL](../DHITL.md) — the **load-bearing architectural 
 ### Backlinks
 
 *These documents link to this file:*
-- [MareNostrum — System Architecture](../ARCHITECTURE.md)
-- [Compute Exergy as an Omitted Variable in AI Governance](../compute-exergy-omitted-variable.md)
-- [CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES](../constellia.md)
-- [MareNostrum — Energy Availability Contracts](../CONTRACTS.md)
-- [Valorisation synergétique de la forêt corse](../corsica_forest_synergies.md)
-- [CXU_SPEC — Compute eXergy Unit Specification](../CXU_SPEC.md)
-- [DHITL, Democratic Humans In The Loop](../DHITL.md)
-- [EDF, Solaire et ZNI : Anatomie d'une Captation de Ressource — Le cas de la Corse](../EDF.md)
-- [MareNostrum — Governance of the Energy System](../GOVERNANCE.md)
-- [Infrastructure Is All You Need](../infrastructure_is_all_you_need.md)
-- [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md)
-- [lesswrong post](../lesswrong_post.md)
-- [MareNostrum — Operational Exergy Model](../MODEL.md)
-- [From Sun to Sovereignty: Communal Sovereign Funds as a Mechanism to Decouple Tourism from Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md)
-- [Mare Nostrum: Energy Sovereignty as Democratic Commons](../POLICY_PAPER.md)
-- [MareNostrum — Energy Availability Pricing Model](../PRICING.md)
-- [Concept Index — marenostrum](concepts.md)
+- [Research Index — barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/index.md)
+- [Research Index — Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/index.md)
+- MareNostrum
+- [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md)
+- [Research Index — Inox](https://github.com/JeanHuguesRobert/Inox/blob/master/research/index.md)
+- [Research Index — Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md)
+- [Research Index — Jean Hugues Noël Robert (Profile / Entry Point)](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/index.md)
 - [Corpus Status — marenostrum](corpus-status.md)
-- [Safe Compute Exergy (SCE)](../safe_compute_exergy.md)
-
 <!-- END_AUTO: backlinks -->
