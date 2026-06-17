@@ -609,8 +609,6 @@ Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S., Högy, P. (
 *Published under Creative Commons CC BY-SA 4.0.*
 *Canonical repository: https://github.com/JeanHuguesRobert/marenostrum*
 *Contact: jhr@baronsmariani.org*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

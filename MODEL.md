@@ -156,8 +156,6 @@ These are not objections to the model. They are boundaries that make it precise.
 
 *Upstream: this document is the physical foundation for [`PRICING.md`](PRICING.md), [`CONTRACTS.md`](CONTRACTS.md), [`GOVERNANCE.md`](GOVERNANCE.md), and [`ARCHITECTURE.md`](ARCHITECTURE.md).*  
 *Related: [`safe_compute_exergy.md`](safe_compute_exergy.md) (compute exergy layer), [`infrastructure_topologies_for_compute_sovereignty.md`](infrastructure_topologies_for_compute_sovereignty.md) (multi-site extension).*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

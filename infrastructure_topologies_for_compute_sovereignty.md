@@ -161,8 +161,6 @@ The paper’s main contribution is a framework that can be audited, criticized, 
 2. Robert, J. H., \& Valdes, G. (2026). *Constellia: A Fractal Architecture for Energy, Food, and Digital Sovereignty in Island Territories*. submitted to ICOME 2026.
 3. European Space Agency. (2023). *Space Debris: The Silent Threat*.
 4. ANME Tunisia. (2025). *Tunisia Solar Plan 2030: Pathways to 30% Renewables by 2030*.
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

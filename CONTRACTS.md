@@ -162,8 +162,6 @@ This coupling is intentional. The CXU tier reflects not just the energy source b
 *Upstream: [`MODEL.md`](MODEL.md) (physical constraints), [`PRICING.md`](PRICING.md) (price formulas for G and risk_premium).*  
 *Downstream: [`GOVERNANCE.md`](GOVERNANCE.md) (arbitration of allocation hierarchy under contested scarcity).*  
 *Related: [`traceable_governance.md`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/traceable_governance.md) (register infrastructure), [`safe_compute_exergy.md`](safe_compute_exergy.md) (CXU tier coupling).*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

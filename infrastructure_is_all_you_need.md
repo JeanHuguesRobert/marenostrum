@@ -10,13 +10,11 @@ status: "working-paper — auto-filled (frontmatter cleanup)"
 ---
 <!-- BEGIN_AUTO: trails -->
 > 🧭 **Trail: From Autonomia to DHITL**
-> ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md)
+> ⬅️ Previous: [DHITL, Democratic Humans In The Loop](DHITL.md)
 
 > 🧭 **Trail: From Method to Machine**
-> ⬅️ Previous: [DHITL — Democratic Humans in the Loop](DHITL.md) | ➡️ Next: [FractaVolta — Energy Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/fractavolta_paper.md)
-
+> ⬅️ Previous: [DHITL, Democratic Humans In The Loop](DHITL.md) | ➡️ Next: [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/fractavolta_paper.md)
 <!-- END_AUTO: trails -->
-
 ---
 # Infrastructure Is All You Need
 ## Toward a Structural Theory of AI Safety Grounded in Compute Sovereignty and Democratic Energy Governance
@@ -226,8 +224,6 @@ The author thanks the members of C.O.R.S.I.C.A. for sustained intellectual engag
 
 *© 2026 Jean Hugues Noël Robert, baron Mariani — Institut Mariani / C.O.R.S.I.C.A.*  
 *This document is published under the Creative Commons license specified in [LICENSE.md](https://github.com/JeanHuguesRobert/marenostrum/blob/main/LICENSE.md) in the MareNostrum repository. The repository is the authoritative reference for all derived formats.*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

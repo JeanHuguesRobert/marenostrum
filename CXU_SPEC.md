@@ -511,8 +511,6 @@ These belong in subsequent drafts, after the basic telemetry schema stabilises.
 *Published under CC BY-SA 4.0*
 
 *`github.com/JeanHuguesRobert/marenostrum`*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

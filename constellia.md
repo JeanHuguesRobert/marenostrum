@@ -332,8 +332,6 @@ Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S., Högy, P., 
 *Submitted to ICOME'26 — International Conference on Materials and Energy*  
 *Corte, France, 10–12 June 2026*  
 *Topics: Power Systems, Smart Grids, Microgrids · Storage Technology: Battery, Hydrogen, Supercapacitors · Renewable and Sustainable Energy Systems · IoT, AI, and Energy Simulation Algorithms*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

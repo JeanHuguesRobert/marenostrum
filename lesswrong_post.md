@@ -89,8 +89,6 @@ If infrastructure is indeed the dominant safety lever, then we should treat it w
 
 **Repository**: https://github.com/JeanHuguesRobert/marenostrum  
 All documents are living and open for contribution.
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

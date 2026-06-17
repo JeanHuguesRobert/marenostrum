@@ -184,8 +184,6 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 *This document synthesizes: [`MODEL.md`](MODEL.md), [`PRICING.md`](PRICING.md), [`CONTRACTS.md`](CONTRACTS.md), [`GOVERNANCE.md`](GOVERNANCE.md).*  
 *Related ecosystem: [`safe_compute_exergy.md`](safe_compute_exergy.md), [`traceable_governance.md`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/traceable_governance.md) (FractaVolta), [`infrastructure_topologies_for_compute_sovereignty.md`](infrastructure_topologies_for_compute_sovereignty.md), [`DHITL.md`](DHITL.md).*  
 *License: CC BY-SA 4.0 — Priority by commit timestamp.*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
@@ -193,6 +191,7 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 - [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
 - [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
+- [MareNostrum](README.md)
 - [MareNostrum — Governance of the Energy System](GOVERNANCE.md)
 - [MareNostrum — Operational Exergy Model](MODEL.md)
 - [Research Index — MareNostrum](research/index.md)

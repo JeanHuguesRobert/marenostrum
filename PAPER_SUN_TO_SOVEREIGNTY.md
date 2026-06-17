@@ -480,8 +480,6 @@ The EPCI Sud-Corse alone accounts for 30.4% of total tourist tax collected — c
 ---
 
 *End of Appendix A. All figures reproduced from ATC (2026) with full source attribution. Raw data collected by the Observatoire du Tourisme de la Corse from the 19 intercommunal bodies of Corsica, INSEE, Flux Vision Orange, AirDNA, and Airbnb France. No modification has been made to the original figures.*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

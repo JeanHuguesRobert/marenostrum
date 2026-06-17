@@ -161,8 +161,6 @@ These are not weaknesses of the model. They are the parameters that make it accu
 *Upstream: [`MODEL.md`](MODEL.md) (physical definitions of R(t), U(t), E).*  
 *Downstream: [`CONTRACTS.md`](CONTRACTS.md) (formalization of the guarantee commitment), [`GOVERNANCE.md`](GOVERNANCE.md) (arbitration of allocation under scarcity).*  
 *Related: [`safe_compute_exergy.md`](safe_compute_exergy.md) (CXU pricing layer built on this model).*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

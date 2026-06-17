@@ -10,13 +10,11 @@ status: "working-paper — auto-filled (frontmatter cleanup)"
 ---
 <!-- BEGIN_AUTO: trails -->
 > 🧭 **Trail: From Autonomia to DHITL**
-> ⬅️ Previous: [La pathologie du secret](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/pathologie_du_secret.md) | ➡️ Next: [Infrastructure is All You Need](infrastructure_is_all_you_need.md)
+> ⬅️ Previous: [La pathologie du secret](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/pathologie_du_secret.md) | ➡️ Next: [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
 
 > 🧭 **Trail: From Method to Machine**
-> ⬅️ Previous: [Democratic AI Safety](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/democratic_ai_safety.md) | ➡️ Next: [Infrastructure is All You Need](infrastructure_is_all_you_need.md)
-
+> ⬅️ Previous: [Democratic AI Safety](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/democratic_ai_safety.md) | ➡️ Next: [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
 <!-- END_AUTO: trails -->
-
 ---
 # DHITL, Democratic Humans In The Loop
 
@@ -527,8 +525,6 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 *Institut Mariani, Corte, Corsica — April 2026*
 *Contact: jhr@baronsmariani.org*
 *Published in the open: https://github.com/JeanHuguesRobert/marenostrum — CC BY-SA 4.0*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
@@ -569,6 +565,7 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 - [Research Index — Jean Hugues Noël Robert (Profile / Entry Point)](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/index.md)
 - [Concept Index — marenostrum](research/concepts.md)
 - [lesswrong post](lesswrong_post.md)
+- [MareNostrum](README.md)
 - [MareNostrum — System Architecture](ARCHITECTURE.md)
 - [Research Index — MareNostrum](research/index.md)
 <!-- END_AUTO: backlinks -->

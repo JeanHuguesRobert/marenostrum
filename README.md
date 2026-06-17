@@ -23,6 +23,13 @@ This is the economic case for cooperative sovereign compute. It is also the stra
 
 MareNostrum defines the architecture, the governance, the pricing, and the contracts for the energy + compute substrate. [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta) operates it as an integrated four-layer stack — energy, compute, cognition ([Cogentia](https://github.com/JeanHuguesRobert/cogentia)), and civic ([inseme](https://github.com/JeanHuguesRobert/inseme)).
 
+## Quick Orientation
+
+- [`research/index.md`](research/index.md) — generated document catalog
+- [`research/corpus-status.md`](research/corpus-status.md) — generated status, backlinks, and navigation checks
+- [`DHITL.md`](DHITL.md) — democratic governance axiom for AI infrastructure
+- [`ARCHITECTURE.md`](ARCHITECTURE.md) — system overview of the energy + compute stack
+
 ---
 
 ## The Economic Argument

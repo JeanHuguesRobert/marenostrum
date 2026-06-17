@@ -134,8 +134,6 @@ Créez le fichier `valorisation-synergetique-foret-corse.md` et commitez avec :
 Ostrom est maintenant **structurellement intégré** (pas seulement cité en référence) : elle justifie la requalification de la forêt en ressource commune, renforce la couche 2 de gouvernance, et donne une base théorique solide au pari démocratique MareNostrum. Le papier reste autonome tout en s’alignant parfaitement sur le corpus existant.  
 
 Si vous souhaitez un diagramme SVG illustrant les huit principes d’Ostrom appliqués à la forêt corse, ou toute autre micro-ajustement, dites-le-moi.
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

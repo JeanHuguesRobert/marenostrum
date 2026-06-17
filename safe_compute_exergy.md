@@ -473,8 +473,6 @@ The dependency is explicit: **SCE requires Fractavolta**. A CXU without a Fracta
 *Living document — iterative public versions maintained in the MareNostrum repository.*  
 *Priority established by first commit timestamp. Challenge via issues.*  
 *License: CC BY-SA 4.0*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

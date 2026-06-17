@@ -23,7 +23,6 @@ creator: Jean Hugues Noël Robert, baron Mariani (généré automatiquement par 
 ---
 
 ## Registered Repositories
-
 <!-- BEGIN_AUTO: registered_repos -->
 | Repository | research/index.md | Branch | Policy | Visibility | Public presence |
 |---|---|---|---|---|---|
@@ -37,11 +36,9 @@ creator: Jean Hugues Noël Robert, baron Mariani (généré automatiquement par 
 | ubikia | yes | main | all | public | full |
 | JeanHuguesRobert | yes | main | all | public | full |
 <!-- END_AUTO: registered_repos -->
-
 ---
 
 ## Cross-Reference Graph
-
 <!-- BEGIN_AUTO: graph -->
 ```mermaid
 graph LR
@@ -56,9 +53,9 @@ graph LR
   r_jeanhuguesrobert["JeanHuguesRobert"]
   r_jeanhuguesrobert -->|155| r_barons_mariani
   r_jeanhuguesrobert -->|110| r_cogentia
-  r_cogentia -->|101| r_barons_mariani
+  r_cogentia -->|98| r_barons_mariani
   r_barons_mariani -->|62| r_cogentia
-  r_jeanhuguesrobert -->|45| r_marenostrum
+  r_jeanhuguesrobert -->|46| r_marenostrum
   r_fractavolta -->|41| r_cogentia
   r_fractavolta -->|37| r_marenostrum
   r_jeanhuguesrobert -->|36| r_fractavolta
@@ -72,10 +69,10 @@ graph LR
   r_barons_mariani -->|16| r_inseme
   r_inseme -->|15| r_cogentia
   r_marenostrum -->|13| r_cogentia
-  r_jeanhuguesrobert -->|12| r_inseme
   r_marenostrum -->|12| r_fractavolta
   r_inox -->|11| r_barons_mariani
   r_inox -->|11| r_cogentia
+  r_jeanhuguesrobert -->|11| r_inseme
   r_marenostrum -->|11| r_barons_mariani
   r_inox -->|10| r_fractavolta
   r_jeanhuguesrobert -->|9| r_ubikia
@@ -86,10 +83,10 @@ graph LR
   r_barons_mariani -->|5| r_inox
   r_barons_mariani -->|5| r_jeanhuguesrobert
   r_cogentia -->|5| r_fractavolta
+  r_barons_mariani -->|4| r_ubikia
   r_cogentia -->|4| r_jeanhuguesrobert
   r_inseme -->|3| r_barons_mariani
   r_inseme -->|3| r_jeanhuguesrobert
-  r_barons_mariani -->|2| r_ubikia
   r_cogentia -->|2| r_inox
   r_fractavolta -->|2| r_jeanhuguesrobert
   r_inox -->|2| r_jeanhuguesrobert
@@ -102,11 +99,9 @@ graph LR
   r_ubikia -->|1| r_cogentia
 ```
 <!-- END_AUTO: graph -->
-
 ---
 
 ## Concepts
-
 <!-- BEGIN_AUTO: concepts -->
 | Concept | Scope | Status | Type |
 |---|---|---|---|
@@ -120,9 +115,7 @@ graph LR
 | [Infrastructure is All You Need](./concepts.md#infrastructure-is-all-you-need) | Global | Canonical | strategic doctrine |
 | [Sun to Sovereignty](./concepts.md#sun-to-sovereignty) | project-specific | Defined | strategic pipeline |
 <!-- END_AUTO: concepts -->
-
 ## Concept Graph
-
 <!-- BEGIN_AUTO: concept_graph -->
 ```mermaid
 graph LR
@@ -468,11 +461,9 @@ graph LR
 
 *Referenced but undefined: `Democratic AI Safety`, `Cogentia Commons (déclinaison manuelle)`, `Fractanet / COP (déclinaison automatisée)`, `Stabilisateurs (anti-Ubik)`, `DHITL (couches 4/5)`, `Effet Ubik (opposé)`, `Machine à explorer (opposé symétrique)`, `FM-11 (outer optimizer capture)`, `Concentration de compute (85% frontier)`, `Invidia (densité sociale destructrice)`, `DHITL (Compute Exergy comme unité traçable)`, `Map vs territory`, `Operational memory`, `Traceable agency`, `Non-deterministic Cognitive Step`, `Causal Trace Replay`, `COP/HITL Profile`, `Rule 0 (seconde méthode)`, `DHITL Layer 5`, `Envelope (kind-agnostic metadata layer)`, `Payload (kind-specific content layer)`, `Continuation payload`, `Objection payload`, `Hypothesis payload`, `Decision payload`, `Failure payload`, `Routing payload`, `Source Document`, `DHITL`, `Capabilities approach (Sen, Nussbaum)`, `Spécificité de phase`, `Flexibilité d'usage (redistributive vs. predatory)`, `Auto-institution démocratique (Castoriadis)`, `Communs (Ostrom)`, `Mauss — gift / counter-gift`, `Democratic AI Safety (thesis kernel)`, `DHITL — Democratic Humans in the Loop`, `Cogentia Commons (auditable knowledge)`, `Traçabilité civique anti-mafieuse`, `Deterministic Replay (protocol layer only)`, `Energy Packet Network (FractaVolta)`, `Cognitive Packet envelope/payload (Cogentia)`, `Auxilia (Inseme brique — human-scale Fractanet exchange)`.*
 <!-- END_AUTO: concept_graph -->
-
 ---
 
 ## Published in this repo
-
 <!-- BEGIN_AUTO: published -->
 | Title | Location | Date |
 |---|---|---|
@@ -501,7 +492,6 @@ graph LR
 | [Corpus Status](corpus-status.md) *(living view — auto-refreshed by `cogentia.js corpus-status`)* | this repo | refreshable |
 | [Concept Index](concepts.md) *(typed concept registry — mapped by `cogentia.js concepts`)* | this repo | refreshable |
 <!-- END_AUTO: published -->
-
 ---
 
 ## What Is Proved
@@ -525,7 +515,6 @@ graph LR
 ---
 
 ## What Remains Possible
-
 <!-- BEGIN_AUTO: possibilities -->
 - Rencontres de Corte sur la Gouvernance des Infrastructures IA en Méditerranée (ICOME'26 week)
 - CECA 1951 as formal precedent for Mediterranean energy commons
@@ -537,20 +526,20 @@ graph LR
 - [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md)
 - [Research Index — Inox](https://github.com/JeanHuguesRobert/Inox/blob/master/research/index.md)
 - [Research Index — Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md)
+- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Research Index — Jean Hugues Noël Robert (Profile / Entry Point)](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/index.md)
 - [Corpus Status — marenostrum](corpus-status.md)
+- [MareNostrum](../README.md)
 <!-- END_AUTO: possibilities -->
-
 ---
 
 *Generated with `cogentia.js corpus-status` — [scripts/cogentia.js](https://github.com/JeanHuguesRobert/cogentia/blob/main/scripts/cogentia.js)*
 *Challenge via issues. Fork to explore alternatives.*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
 *These documents link to this file:*
 - [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
+- [MareNostrum](../README.md)
 - [Research Index — MareNostrum](index.md)
 <!-- END_AUTO: backlinks -->

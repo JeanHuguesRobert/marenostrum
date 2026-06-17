@@ -162,8 +162,6 @@ These are open problems, not objections to the model. They are the next iteratio
 *Upstream: [`MODEL.md`](MODEL.md), [`PRICING.md`](PRICING.md), [`CONTRACTS.md`](CONTRACTS.md).*  
 *Downstream: [`ARCHITECTURE.md`](ARCHITECTURE.md) (unified system description).*  
 *Related: [`traceable_governance.md`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/traceable_governance.md) (register infrastructure and fractal governance formalism), [`safe_compute_exergy.md`](safe_compute_exergy.md) (CXU governance layer).*
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

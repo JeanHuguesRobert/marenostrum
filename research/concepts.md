@@ -170,8 +170,6 @@ The explicit transition pipeline converting solar exergy directly into political
 
 **Reference documents:**
 - [`PAPER_SUN_TO_SOVEREIGNTY.md`](../PAPER_SUN_TO_SOVEREIGNTY.md)
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 

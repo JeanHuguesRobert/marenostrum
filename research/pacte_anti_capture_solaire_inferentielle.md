@@ -1391,8 +1391,6 @@ Les chantiers suivants restent ouverts mais ne bloquent pas le one-pager :
 - **Known risks:** réception anti-capitaliste ; CXU encore non standard ; ICT encore non testé ; confusion source/produits déclinés ; capture locale de l’observatoire ; sur-extension du concept de capacité
 - **Human validation needed:** medium for one-pager production, high for publication GitHub and legal/technical claims
 - **Next useful action:** produire le one-pager ICT pour maires et élus de montagne
-
-
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
