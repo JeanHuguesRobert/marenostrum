@@ -27,8 +27,8 @@ MareNostrum defines the architecture, the governance, the pricing, and the contr
 
 - [`research/index.md`](research/index.md) — generated document catalog
 - [`research/corpus-status.md`](research/corpus-status.md) — generated status, backlinks, and navigation checks
-- [`DHITL.md`](DHITL.md) — democratic governance axiom for AI infrastructure
-- [`ARCHITECTURE.md`](ARCHITECTURE.md) — system overview of the energy + compute stack
+- [`DHITL.md`](research/DHITL.md) — democratic governance axiom for AI infrastructure
+- [`ARCHITECTURE.md`](research/ARCHITECTURE.md) — system overview of the energy + compute stack
 
 ---
 

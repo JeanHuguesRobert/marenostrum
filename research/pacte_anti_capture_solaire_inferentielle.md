@@ -38,6 +38,14 @@ review_integrated:
   - "Human author review — v0.5 approved for stabilization, 2026-06-07"
 date: "2026-06-07"
 corpus_role: "source"
+document_role: "source"
+document_kind: "research-paper"
+visibility: "public"
+lifecycle_state: "working"
+classification_source: "cogentia.js"
+classification_version: "1"
+classification_rule: "research-paper"
+classification_confidence: "medium"
 ---
 
 # Pacte anti-capture solaire et inférentielle
@@ -94,8 +102,8 @@ Le premier public visé est constitué des **élus corses**, en particulier les 
 | Source politique | [`autonomia.md`](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/autonomia.md) | Cadre de l’Autonomie de Capacité |
 | Source politique | [`democratie_capable.md`](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/democratie_capable.md) | Contrôle, traçabilité, correction, non-capture |
 | Méthode | [`second_method.md`](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md) | Objections, niveaux de preuve, stabilisation |
-| Source technique | [`Value-Shaped Solar and Containerized Compute`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/value_shaped_solar_and_containerized_compute.md) | Chaîne solaire, agrivoltaïsme temporel, compute conteneurisé |
-| Source technique | [`The Unconscious Grid`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/UNCONSCIOUS_GRID.md) | Packetisation de l’énergie, exergie, inférence IA |
+| Source technique | [`Value-Shaped Solar and Containerized Compute`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/value_shaped_solar_and_containerized_compute.md) | Chaîne solaire, agrivoltaïsme temporel, compute conteneurisé |
+| Source technique | [`The Unconscious Grid`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/UNCONSCIOUS_GRID.md) | Packetisation de l’énergie, exergie, inférence IA |
 
 ### Méthode de mise à jour
 
@@ -441,9 +449,9 @@ Il ne mesure pas :
 - l’usage local ou externe de la capacité produite ;
 - la part territoriale de valeur.
 
-Dans le corpus FractaVolta, le déplacement conceptuel est déjà engagé : la question n’est pas seulement de produire de l’électricité, mais de transformer de l’énergie disponible en **travail utile**, notamment en inférences IA. Le document [`The Unconscious Grid`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/UNCONSCIOUS_GRID.md) affirme explicitement que la bonne unité de comptabilité énergétique est l’exergie plutôt que l’énergie brute, et relie cette architecture à des tokens d’inférence IA routables sur Internet.
+Dans le corpus FractaVolta, le déplacement conceptuel est déjà engagé : la question n’est pas seulement de produire de l’électricité, mais de transformer de l’énergie disponible en **travail utile**, notamment en inférences IA. Le document [`The Unconscious Grid`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/UNCONSCIOUS_GRID.md) affirme explicitement que la bonne unité de comptabilité énergétique est l’exergie plutôt que l’énergie brute, et relie cette architecture à des tokens d’inférence IA routables sur Internet.
 
-Le document [`Value-Shaped Solar and Containerized Compute`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/value_shaped_solar_and_containerized_compute.md) déplace déjà l’optimisation solaire de la production brute vers la valeur temporelle, l’absorption par compute flexible et l’intégration agrivoltaïque-compute.
+Le document [`Value-Shaped Solar and Containerized Compute`](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/value_shaped_solar_and_containerized_compute.md) déplace déjà l’optimisation solaire de la production brute vers la valeur temporelle, l’absorption par compute flexible et l’intégration agrivoltaïque-compute.
 
 Le **CXU — Compute eXergy Unit** peut donc être traité comme l’unité candidate pour mesurer une capacité utile d’inférence, en intégrant non seulement l’énergie, mais aussi l’efficacité matérielle, l’efficacité système et la qualité de service.
 

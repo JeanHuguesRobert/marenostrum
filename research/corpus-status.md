@@ -65,9 +65,9 @@ graph LR
   r_kudos["Kudos"]
   r_github[".github"]
   r_acorsica_org["acorsica.org"]
-  r_jeanhuguesrobert -->|166| r_barons_mariani
-  r_jeanhuguesrobert -->|100| r_cogentia
+  r_jeanhuguesrobert -->|165| r_barons_mariani
   r_cogentia -->|98| r_barons_mariani
+  r_jeanhuguesrobert -->|96| r_cogentia
   r_barons_mariani -->|62| r_cogentia
   r_jeanhuguesrobert -->|45| r_marenostrum
   r_fractavolta -->|41| r_cogentia
@@ -119,6 +119,7 @@ graph LR
   r_institut_mariani -->|2| r_barons_mariani
   r_institut_mariani -->|2| r_fractavolta
   r_jeanhuguesrobert -->|2| r_github
+  r_jeanhuguesrobert -->|2| r_acorsica_org
   r_marenostrum -->|2| r_jeanhuguesrobert
   r_marenostrum -->|2| r_inseme
   r_marenostrum -->|2| r_inox
@@ -513,26 +514,26 @@ graph LR
 | Title | Location | Date |
 |---|---|---|
 | [Lien avec C.O.R.S.I.C.A. et l’Institut Mariani](acorsica-institut-mariani.md) *(institutional boundary note — MareNostrum, C.O.R.S.I.C.A. and Institut Mariani)* | this repo | 2026-06-03 |
-| [DHITL — Democratic Humans in the Loop](../DHITL.md) | this repo | 2026 |
-| [CXU Specification](../CXU_SPEC.md) | this repo | 2026 |
-| [Constellia](../constellia.md) *(ICOME'26, avec Guillermo Valdes)* | this repo | 2026 |
-| [Infrastructure Is All You Need — Structural Theory of AI Safety](../infrastructure_is_all_you_need.md) | this repo | 2026-05-08 |
-| [Safe Compute Exergy (SCE)](../safe_compute_exergy.md) | this repo | 2026-05-08 |
-| [Compute Exergy as an Omitted Variable in AI Governance — Extending Harari's Nexus](../compute-exergy-omitted-variable.md) | this repo | 2026-05-08 |
-| [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](../infrastructure_topologies_for_compute_sovereignty.md) | this repo | 2026-05-08 |
-| [From Photons to Inferences — LessWrong post on SCE + topology](../lesswrong_post.md) | this repo | 2026-05-08 |
-| [Mare Nostrum — Energy Sovereignty as Democratic Commons (Policy Paper)](../POLICY_PAPER.md) | this repo | 2026-05-08 |
-| [From Sun to Sovereignty — Communal Sovereign Funds vs Land Dispossession](../PAPER_SUN_TO_SOVEREIGNTY.md) | this repo | 2026-05-08 |
+| [DHITL — Democratic Humans in the Loop](DHITL.md) | this repo | 2026 |
+| [CXU Specification](CXU_SPEC.md) | this repo | 2026 |
+| [Constellia](constellia.md) *(ICOME'26, avec Guillermo Valdes)* | this repo | 2026 |
+| [Infrastructure Is All You Need — Structural Theory of AI Safety](infrastructure_is_all_you_need.md) | this repo | 2026-05-08 |
+| [Safe Compute Exergy (SCE)](safe_compute_exergy.md) | this repo | 2026-05-08 |
+| [Compute Exergy as an Omitted Variable in AI Governance — Extending Harari's Nexus](compute-exergy-omitted-variable.md) | this repo | 2026-05-08 |
+| [Toward Empirical Validation of Infrastructure Topologies for Compute Sovereignty](infrastructure_topologies_for_compute_sovereignty.md) | this repo | 2026-05-08 |
+| [From Photons to Inferences — LessWrong post on SCE + topology](lesswrong_post.md) | this repo | 2026-05-08 |
+| [Mare Nostrum — Energy Sovereignty as Democratic Commons (Policy Paper)](POLICY_PAPER.md) | this repo | 2026-05-08 |
+| [From Sun to Sovereignty — Communal Sovereign Funds vs Land Dispossession](PAPER_SUN_TO_SOVEREIGNTY.md) | this repo | 2026-05-08 |
 | [Pacte anti-capture solaire et inférentielle (FR)](pacte_anti_capture_solaire_inferentielle.md) *(source document v0.6 — applies Autonomie de Capacité to territorial solar energy and inference capacity)* | this repo | 2026-06-07 |
-| [MareNostrum — Tableau de bord](../dashboard.md) *(working dashboard for current doctrine, reservoir strategy and follow-up navigation)* | this repo | 2026-06-12 |
-| [Journal de bord — Après ICOME'26](../journal/2026-06-12-post-icome26.md) *(post-ICOME'26 working journal and terrain reconfiguration notes)* | this repo | 2026-06-12 |
-| [Valorisation synergétique de la forêt corse (FR)](../corsica_forest_synergies.md) | this repo | 2026-05-08 |
-| [EDF, Solaire et ZNI — Anatomie d'une captation de ressource (FR, v4.0)](../EDF.md) | this repo | 2026-05 |
-| [Architecture](../ARCHITECTURE.md) | this repo | 2025–2026 |
-| [Governance](../GOVERNANCE.md) | this repo | 2025–2026 |
-| [Model](../MODEL.md) | this repo | 2025–2026 |
-| [Contracts](../CONTRACTS.md) | this repo | 2025–2026 |
-| [Pricing](../PRICING.md) | this repo | 2025–2026 |
+| [MareNostrum — Tableau de bord](dashboard.md) *(working dashboard for current doctrine, reservoir strategy and follow-up navigation)* | this repo | 2026-06-12 |
+| [Journal de bord — Après ICOME'26](journal/2026-06-12-post-icome26.md) *(post-ICOME'26 working journal and terrain reconfiguration notes)* | this repo | 2026-06-12 |
+| [Valorisation synergétique de la forêt corse (FR)](corsica_forest_synergies.md) | this repo | 2026-05-08 |
+| [EDF, Solaire et ZNI — Anatomie d'une captation de ressource (FR, v4.0)](EDF.md) | this repo | 2026-05 |
+| [Architecture](ARCHITECTURE.md) | this repo | 2025–2026 |
+| [Governance](GOVERNANCE.md) | this repo | 2025–2026 |
+| [Model](MODEL.md) | this repo | 2025–2026 |
+| [Contracts](CONTRACTS.md) | this repo | 2025–2026 |
+| [Pricing](PRICING.md) | this repo | 2025–2026 |
 | [AGENTS.md — Mare Nostrum](../AGENTS.md) *(local operational mandate for AI agents working in this repository)* | this repo | 2026-06-13 |
 | [Corpus Status](corpus-status.md) *(living view — auto-refreshed by `cogentia.js corpus-status`)* | this repo | refreshable |
 | [Concept Index](concepts.md) *(typed concept registry — mapped by `cogentia.js concepts`)* | this repo | refreshable |

@@ -10,6 +10,14 @@ license: CC BY-SA 4.0
 affiliation: Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica
 date: 2026-05-16
 creator: Jean Hugues Noël Robert, baron Mariani
+document_role: "index"
+document_kind: "concept-index"
+visibility: "public"
+lifecycle_state: "active"
+classification_source: "cogentia.js"
+classification_version: "1"
+classification_rule: "concept-index"
+classification_confidence: "strong"
 ---
 
 # Concept Index — marenostrum
@@ -82,7 +90,7 @@ A cogentigram is a structured, partial, auditable and revisable representation o
 The core architectural axiom establishing democratic oversight within AI safety, ensuring humans retain ultimate loop control.
 
 **Reference documents:**
-- [`DHITL.md`](../DHITL.md)
+- [`DHITL.md`](DHITL.md)
 
 ---
 
@@ -96,7 +104,7 @@ The core architectural axiom establishing democratic oversight within AI safety,
 The unified metric matching compute availability strictly to its direct thermodynamic physical constraints and exergy limits.
 
 **Reference documents:**
-- [`CXU_SPEC.md`](../CXU_SPEC.md)
+- [`CXU_SPEC.md`](CXU_SPEC.md)
 
 ---
 
@@ -110,7 +118,7 @@ The unified metric matching compute availability strictly to its direct thermody
 A bounded availability paradigm ensuring computing infrastructure guarantees physical safety limits at the power and thermodynamic levels.
 
 **Reference documents:**
-- [`safe_compute_exergy.md`](../safe_compute_exergy.md)
+- [`safe_compute_exergy.md`](safe_compute_exergy.md)
 
 ---
 
@@ -124,7 +132,7 @@ A bounded availability paradigm ensuring computing infrastructure guarantees phy
 A network topology distributing democratic oversight and compute exergy safely.
 
 **Reference documents:**
-- [`constellia.md`](../constellia.md)
+- [`constellia.md`](constellia.md)
 
 ---
 
@@ -138,7 +146,7 @@ A network topology distributing democratic oversight and compute exergy safely.
 Specific ecological, thermal, and logistical integration points between the physical compute infrastructure and the natural Corsican environment.
 
 **Reference documents:**
-- [`corsica_forest_synergies.md`](../corsica_forest_synergies.md)
+- [`corsica_forest_synergies.md`](corsica_forest_synergies.md)
 
 ---
 
@@ -155,7 +163,7 @@ The central doctrine arguing why AI Safety inherently requires Democratic Humans
 - DHITL
 
 **Reference documents:**
-- [`infrastructure_is_all_you_need.md`](../infrastructure_is_all_you_need.md)
+- [`infrastructure_is_all_you_need.md`](infrastructure_is_all_you_need.md)
 
 ---
 
@@ -169,7 +177,7 @@ The central doctrine arguing why AI Safety inherently requires Democratic Humans
 The explicit transition pipeline converting solar exergy directly into political and computational independence.
 
 **Reference documents:**
-- [`PAPER_SUN_TO_SOVEREIGNTY.md`](../PAPER_SUN_TO_SOVEREIGNTY.md)
+- [`PAPER_SUN_TO_SOVEREIGNTY.md`](PAPER_SUN_TO_SOVEREIGNTY.md)
 <!-- BEGIN_AUTO: backlinks -->
 ### Backlinks
 
