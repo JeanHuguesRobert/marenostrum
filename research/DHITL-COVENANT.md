@@ -15,6 +15,8 @@ related_to:
   - "Democratic Humans In The Loop"
   - "One Human, One Voice"
   - "living-person sovereignty"
+  - "affected-community suffrage"
+  - "Inseme federated instances"
 ---
 
 # DHITL Covenant — One Living Person, One Voice
@@ -60,7 +62,68 @@ They may not substitute their own decision for the living person's judgment.
 
 They may not multiply a person's political weight through automation, capital, computation, organizational control, or delegated machine agency.
 
-## 3. AI assistance boundary
+## 3. Affected-community suffrage
+
+The intuitive democratic rule is:
+
+> **Those affected by a decision should have a voice in that decision.**
+
+French canonical form:
+
+> **Votent, en principe, ceux que la décision impacte.**
+
+This principle is just, but it is often difficult to operationalize. The perimeter of impact is rarely obvious: decisions have indirect effects, delayed effects, externalities, symbolic effects, minority effects, ecological effects, intergenerational effects, and cross-community effects.
+
+DHITL therefore adopts a stabilizing rule:
+
+> **When the exact perimeter of impact cannot be determined without arbitrariness, the relevant democratic community becomes the voting body. All living members of that community have equal sovereign weight.**
+
+French formulation:
+
+> **Lorsque le périmètre exact des personnes impactées ne peut pas être déterminé sans arbitraire, c'est la communauté politique pertinente qui constitue le corps votant. Tous ses membres vivants disposent d'une voix égale.**
+
+This is the functional meaning of citizenship in the DHITL framework.
+
+A **citizen** is not only a national-state subject. A citizen is a living member of a decision community whose rules define participation, responsibility, rights, obligations, and legitimate voice.
+
+Such communities may be:
+
+- geographic: municipality, village, island, region, watershed, neighborhood;
+- institutional: association, cooperative, university, school, foundation, commons institution;
+- thematic: energy, water, biodiversity, digital sovereignty, language, culture, care;
+- professional or operational: contributors, maintainers, users, operators, validators;
+- federated: several communities deciding together through a shared layer;
+- temporary or situated: assemblies, consultations, crisis-response groups, project-specific publics.
+
+A living person may belong to several communities at once. This does not create multiple votes inside the same decision body. It creates legitimate participation in several distinct decision spaces, each with its own scope.
+
+The anti-capture condition is therefore twofold:
+
+1. **No exclusion by arbitrary narrowing of the affected public.** A governance actor may not define the demos so narrowly that materially affected persons are excluded.
+2. **No vote multiplication by artificial broadening or organizational stacking.** A person, organization, bot network, DAO, company, foundation, party, or platform may not use overlapping structures to multiply sovereign weight inside the same decision.
+
+Federation is the stabilization mechanism for cross-community impact.
+
+When a decision materially affects several communities, DHITL-compatible governance should not hide the conflict by assigning the decision to a single convenient instance. It should either:
+
+- move the decision to a federated decision layer;
+- require double legitimacy from the local community and the affected federation;
+- create an ad hoc affected-public assembly;
+- or make the exclusion of affected communities explicit, contestable, and auditable.
+
+Implementation note:
+
+This is aligned with the Inseme model of federated instances: each community may operate its own instance, database, logs, modules, and rules, while sharing common code, protocols, and interoperability surfaces. Inseme's multi-instance architecture is therefore not merely a deployment convenience. It is the software expression of a plural, federated notion of citizenship.
+
+Short rule:
+
+> **The affected should vote; when impact is uncertain, the relevant community votes; when several communities are affected, federation is required.**
+
+French:
+
+> **Les impactés doivent voter ; quand l'impact est incertain, la communauté pertinente vote ; quand plusieurs communautés sont impactées, la fédération devient nécessaire.**
+
+## 4. AI assistance boundary
 
 DHITL accepts AI as cognitive augmentation. It rejects AI as sovereign substitution.
 
@@ -91,7 +154,7 @@ French:
 
 > **L'IA peut éclairer le jugement. Elle ne doit pas remplacer la souveraineté.**
 
-## 4. Public adherence condition
+## 5. Public adherence condition
 
 Any project may reuse DHITL materials under the applicable licenses.
 
@@ -101,11 +164,12 @@ Such public adherence means, at minimum, accepting the following statements:
 
 1. **One living person, one voice.** Political sovereignty is not weighted by capital, technical expertise, computing power, inherited status, number of controlled agents, or institutional size.
 2. **Only the living vote.** Dead persons, memorial agents, corporate entities, DAOs, digital twins, bots, models, and autonomous software systems do not hold sovereign voting rights.
-3. **AI suggests; humans decide.** AI systems may assist, but must not prescribe or execute sovereign political decisions in place of living persons.
-4. **Mandates are explicit, traceable, limited, and revocable.** No actor may claim political agency on behalf of another without a verifiable mandate.
-5. **Democratic claims must be auditable.** A governance process claiming DHITL compatibility must make its voting rules, mandates, delegations, logs, and decision procedures inspectable at the level required to detect capture.
+3. **The affected public must not be arbitrarily excluded.** When the exact perimeter of impact is uncertain, the relevant democratic community defines the voting body; when several communities are materially affected, the decision must be federated, jointly legitimized, or explicitly contestable.
+4. **AI suggests; humans decide.** AI systems may assist, but must not prescribe or execute sovereign political decisions in place of living persons.
+5. **Mandates are explicit, traceable, limited, and revocable.** No actor may claim political agency on behalf of another without a verifiable mandate.
+6. **Democratic claims must be auditable.** A governance process claiming DHITL compatibility must make its voting rules, membership criteria, mandates, delegations, logs, and decision procedures inspectable at the level required to detect capture.
 
-## 5. License/covenant separation
+## 6. License/covenant separation
 
 This covenant should not be confused with the legal license of a file, repository, dataset, or software component.
 
@@ -124,11 +188,11 @@ The covenant is therefore not primarily an exclusion mechanism. It is a truthful
 It does not say: "only our friends may use this."  
 It says: "do not claim democratic compatibility while violating the democratic invariant."
 
-## 6. Angles morts and stabilization requirements
+## 7. Angles morts and stabilization requirements
 
 The living-person invariant clarifies the democratic core, but it does not solve every failure mode. The following blind spots must remain explicit.
 
-### 6.1 Identity without capture
+### 7.1 Identity without capture
 
 "One living person, one voice" requires some way to distinguish one living person from another without creating a state, corporate, biometric, or platform monopoly over identity.
 
@@ -136,53 +200,65 @@ This remains an open problem.
 
 Stabilization direction: plural identity proofs, revocable credentials, local attestations, privacy-preserving verification, anti-Sybil controls, and explicit separation between identity verification and political profiling.
 
-### 6.2 Living status without surveillance
+### 7.2 Living status without surveillance
 
 "Only the living vote" requires liveness verification, but liveness verification can become intrusive surveillance.
 
 Stabilization direction: minimal liveness proofs, time-bounded attestations, no permanent biometric exposure, auditable verification procedures, and strict prohibition on transforming liveness checks into behavioral monitoring.
 
-### 6.3 Assistance without substitution
+### 7.3 Community perimeter without arbitrary exclusion
+
+"Those affected should vote" is just, but it can be captured by manipulating the definition of the affected public.
+
+Stabilization direction: explicit membership rules, published impact criteria, challenge procedures, minority-triggered review, federation triggers for cross-community effects, and public justification whenever a materially affected group is excluded from the voting body.
+
+### 7.4 Multiple memberships without vote multiplication
+
+A living person may belong to several communities, but overlapping memberships must not become a mechanism for multiplying sovereign weight inside the same decision.
+
+Stabilization direction: distinguish participation in distinct decision spaces from duplicate voting in one decision space; detect duplicate identities; model organizational voice separately from sovereign vote; require deduplication rules for federated votes.
+
+### 7.5 Assistance without substitution
 
 A digital twin that never formally votes may still become the de facto decision-maker if its suggestions are followed automatically.
 
 Stabilization direction: active deliberation prompts, acceptance-rate audits, dissent sampling, confidence intervals, explanation traces, and periodic human re-authorization.
 
-### 6.4 Delegation without alienation
+### 7.6 Delegation without alienation
 
 Liquid democracy and delegated mandates are compatible with DHITL only if delegation remains explicit, limited, revocable, and inspectable.
 
 Stabilization direction: mandate expiration, mandate scope labels, revocation by default, public delegation graphs where appropriate, and private-but-auditable delegation mechanisms where privacy is necessary.
 
-### 6.5 Memory without posthumous sovereignty
+### 7.7 Memory without posthumous sovereignty
 
 Digital memory, memorial agents, and personal digital twins may preserve a person's thought after death. They may not continue that person's sovereign political agency.
 
 Stabilization direction: posthumous agents must be clearly labeled as memory, archive, simulation, or testimony; never as living political principals.
 
-### 6.6 Organizations without vote multiplication
+### 7.8 Organizations without vote multiplication
 
 Organizations, foundations, companies, associations, parties, and DAOs can coordinate action. They must not multiply the sovereign voting weight of the persons controlling them.
 
 Stabilization direction: distinguish organizational voice, legal authority, property rights, and sovereign political vote. The organization may speak or act within its legal scope; it may not become an extra person.
 
-### 6.7 Certification without gatekeeping capture
+### 7.9 Certification without gatekeeping capture
 
 A DHITL-compatible label can itself be captured if certification becomes expensive, opaque, or controlled by incumbents.
 
 Stabilization direction: self-declaration tier, random audits, public challenge procedures, transparent criteria, and separation between covenant authorship, certification, and dispute resolution.
 
-## 7. Compatibility formula
+## 8. Compatibility formula
 
 A concise compatibility test:
 
-> A system may claim DHITL compatibility only if its governance preserves equal sovereign weight among living persons, prevents non-living entities from voting, keeps AI assistance subordinate to human judgment, and makes mandates and decision procedures auditable.
+> A system may claim DHITL compatibility only if its governance preserves equal sovereign weight among living persons, prevents non-living entities from voting, does not arbitrarily exclude materially affected communities, federates decisions when impact crosses community boundaries, keeps AI assistance subordinate to human judgment, and makes mandates, membership rules, and decision procedures auditable.
 
 French:
 
-> Un système ne peut se dire compatible DHITL que s'il préserve l'égalité souveraine entre personnes vivantes, empêche les entités non vivantes de voter, maintient l'assistance IA sous l'autorité du jugement humain, et rend les mandats comme les décisions auditables.
+> Un système ne peut se dire compatible DHITL que s'il préserve l'égalité souveraine entre personnes vivantes, empêche les entités non vivantes de voter, n'exclut pas arbitrairement les communautés matériellement impactées, fédère les décisions lorsque l'impact dépasse les frontières d'une communauté, maintient l'assistance IA sous l'autorité du jugement humain, et rend les mandats, les règles d'appartenance comme les décisions auditables.
 
-## 8. Doctrinal compression
+## 9. Doctrinal compression
 
 Very short form:
 
@@ -194,11 +270,11 @@ French:
 
 Canonical public form:
 
-> **Une personne vivante, une voix. Seuls les vivants votent. L'IA suggère, éclaire et vérifie ; elle ne souverainise pas.**
+> **Une personne vivante, une voix. Seuls les vivants votent. Les impactés doivent compter. Quand l'impact dépasse une communauté, la décision doit se fédérer. L'IA suggère, éclaire et vérifie ; elle ne souverainise pas.**
 
-## 9. Integration note
+## 10. Integration note
 
-This covenant should be referenced from `research/DHITL.md`, from any DHITL-compatible implementation, and from any future licensing or trademark policy governing the use of DHITL, Kudocracy, Cogentia, FractaVolta, or related compatibility labels.
+This covenant should be referenced from `research/DHITL.md`, from any DHITL-compatible implementation, and from any future licensing or trademark policy governing the use of DHITL, Kudocracy, Cogentia, FractaVolta, Inseme, or related compatibility labels.
 
 It should remain short enough to be publicly intelligible and strict enough to make capture visible.
 
