@@ -85,7 +85,7 @@ Il répond à un risque structurel : la transformation du soleil, du foncier, de
 
 Le document ne vise pas à dénoncer un acteur particulier. Il vise à construire une doctrine de protection effective : **nommer, mesurer, tracer et conditionner** la capture possible de la valeur solaire lorsqu’elle devient compute, inférence, actif financier ou contrat dérivé.
 
-Le document est aussi une **application sectorielle de l’Autonomie de Capacité** : il teste la capacité d’un territoire à convertir une ressource naturelle — le soleil — en capabilités collectives effectives, vérifiables et transmissibles pour ses habitants.
+Le document est aussi une **application sectorielle de l’Autonomie de Capacité** : il teste la capacité d’un territoire à convertir une ressource naturelle — le soleil — en capacités collectives effectives, vérifiables et transmissibles pour ses habitants.
 
 ### Public principal
 
@@ -153,7 +153,7 @@ Ce pacte propose une règle inverse : un territoire qui rend possible la product
 
 Le sujet n’est donc pas seulement de vendre des MWh. Le sujet est de transformer une ressource territoriale — notamment solaire — en capacité utile, garantie, traçable et partageable. Le vocabulaire de l’exergie computationnelle et du **CXU — Compute eXergy Unit** permet de nommer cette valeur plus précisément que le simple prix de l’électricité, sous réserve de formalisation technique ultérieure.
 
-Ce pacte est une application sectorielle de l’**Autonomie de Capacité** : une ressource territoriale ne devient autonomie réelle que lorsqu’elle est convertie en capabilités collectives effectives pour les habitants.
+Ce pacte est une application sectorielle de l’**Autonomie de Capacité** : une ressource territoriale ne devient autonomie réelle que lorsqu’elle est convertie en capacités collectives effectives pour les habitants.
 
 Le pacte ne refuse pas l’investissement extérieur. Il refuse l’extraction sans ancrage. Sa réponse tient en quatre verbes :
 
@@ -183,7 +183,7 @@ Dans le cas du Pacte, ce capital territorial comprend notamment :
 
 ### 0.2 Autonomie de Capacité
 
-L’**Autonomie de Capacité** désigne la faculté d’un territoire à convertir son capital territorial en **capabilités collectives effectives**, c’est-à-dire en possibilités réelles d’action, de production, de transmission, de décision et de correction pour ses habitants.
+L’**Autonomie de Capacité** désigne la faculté d’un territoire à convertir son capital territorial en **capacités collectives effectives**, c’est-à-dire en possibilités réelles d’action, de production, de transmission, de décision et de correction pour ses habitants.
 
 Une autonomie statutaire dit ce qu’un territoire a le droit de faire. Une autonomie de capacité mesure ce qu’il devient réellement capable de faire.
 
@@ -369,7 +369,7 @@ capital territorial → infrastructure → actif financier externe
 Le Pacte propose au contraire une chaîne de capacitation :
 
 ```text
-capital territorial → énergie maîtrisée → compute gouverné → inférences utiles → capabilités collectives
+capital territorial → énergie maîtrisée → compute gouverné → inférences utiles → capacités collectives
 ```
 
 La question centrale devient donc :
@@ -560,7 +560,7 @@ La capture n’exige pas nécessairement mauvaise intention. Elle peut résulter
 
 Dans le vocabulaire de l’Autonomie de Capacité, la capture territoriale peut être définie plus précisément :
 
-> La capture territoriale est l’échec de conversion du capital territorial en capabilités collectives pour les habitants, lorsque cette conversion est réalisée au bénéfice principal d’acteurs extérieurs.
+> La capture territoriale est l’échec de conversion du capital territorial en capacités collectives pour les habitants, lorsque cette conversion est réalisée au bénéfice principal d’acteurs extérieurs.
 
 Autrement dit, il peut y avoir :
 
@@ -701,7 +701,7 @@ Le territoire ne doit pas seulement recevoir de l’argent. Il doit recevoir de 
 Après cinq ans, le territoire sait-il faire davantage par lui-même qu’avant le projet ?
 
 **Test capacitaire.**  
-Cette clause est le cœur du Pacte : le projet augmente-t-il réellement les capabilités collectives du territoire ?
+Cette clause est le cœur du Pacte : le projet augmente-t-il réellement les capacités collectives du territoire ?
 
 **Vérification minimale.**  
 Le projet doit produire des effets mesurables en matière de :
@@ -1045,7 +1045,7 @@ Mais elle rend aussi la Corse capable d’une réponse pionnière :
 
 > transformer l’insularité en architecture de souveraineté énergétique et inférentielle.
 
-FractaVolta donne au Pacte son architecture technique : énergie, compute, exergie, inférence. Mare Nostrum donne son échelle géopolitique et méditerranéenne. L’Autonomie de Capacité donne son critère de vérité : une ressource territoriale n’est réellement autonome que si elle devient une capabilité collective effective pour les habitants. La Démocratie capable donne son exigence de contrôle : pas de capacité sans traçabilité, correction, imputabilité et non-capture.
+FractaVolta donne au Pacte son architecture technique : énergie, compute, exergie, inférence. Mare Nostrum donne son échelle géopolitique et méditerranéenne. L’Autonomie de Capacité donne son critère de vérité : une ressource territoriale n’est réellement autonome que si elle devient une capacité collective effective pour les habitants. La Démocratie capable donne son exigence de contrôle : pas de capacité sans traçabilité, correction, imputabilité et non-capture.
 
 ### 12.1 Portabilité hors de Corse
 
