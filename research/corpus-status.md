@@ -65,20 +65,20 @@ graph LR
   r_kudos["Kudos"]
   r_github[".github"]
   r_acorsica_org["acorsica.org"]
-  r_jeanhuguesrobert -->|174| r_barons_mariani
+  r_jeanhuguesrobert -->|179| r_barons_mariani
   r_cogentia -->|98| r_barons_mariani
-  r_jeanhuguesrobert -->|87| r_cogentia
+  r_jeanhuguesrobert -->|90| r_cogentia
   r_barons_mariani -->|62| r_cogentia
   r_jeanhuguesrobert -->|44| r_fractavolta
+  r_jeanhuguesrobert -->|43| r_marenostrum
   r_fractavolta -->|41| r_cogentia
-  r_jeanhuguesrobert -->|41| r_marenostrum
   r_fractavolta -->|37| r_marenostrum
+  r_jeanhuguesrobert -->|26| r_inseme
   r_barons_mariani -->|23| r_marenostrum
-  r_jeanhuguesrobert -->|23| r_inseme
   r_cogentia -->|22| r_inseme
-  r_jeanhuguesrobert -->|20| r_kudos
   r_cogentia -->|19| r_marenostrum
   r_jeanhuguesrobert -->|19| r_inox
+  r_jeanhuguesrobert -->|19| r_kudos
   r_fractavolta -->|18| r_inseme
   r_fractavolta -->|18| r_barons_mariani
   r_barons_mariani -->|17| r_fractavolta
@@ -90,23 +90,23 @@ graph LR
   r_inox -->|11| r_cogentia
   r_marenostrum -->|11| r_barons_mariani
   r_inox -->|10| r_fractavolta
-  r_jeanhuguesrobert -->|10| r_gouvernance
   r_fractavolta -->|8| r_inox
   r_inox -->|8| r_marenostrum
   r_inox -->|7| r_inseme
   r_inseme -->|7| r_inox
-  r_jeanhuguesrobert -->|6| r_privai
+  r_jeanhuguesrobert -->|6| r_gouvernance
   r_jeanhuguesrobert -->|6| r_ubikia
   r_barons_mariani -->|5| r_inox
   r_barons_mariani -->|5| r_jeanhuguesrobert
   r_cogentia -->|5| r_fractavolta
+  r_jeanhuguesrobert -->|5| r_privai
   r_barons_mariani -->|4| r_ubikia
   r_cogentia -->|4| r_jeanhuguesrobert
-  r_jeanhuguesrobert -->|4| r_institut_mariani
   r_marianivillage -->|4| r_fractavolta
   r_github -->|3| r_gouvernance
   r_inseme -->|3| r_barons_mariani
   r_inseme -->|3| r_jeanhuguesrobert
+  r_jeanhuguesrobert -->|3| r_institut_mariani
   r_jeanhuguesrobert -->|3| r_marianivillage
   r_kudos -->|3| r_barons_mariani
   r_cogentia -->|2| r_inox
@@ -118,8 +118,6 @@ graph LR
   r_inseme -->|2| r_fractavolta
   r_institut_mariani -->|2| r_barons_mariani
   r_institut_mariani -->|2| r_fractavolta
-  r_jeanhuguesrobert -->|2| r_github
-  r_jeanhuguesrobert -->|2| r_acorsica_org
   r_marenostrum -->|2| r_jeanhuguesrobert
   r_marenostrum -->|2| r_inseme
   r_marenostrum -->|2| r_inox
@@ -140,6 +138,8 @@ graph LR
   r_institut_mariani -->|1| r_cogentia
   r_institut_mariani -->|1| r_marenostrum
   r_institut_mariani -->|1| r_inox
+  r_jeanhuguesrobert -->|1| r_github
+  r_jeanhuguesrobert -->|1| r_acorsica_org
   r_kudos -->|1| r_institut_mariani
   r_marianivillage -->|1| r_institut_mariani
   r_ubikia -->|1| r_cogentia
@@ -515,6 +515,8 @@ graph LR
 |---|---|---|
 | [Lien avec C.O.R.S.I.C.A. et l’Institut Mariani](acorsica-institut-mariani.md) *(institutional boundary note — MareNostrum, C.O.R.S.I.C.A. and Institut Mariani)* | this repo | 2026-06-03 |
 | [DHITL — Democratic Humans in the Loop](DHITL.md) | this repo | 2026 |
+| [DHITL Covenant — One Living Person, One Voice](DHITL-COVENANT.md) | this repo | 2026-06-23 |
+| [DHITL — Membership, Affected Publics, and Federated Citizenship](dhitl-membership-and-federation.md) | this repo | 2026-06-24 |
 | [CXU Specification](CXU_SPEC.md) | this repo | 2026 |
 | [Constellia](constellia.md) *(ICOME'26, avec Guillermo Valdes)* | this repo | 2026 |
 | [Infrastructure Is All You Need — Structural Theory of AI Safety](infrastructure_is_all_you_need.md) | this repo | 2026-05-08 |

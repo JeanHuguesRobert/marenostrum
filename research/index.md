@@ -3,7 +3,7 @@ title: "Research Index — MareNostrum"
 description: "A map of what is, what is in progress, and what could be."
 layout: default
 nav_order: 1
-last_modified_at: 2026-05-22
+last_modified_at: 2026-06-24
 license: CC BY-SA 4.0
 affiliation: Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica
 date: 2026-05-22
@@ -37,6 +37,8 @@ This repository hosts [DHITL](DHITL.md) — the **load-bearing architectural axi
 |---|---|---|
 | [Lien avec C.O.R.S.I.C.A. et l’Institut Mariani](acorsica-institut-mariani.md) *(institutional boundary note — MareNostrum, C.O.R.S.I.C.A. and Institut Mariani)* | this repo | 2026-06-03 |
 | [DHITL — Democratic Humans in the Loop](DHITL.md) | this repo | 2026 |
+| [DHITL Covenant — One Living Person, One Voice](DHITL-COVENANT.md) | this repo | 2026-06-23 |
+| [DHITL — Membership, Affected Publics, and Federated Citizenship](dhitl-membership-and-federation.md) | this repo | 2026-06-24 |
 | [CXU Specification](CXU_SPEC.md) | this repo | 2026 |
 | [Constellia](constellia.md) *(ICOME'26, avec Guillermo Valdes)* | this repo | 2026 |
 | [Infrastructure Is All You Need — Structural Theory of AI Safety](infrastructure_is_all_you_need.md) | this repo | 2026-05-08 |
