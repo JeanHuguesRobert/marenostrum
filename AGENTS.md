@@ -7,6 +7,7 @@ classification_source: "cogentia.js"
 classification_version: "1"
 classification_rule: "agent-mandate"
 classification_confidence: "strong"
+last_stamped_at: 2026-06-26
 ---
 
 # AGENTS.md — Mare Nostrum
@@ -19,9 +20,10 @@ It is not the doctrine itself.
 It is not the corpus itself.  
 It is a governed operational projection of the corpus for this repository.
 
-The source methodological reference is:
+The source methodological references are:
 
 - [`cogentia/research/agent_configuration_layer.md`](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/agent_configuration_layer.md)
+- [`cogentia/research/optimistic_mainline_governance.md`](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/optimistic_mainline_governance.md)
 
 ## Repository role
 
@@ -85,6 +87,14 @@ or:
 ```text
 hypothesis
 ```
+
+## Direct-main rule
+
+This repository follows **Optimistic Mainline Governance** by reference, not by copying the doctrine here.
+
+Small direct commits to `main` are acceptable when explicitly authorized, scoped, reversible, inspectable by diff, and reported after completion.
+
+Because Mare Nostrum concerns strategic, political, institutional and Mediterranean cooperation frames, use an issue, checkpoint, branch, PR, staged patch or human validation when a change could convert a scenario into doctrine, imply a partnership, create an institutional claim, alter a legal/political position, or affect several repositories.
 
 ## Editorial discipline
 
