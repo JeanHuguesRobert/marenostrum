@@ -388,6 +388,7 @@ invited.
 6. **Audit API standard**: a common provider API schema for automated telemetry
    ingestion (hot/warm workloads), so that continuous auditing does not require
    bespoke integrations per provider
+7. **Gaming-resistant accounting**: formalizing how CXU systems detect and limit compute washing, circular compute flows, legitimacy laundering, concentration gaming, sponsor/beneficiary confusion, and attempts to purchase cognitive legitimacy through high compute expenditure.
 
 ---
 
