@@ -282,6 +282,35 @@ risk profile of AI infrastructure concentration.
 triggers a S5 warning condition (DHITL Section 7.2) regardless of the CECI
 value.
 
+## 7bis. Gaming-Resistant CXU Accounting
+
+The CXU is a unit of accountable compute. It must not become a mechanism by which actors can purchase cognitive legitimacy merely by spending more compute.
+
+High CXU expenditure proves that scarce compute was consumed under some declared conditions. It does not, by itself, prove truth, contribution, safety, legitimacy or public value.
+
+A CXU-denominated system is defective if the actor with the largest compute budget can buy the result of the cognitive game without producing a proportionate, traceable and contestable contribution to the conditions of life of affected humans.
+
+Therefore CXU accounting should track, where relevant:
+
+- payer;
+- mandate;
+- beneficiary;
+- declared purpose;
+- affected humans or affected territory;
+- concentration of expenditure;
+- circular compute flows;
+- sponsor / beneficiary separation;
+- auditability of claimed public value;
+- contestability of the contribution claim.
+
+This extends the same anti-capture logic as the CECI. Concentration of certified compute is not only a market-structure issue; it is also a cognitive-governance issue.
+
+Principle:
+
+```text
+Compute cost creates seriousness.
+It does not create truth, legitimacy or authority.
+
 ---
 
 ## 8. Governance of This Specification
