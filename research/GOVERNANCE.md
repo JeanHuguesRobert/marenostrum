@@ -174,7 +174,6 @@ These are open problems, not objections to the model. They are the next iteratio
 ### Backlinks
 
 *These documents link to this file:*
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [GOVERNANCE - moved](../GOVERNANCE.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
 - [MareNostrum — Energy Availability Contracts](CONTRACTS.md)

@@ -174,7 +174,6 @@ This coupling is intentional. The CXU tier reflects not just the energy source b
 ### Backlinks
 
 *These documents link to this file:*
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [CONTRACTS - moved](../CONTRACTS.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
 - [MareNostrum — Energy Availability Pricing Model](PRICING.md)

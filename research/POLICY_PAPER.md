@@ -311,7 +311,6 @@ Roques, F., Hiroux, C., Saguan, M. (2010). Optimal wind power deployment in Euro
 ### Backlinks
 
 *These documents link to this file:*
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [POLICY PAPER - moved](../POLICY_PAPER.md)
 - [Research Index — MareNostrum](index.md)
 <!-- END_AUTO: backlinks -->

@@ -64,7 +64,6 @@ Ils ne valent ni fusion institutionnelle, ni création automatique d’un consor
 
 *These documents link to this file:*
 - [C.O.R.S.I.C.A., Institut Mariani et corpus personnel](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/acorsica-et-corpus.md)
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Lien avec C.O.R.S.I.C.A. et l’Institut Mariani](../acorsica-institut-mariani.md)
 - [Research Index — MareNostrum](index.md)
 <!-- END_AUTO: backlinks -->

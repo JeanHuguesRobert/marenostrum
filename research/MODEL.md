@@ -171,7 +171,6 @@ These are not objections to the model. They are boundaries that make it precise.
 - [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
 - [Rendre capable — noyau doctrinal provisoire](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/noyau_doctrinal_rendre_capable.md)
 - [Electricity in Containers](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/electricity_in_containers.md)
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
 - [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
 - [MareNostrum — Energy Availability Pricing Model](PRICING.md)

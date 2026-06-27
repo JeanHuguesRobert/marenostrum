@@ -146,7 +146,6 @@ Si vous souhaitez un diagramme SVG illustrant les huit principes d’Ostrom appl
 ### Backlinks
 
 *These documents link to this file:*
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Concept Index — marenostrum](concepts.md)
 - [corsica forest synergies - moved](../corsica_forest_synergies.md)
 - [Research Index — MareNostrum](index.md)

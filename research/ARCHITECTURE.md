@@ -197,7 +197,6 @@ The economic premium (×10–×31 for Sovereign-tier CXU) is not a market arbitr
 
 *These documents link to this file:*
 - [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [ARCHITECTURE - moved](../ARCHITECTURE.md)
 - [Mare Nostrum: Energy Sovereignty as Democratic Commons](POLICY_PAPER.md)
 - [MareNostrum](../README.md)

@@ -561,7 +561,6 @@ These belong in subsequent drafts, after the basic telemetry schema stabilises.
 - FractaVolta
 - MareNostrum
 - [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md)
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Concept Index — marenostrum](concepts.md)
 - [CXU SPEC - moved](../CXU_SPEC.md)
 - [Research Index — MareNostrum](index.md)

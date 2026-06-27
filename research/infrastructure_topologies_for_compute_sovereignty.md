@@ -173,7 +173,6 @@ The paper’s main contribution is a framework that can be audited, criticized, 
 ### Backlinks
 
 *These documents link to this file:*
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [infrastructure topologies for compute sovereignty - moved](../infrastructure_topologies_for_compute_sovereignty.md)
 - [lesswrong post](lesswrong_post.md)
 - [MareNostrum — Operational Exergy Model](MODEL.md)

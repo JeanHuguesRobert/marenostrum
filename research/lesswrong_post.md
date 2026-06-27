@@ -101,7 +101,6 @@ All documents are living and open for contribution.
 ### Backlinks
 
 *These documents link to this file:*
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [lesswrong post - moved](../lesswrong_post.md)
 - [Research Index — MareNostrum](index.md)
 <!-- END_AUTO: backlinks -->

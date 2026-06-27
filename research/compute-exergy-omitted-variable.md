@@ -623,7 +623,6 @@ Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S., Högy, P. (
 *These documents link to this file:*
 - [Rendre capable — noyau doctrinal provisoire](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/noyau_doctrinal_rendre_capable.md)
 - [Fractanet — Generalized Control Planes for Heterogeneous Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/fractanet.md)
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [compute exergy omitted variable - moved](../compute-exergy-omitted-variable.md)
 - [Research Index — MareNostrum](index.md)
 <!-- END_AUTO: backlinks -->

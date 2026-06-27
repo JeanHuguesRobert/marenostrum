@@ -538,7 +538,6 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 
 *These documents link to this file:*
 - Barons Mariani
-- [Corpus Status — barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/corpus-status.md)
 - [Corsica2038 — De la prospective subie à l’autonomie de capacité](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/autonomia/corsica2038_contre_rapport_pruspettiva2050.md)
 - [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
 - [La seconde méthode comme généralisation prudente de l’agile](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/agile.md)
@@ -565,7 +564,6 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 - [The Inox Programming Language — Specification](https://github.com/JeanHuguesRobert/Inox/blob/master/research/inox-spec.md)
 - The Iɴᴏx programming language
 - [Research Index — Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md)
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Concept Index — marenostrum](concepts.md)
 - [DHITL - moved](../DHITL.md)
 - [lesswrong post](lesswrong_post.md)

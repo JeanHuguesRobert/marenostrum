@@ -111,6 +111,5 @@ This repository hosts [DHITL](DHITL.md) — the **load-bearing architectural axi
 - [Research Index — Inox](https://github.com/JeanHuguesRobert/Inox/blob/master/research/index.md)
 - [Research Index — Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md)
 - [Research Index — Jean Hugues Noël Robert (Profile / Entry Point)](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/index.md)
-- [Corpus Status — marenostrum](corpus-status.md)
 - [MareNostrum](../README.md)
 <!-- END_AUTO: backlinks -->

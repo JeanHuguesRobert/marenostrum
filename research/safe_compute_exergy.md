@@ -489,7 +489,6 @@ The dependency is explicit: **SCE requires Fractavolta**. A CXU without a Fracta
 - [Electricity in Containers](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/electricity_in_containers.md)
 - [Fractanet — Generalized Control Planes for Heterogeneous Packet Networks](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/fractanet.md)
 - [FractaTera](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/tera.md)
-- [Documents - All Tracked Repos](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/documents.md)
 - [Concept Index — marenostrum](concepts.md)
 - [lesswrong post](lesswrong_post.md)
 - [MareNostrum — Energy Availability Contracts](CONTRACTS.md)
