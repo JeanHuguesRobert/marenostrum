@@ -245,4 +245,5 @@ The author thanks the members of C.O.R.S.I.C.A. for sustained intellectual engag
 - [lesswrong post](lesswrong_post.md)
 - [Research Index — MareNostrum](index.md)
 - [Safe Compute Exergy (SCE)](safe_compute_exergy.md)
+- [Open Strategy for Model Selector: DHITL-Aligned Architecture](https://github.com/JeanHuguesRobert/operium/blob/main/research/open-strategy-model-selector.md)
 <!-- END_AUTO: backlinks -->

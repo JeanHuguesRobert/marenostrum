@@ -570,4 +570,5 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 - [MareNostrum](../README.md)
 - [MareNostrum — System Architecture](ARCHITECTURE.md)
 - [Research Index — MareNostrum](index.md)
+- [Open Strategy for Model Selector: DHITL-Aligned Architecture](https://github.com/JeanHuguesRobert/operium/blob/main/research/open-strategy-model-selector.md)
 <!-- END_AUTO: backlinks -->

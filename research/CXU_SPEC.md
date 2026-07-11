@@ -564,4 +564,5 @@ These belong in subsequent drafts, after the basic telemetry schema stabilises.
 - [Concept Index — marenostrum](concepts.md)
 - [CXU SPEC - moved](../CXU_SPEC.md)
 - [Research Index — MareNostrum](index.md)
+- [Generic Model Selector Design](https://github.com/JeanHuguesRobert/operium/blob/main/research/model-selector-design.md)
 <!-- END_AUTO: backlinks -->
