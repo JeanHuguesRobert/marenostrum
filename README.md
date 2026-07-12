@@ -124,7 +124,7 @@ Read in order. Each document derives from the one before it.
 
 **`infrastructure_topologies_for_compute_sovereignty.md`** — Orbital vs. Territorial Topology: sovereignty index S = f(R, P, D, G, F). Scenario analysis for Corsica, Sardinia, Sicily, Tunisia. Three falsifiable hypotheses.
 
-**`constellia.md`** — Fractal architecture for energy, food, and digital sovereignty in island territories. Submitted to ICOME'26 (co-authored with Guillermo Valdes).
+**`constellia.md`** — Fractal architecture for energy, food, and digital sovereignty in island territories. Submitted to ICOME'26 (co-authored with Guillermo Valdes); no decision notice was received, and the conference concluded without our participation. Operationally treated as not accepted, without evidence of a formal rejection.
 
 ### Applied Research
 
