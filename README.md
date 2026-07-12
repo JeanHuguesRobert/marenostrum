@@ -13,6 +13,21 @@
 
 ## What MareNostrum Is
 
+### The current public proposal: Sun & Inferences
+
+**Sun & Inferences** is the present Corsican expression of MareNostrum: convert
+locally available solar exergy into democratically governed energy, distributed
+compute, useful AI inferences, and shared territorial value.
+
+It is being explored publicly in connection with Jean Hugues Robert's candidacy
+for the French Senate in Haute-Corse in September 2026. The candidacy is an
+occasion to test and improve the proposal, not a condition of its continuation.
+The work proceeds regardless of the electoral result.
+
+```text
+sun → governed energy → distributed compute → useful inferences → shared capacity
+```
+
 MareNostrum is a strategic infrastructure framework. Its object is sovereign AI compute — the physical and institutional substrate that determines who controls artificial intelligence at a territorial scale.
 
 The argument, in one paragraph:
