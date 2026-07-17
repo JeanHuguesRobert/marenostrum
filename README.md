@@ -1,3 +1,23 @@
+---
+title: MareNostrum
+author: unknown
+date: '2026-07-12'
+document_role: source
+document_kind: documentation
+visibility: public
+lifecycle_state: working
+update_policy: UP-DEFAULT-REVIEWED
+provenance:
+  origin_type: repository
+  origin_repository: JeanHuguesRobert/marenostrum
+  origin_ref: cb4b4d0
+  origin_date: '2026-07-12'
+  derived_from: []
+review:
+  status: unreviewed
+  reviewed_by: []
+---
+
 # MareNostrum
 
 **Sovereign Compute Infrastructure for France and the Mediterranean**
