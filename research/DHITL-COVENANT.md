@@ -17,6 +17,10 @@ related_to:
   - "living-person sovereignty"
   - "affected-community suffrage"
   - "Inseme federated instances"
+classification_source: "cogentia.js"
+classification_version: "1"
+classification_rule: "explicit-metadata"
+classification_confidence: "medium"
 ---
 
 # DHITL Covenant — One Living Person, One Voice
