@@ -537,13 +537,13 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 ### Backlinks
 
 *These documents link to this file:*
-- Barons Mariani
+- [Barons Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/README.md)
 - [Corsica2038 — De la prospective subie à l’autonomie de capacité](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/autonomia/corsica2038_contre_rapport_pruspettiva2050.md)
 - [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
 - [La seconde méthode comme généralisation prudente de l’agile](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/agile.md)
 - [Research Index — barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/index.md)
 - [Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/COGENTIA.md)
-- Cogentia
+- [Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/README.md)
 - [Cogentia Commons — MVP Specification](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/cogentia_commons_mvp_spec.md)
 - [Cogentia Commons — Session Continuation Snapshot](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/cogentia_commons_continuation.md)
 - [Cogentia Workflows](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/cogentia_workflows.md)
@@ -552,7 +552,7 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 - [Trail: From Autonomia to DHITL](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/trails/from_autonomia_to_dhitl.md)
 - [Trail: From Method to Machine](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/trails/from_method_to_machine.md)
 - For researchers
-- FractaVolta
+- [FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/README.md)
 - [Guaranteed Inference](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/garanteed_inference.md)
 - [Le Réseau Inconscient](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/LE_RESEAU_INCONSCIENT.md)
 - MareNostrum
@@ -562,8 +562,13 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 - [Value-Shaped Solar and Containerized Compute](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/value_shaped_solar_and_containerized_compute.md)
 - [Research Index — Inox](https://github.com/JeanHuguesRobert/Inox/blob/master/research/index.md)
 - [The Inox Programming Language — Specification](https://github.com/JeanHuguesRobert/Inox/blob/master/research/inox-spec.md)
-- The Iɴᴏx programming language
+- [The Iɴᴏx programming language](https://github.com/JeanHuguesRobert/Inox/blob/master/README.md)
 - [Research Index — Inseme](https://github.com/JeanHuguesRobert/inseme/blob/main/research/index.md)
+- [Research Index — barons-Mariani](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/barons-Mariani-index.md)
+- [Research Index — Cogentia](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/cogentia-index.md)
+- [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/FractaVolta-index.md)
+- [Research Index — Inox](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/Inox-index.md)
+- [Research Index — Inseme](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/inseme-index.md)
 - [Concept Index — marenostrum](concepts.md)
 - [DHITL - moved](../DHITL.md)
 - [lesswrong post](lesswrong_post.md)
