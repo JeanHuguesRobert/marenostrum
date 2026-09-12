@@ -541,6 +541,7 @@ The formal definitions of *Cogentia*, *Cogentiscope*, and *Cogentigram* — and 
 - [Corsica2038 — De la prospective subie à l’autonomie de capacité](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/autonomia/corsica2038_contre_rapport_pruspettiva2050.md)
 - [Discours de la seconde méthode](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/second_method.md)
 - [La seconde méthode comme généralisation prudente de l’agile](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/agile.md)
+- [Quand le Réel répond](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/quand_le_reel_repond_pkd.md)
 - [Research Index — barons-Mariani](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/index.md)
 - [Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/COGENTIA.md)
 - [Cogentia](https://github.com/JeanHuguesRobert/cogentia/blob/main/README.md)
