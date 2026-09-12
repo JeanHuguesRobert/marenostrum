@@ -477,7 +477,6 @@ If the substrate hypothesis is correct, a practical implication follows: current
 The four-paper MareNostrum corpus proposes a specific structural intervention at the upstream level: democratic governance of compute infrastructure, grounded in physically distributed solar exergy, institutionalised through cooperative sovereign funds, expressed as a verifiable market premium in the compute pricing structure. This is not utopian. It has verified physical parameters (10.8 GWp, 13.8 TWh/year surplus), a concrete institutional precedent (CECA 1951), and a functioning economic model (the ×4-to-×31 value multiplier is a present-day market reality in certified cloud computing, not a projection).
 
 If the substrate hypothesis is incorrect — if compute concentration and governance coupling turn out not to be causally prior to algorithmic authority — the framework still has diagnostic value: it specifies precisely where the theoretical disagreement lies. Is algorithmic authority primarily a function of M? Of information network architecture? Of compute substrate? Making these alternatives explicit is useful regardless of which proves empirically dominant.
-
 Both outcomes advance the research program.
 
 ## 12. Conclusion
@@ -490,7 +489,7 @@ If so, the variables that determine whether democratic institutions survive the 
 
 This reformulates Harari's Dataism not as a historical law but as a contingent phase regime — one that requires specific governance failures to materialise and can be prevented by specific governance successes. The prevention mechanisms are architecturally specified in the companion papers and empirically grounded in the Mediterranean case.
 
-The vault analogy from Constellia states the conclusion most precisely: Switzerland did not mine gold. It built governance infrastructure that made gold worth more by being there. The compute exergy of the Mediterranean basin is the gold. The governance architecture — democratic, distributed, traceable, antifragile — is the vault. The claim of the MareNostrum research program, taken as a whole, is that this vault can be built, and that building it is the most consequential AI safety intervention available to democratic polities in the current decade.
+The vault analogy from Constellia states the conclusion most precisely: Switzerland did not mine gold. It built governance infrastructure that made gold worth more by being there. The compute exergy of the Mediterranean basin is the gold. The governance architecture — democratic, distributed, traceable, and **designed for bounded antifragility where traced disturbances produce durable post-event improvements** — is the vault. Here *antifragile* is not a synonym for distributed or resilient: the claim is bounded by Cogentia's [Measured Risk](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/measured_risk.md), and qualifies only where the perturbation class and exposure are specified, losses are not merely externalized, a trace is retained, and subsequent capacity is demonstrably improved. The claim of the MareNostrum research program, taken as a whole, is that this vault can be built, and that building it is the most consequential AI safety intervention available to democratic polities in the current decade.
 
 ---
 
