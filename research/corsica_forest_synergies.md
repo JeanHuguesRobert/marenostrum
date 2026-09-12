@@ -37,7 +37,7 @@ La forêt corse, traditionnellement appréhendée sous l’angle d’une multifo
 
 Dans le cadre de la souveraineté alimentaire, énergétique et numérique de la Corse au sein de la fédération MareNostrum (quadrilatère Corse-Sardaigne-Sicile-Tunisie, Union de la Méditerranée), nous articulons une **valorisation synergétique** fondée sur les trois couches du modèle « Infrastructure Is All You Need » : substrat physique (exergie), gouvernance démocratique fractale (principes ostromiens adaptés) et contrats cognitifs audités (Compute Exergy).  
 
-Innovations concrètes intégrées : dirigeables Flying Whales, pyrolyse en biochar, micro-STEP distribués, réactivation des sentiers muletiers et VTOL autonomes. La forêt devient ainsi **antifragile** : elle transforme les contraintes insulaires en levier de souveraineté collective tout en respectant les huit principes de gouvernance des biens communs identifiés par Ostrom.
+Innovations concrètes intégrées : dirigeables Flying Whales, pyrolyse en biochar, micro-STEP distribués, réactivation des sentiers muletiers et VTOL autonomes. Le modèle vise une **antifragilité bornée** : des perturbations limitées ne deviennent un gain que si elles sont tracées, assimilées et laissent une capacité durablement supérieure, sans élargir l’exposition ni externaliser le dommage.
 
 **Mots-clés** : forêt corse, souveraineté insulaire, exergie de compute, infrastructure territoriale, MareNostrum, gouvernance démocratique fractale, biens communs (Ostrom), biochar, micro-STEP, VTOL autonomes, sentiers muletiers.
 
@@ -51,7 +51,7 @@ Les approches classiques du droit forestier corse identifient quatre dimensions 
 - **Énergétique** : production et stockage distribué  
 - **Numérique** : compute souverain tracé  
 
-Dans le cadre MareNostrum, la forêt cesse d’être un « espace à gérer » pour devenir une **infrastructure active** et une **ressource commune** (Ostrom, 1990). La théorie des biens communs montre que ni l’État ni le marché ne suffisent à gérer durablement des ressources comme la forêt insulaire ; seule une gouvernance polycentrique, avec règles adaptées localement et surveillance mutuelle, permet une gestion durable et antifragile (Robert, 2026a).
+Dans le cadre MareNostrum, la forêt cesse d’être un « espace à gérer » pour devenir une **infrastructure active** et une **ressource commune** (Ostrom, 1990). La théorie des biens communs montre que ni l’État ni le marché ne suffisent à gérer durablement des ressources comme la forêt insulaire ; une gouvernance polycentrique, avec règles adaptées localement et surveillance mutuelle, fournit un cadre de gestion durable et adaptative. L’antifragilité, lorsqu’elle existe, doit être démontrée par un gain post-perturbation et non déduite de la seule diversité.
 
 ---
 
@@ -77,7 +77,7 @@ Cette structure transforme l’opposition en co-décision et rend la forêt une 
 **Couche 3 — Contrats cognitifs et registre audité**  
 Chaque flux d’exergie (kWh, inférence, tonne de biochar) est tracé dans le registre Safe Compute Exergy (SCE). L’unité de compte est le **CXU** (Compute eXergy Unit). Opacité impossible = risque systémique éliminé (Robert, 2026c). Cela renforce le principe ostromien de *surveillance* et de *responsabilisation collective*.
 
-Cette architecture rend la forêt **antifragile** (Taleb, 2012) : les chocs renforcent les mécanismes d’allocation démocratique et de traçabilité, conformément à l’observation de Ostrom selon laquelle les communs réussissent quand les règles sont adaptées au contexte local et évolutives.
+Cette architecture ne rend pas la forêt antifragile par définition. Elle formule une hypothèse d’**antifragilité bornée** : pour une classe définie de perturbations et sous une exposition limitée, la trace de l’événement peut permettre d’améliorer durablement les règles d’allocation, les mécanismes de surveillance, les réserves ou les procédures de correction. Sans trace retenue et sans amélioration observable après le choc, il s’agit de robustesse ou de résilience, pas d’antifragilité. Ce bornage suit la doctrine [Measured Risk](https://github.com/JeanHuguesRobert/cogentia/blob/main/research/measured_risk.md).
 
 ---
 
@@ -110,6 +110,8 @@ Les VTOL autonomes complètent : transport dernier kilomètre, surveillance ince
 ### 6. Gouvernance et antifragilité : le pari démocratique MareNostrum ancré dans Ostrom
 
 La souveraineté est politique avant d’être technique. Le modèle DHITL garantit que les humains restent dans la boucle en tant que souverains. Les assemblées fractales (1 personne = 1 voix, mandats révocables) implémentent les principes de gouvernance des communs d’Ostrom à l’échelle méditerranéenne. Cela rend toute décision contestable et réversible, tout en évitant la tragédie des communs comme la tragédie de la privatisation ou de la bureaucratisation.
+
+Le test opérationnel est donc : **perturbation bornée → trace → adaptation → gain mesurable**. Un incendie, une pénurie, un conflit d’usage ou une défaillance technique ne « renforce » pas automatiquement le système. Il ne devient informatif pour l’antifragilité que si son exposition reste maîtrisée, si son coût n’est pas simplement exporté vers d’autres acteurs et si la réponse laisse une règle, une réserve, une capacité ou une procédure meilleure qu’avant l’événement.
 
 ---
 
