@@ -348,8 +348,6 @@ Weselek, A., Ehmann, A., Zikeli, S., Lewandowski, I., Schindele, S., Högy, P., 
 - MareNostrum
 - [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/index.md)
 - [Value-Shaped Solar and Containerized Compute](https://github.com/JeanHuguesRobert/FractaVolta/blob/main/research/value_shaped_solar_and_containerized_compute.md)
-- [Research Index — Cogentia](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/cogentia-index.md)
-- [Research Index — FractaVolta](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/FractaVolta-index.md)
 - [Concept Index — marenostrum](concepts.md)
 - [constellia - moved](../constellia.md)
 - [Research Index — MareNostrum](index.md)
