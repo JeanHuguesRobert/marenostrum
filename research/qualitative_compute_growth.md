@@ -1,23 +1,22 @@
 ---
-title: "Qualitative Growth of AI Compute"
-repository: marenostrum
+title: Qualitative Growth of AI Compute
 status: working-paper
 version: 0.1
-date: 2026-08-07
+date: 2026-08-07T00:00:00.000Z
 language: en
 type: source-document
 document_role: source
 document_kind: research-paper
 visibility: public
 lifecycle_state: working
-classification_source: "cogentia.js"
-classification_version: "1"
-classification_rule: "research-paper"
-classification_confidence: "medium"
+classification_source: cogentia.js
+classification_version: '1'
+classification_rule: research-paper
+classification_confidence: medium
 corpus_layer: mare-nostrum
-author: "Jean Hugues Noël Robert, baron Mariani"
-affiliation: "Institut Mariani / C.O.R.S.I.C.A., Corte, Corsica"
-license: "CC BY-SA 4.0"
+author: Jean Hugues Noël Robert, baron Mariani
+affiliation: Institut Mariani / C.O.R.S.I.C.A., Corte, Corsica
+license: CC BY-SA 4.0
 derived_from:
   - research/PRICING.md
   - research/CONTRACTS.md
@@ -31,7 +30,18 @@ continuations:
   - Empirically calibrate the thesis against 2025-2026 hyperscaler capacity, utilization, reservation, power and inference-market data.
   - Measure observed price premiums for reservation, latency, resilience, sovereignty and provenance separately.
   - Replace absolute availability language in Sovereign-tier contracts with explicit failure envelopes where appropriate.
+update_policy: UP-DEFAULT-REVIEWED
+review:
+  status: unreviewed
+  reviewed_by: []
+provenance:
+  origin_type: unknown
+  origin_repository: unknown
+  origin_ref: unknown
+  origin_date: unknown
+  derived_from: []
 ---
+
 
 # Qualitative Growth of AI Compute
 

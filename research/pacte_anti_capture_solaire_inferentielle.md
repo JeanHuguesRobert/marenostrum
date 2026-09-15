@@ -1,52 +1,63 @@
 ---
-title: "Pacte anti-capture solaire et inférentielle"
-subtitle: "Application de l’Autonomie de Capacité à la transformation du soleil territorial en capacité d’inférence"
-author: "Jean Hugues Noël Robert"
-affiliation: "Institut Mariani / C.O.R.S.I.C.A. / Mare Nostrum / FractaVolta"
-status: "working-paper"
-version: "0.6"
-language: "fr"
-license: "CC BY-SA 4.0"
-source_or_derived: "source document"
+title: Pacte anti-capture solaire et inférentielle
+subtitle: Application de l’Autonomie de Capacité à la transformation du soleil territorial en capacité d’inférence
+author: Jean Hugues Noël Robert
+affiliation: Institut Mariani / C.O.R.S.I.C.A. / Mare Nostrum / FractaVolta
+status: working-paper
+version: '0.6'
+language: fr
+license: CC BY-SA 4.0
+source_or_derived: source document
 human_validation_required: true
-last_stamped_at: "2026-06-07"
+last_stamped_at: '2026-06-07'
 intended_primary_audience:
-  - "élus corses"
-  - "maires et élus de montagne"
-  - "communes productrices ou susceptibles de produire de l’énergie"
-  - "citoyens corses"
-  - "chercheurs énergie/IA"
-  - "investisseurs acceptant des règles anti-capture"
+  - élus corses
+  - maires et élus de montagne
+  - communes productrices ou susceptibles de produire de l’énergie
+  - citoyens corses
+  - chercheurs énergie/IA
+  - investisseurs acceptant des règles anti-capture
 related_documents:
-  - "cogentia/prompts/document_conversation_frame.md"
-  - "cogentia/prompts/redactor.md"
-  - "cogentia/prompts/reviewer.md"
-  - "cogentia/prompts/conversation_closure.md"
-  - "barons-Mariani/research/autonomia.md"
-  - "barons-Mariani/research/democratie_capable.md"
-  - "barons-Mariani/research/second_method.md"
-  - "FractaVolta/value_shaped_solar_and_containerized_compute.md"
-  - "FractaVolta/UNCONSCIOUS_GRID.md"
-  - "marenostrum/MODEL.md"
+  - cogentia/prompts/document_conversation_frame.md
+  - cogentia/prompts/redactor.md
+  - cogentia/prompts/reviewer.md
+  - cogentia/prompts/conversation_closure.md
+  - barons-Mariani/research/autonomia.md
+  - barons-Mariani/research/democratie_capable.md
+  - barons-Mariani/research/second_method.md
+  - FractaVolta/value_shaped_solar_and_containerized_compute.md
+  - FractaVolta/UNCONSCIOUS_GRID.md
+  - marenostrum/MODEL.md
 external_references:
-  - "https://www.reuters.com/legal/transactional/blackrock-nvidia-buy-aligned-data-centers-40-billion-deal-2025-10-15/"
-  - "https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-chairmans-letter"
-  - "https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-larry-fink"
+  - https://www.reuters.com/legal/transactional/blackrock-nvidia-buy-aligned-data-centers-40-billion-deal-2025-10-15/
+  - https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-chairmans-letter
+  - https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-larry-fink
 review_integrated:
-  - "Grok constructive external reviews — 2026-06-07"
-  - "Autonomia v0.12 cross-check — 2026-06-07"
-  - "Human author review — v0.5 approved for stabilization, 2026-06-07"
-date: "2026-06-07"
-corpus_role: "source"
-document_role: "source"
-document_kind: "research-paper"
-visibility: "public"
-lifecycle_state: "working"
-classification_source: "cogentia.js"
-classification_version: "1"
-classification_rule: "research-paper"
-classification_confidence: "medium"
+  - Grok constructive external reviews — 2026-06-07
+  - Autonomia v0.12 cross-check — 2026-06-07
+  - Human author review — v0.5 approved for stabilization, 2026-06-07
+date: '2026-06-07'
+corpus_role: source
+document_role: source
+document_kind: research-paper
+visibility: public
+lifecycle_state: working
+classification_source: cogentia.js
+classification_version: '1'
+classification_rule: research-paper
+classification_confidence: medium
+update_policy: UP-DEFAULT-REVIEWED
+review:
+  status: unreviewed
+  reviewed_by: []
+provenance:
+  origin_type: unknown
+  origin_repository: unknown
+  origin_ref: unknown
+  origin_date: unknown
+  derived_from: []
 ---
+
 
 # Pacte anti-capture solaire et inférentielle
 

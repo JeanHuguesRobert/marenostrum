@@ -1,13 +1,11 @@
 ---
-title: "MareNostrum — Tableau de bord"
-subtitle: "Suivi des expositions institutionnelles, empêchements observés, apprentissages et continuations"
-date: "2026-06-12"
-status: "draft"
-author: "Jean Hugues Noël Robert"
-repository: "marenostrum"
-path: "dashboard.md"
-type: "dashboard"
-related_trace_register: "https://github.com/JeanHuguesRobert/cogentia/blob/main/interaction_packets/mail_trace.md"
+title: MareNostrum — Tableau de bord
+subtitle: Suivi des expositions institutionnelles, empêchements observés, apprentissages et continuations
+date: '2026-06-12'
+status: draft
+author: Jean Hugues Noël Robert
+type: dashboard
+related_trace_register: https://github.com/JeanHuguesRobert/cogentia/blob/main/interaction_packets/mail_trace.md
 tags:
   - MareNostrum
   - dashboard
@@ -19,15 +17,29 @@ tags:
   - impediment-observatory
   - potentiel-accumule
   - strategie-du-barrage
-document_role: "source"
-document_kind: "dashboard"
-visibility: "public"
-lifecycle_state: "working"
-classification_source: "cogentia.js"
-classification_version: "1"
-classification_rule: "dashboard"
-classification_confidence: "medium"
+document_role: source
+document_kind: dashboard
+visibility: public
+lifecycle_state: working
+classification_source: cogentia.js
+classification_version: '1'
+classification_rule: dashboard
+classification_confidence: medium
+license: CC BY-SA 4.0
+affiliation: Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica
+language: fr
+update_policy: UP-DEFAULT-REVIEWED
+review:
+  status: unreviewed
+  reviewed_by: []
+provenance:
+  origin_type: unknown
+  origin_repository: unknown
+  origin_ref: unknown
+  origin_date: unknown
+  derived_from: []
 ---
+
 
 # MareNostrum — Tableau de bord
 

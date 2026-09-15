@@ -1,30 +1,42 @@
 ---
-author: "Jean Hugues Noël Robert, baron Mariani"
-affiliation: "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
-license: "CC BY-SA 4.0"
+author: Jean Hugues Noël Robert, baron Mariani
+affiliation: Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica
+license: CC BY-SA 4.0
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/research/dhitl-membership-and-federation.md
-title: "DHITL — Membership, Affected Publics, and Federated Citizenship"
-date: "2026-06-24"
-status: "working-paper — doctrinal and procedural specification"
-document_role: "source"
-document_kind: "doctrine/specification"
-visibility: "public"
-lifecycle_state: "working"
-classification_source: "cogentia.js"
-classification_version: "1"
-classification_rule: "spec"
-classification_confidence: "medium"
-review_status: "self-reviewed"
+title: DHITL — Membership, Affected Publics, and Federated Citizenship
+date: '2026-06-24'
+status: working-paper — doctrinal and procedural specification
+document_role: source
+document_kind: doctrine/specification
+visibility: public
+lifecycle_state: working
+classification_source: cogentia.js
+classification_version: '1'
+classification_rule: spec
+classification_confidence: medium
+review_status: self-reviewed
 related_to:
-  - "research/DHITL.md"
-  - "research/DHITL-COVENANT.md"
-  - "Democratic Humans In The Loop"
-  - "One living person, one voice"
-  - "Only the living vote"
-  - "Affected-community suffrage"
-  - "Inseme federated instances"
-  - "Kudocracy / liquid democracy"
+  - research/DHITL.md
+  - research/DHITL-COVENANT.md
+  - Democratic Humans In The Loop
+  - One living person, one voice
+  - Only the living vote
+  - Affected-community suffrage
+  - Inseme federated instances
+  - Kudocracy / liquid democracy
+language: en
+update_policy: UP-DEFAULT-REVIEWED
+review:
+  status: unreviewed
+  reviewed_by: []
+provenance:
+  origin_type: unknown
+  origin_repository: unknown
+  origin_ref: unknown
+  origin_date: unknown
+  derived_from: []
 ---
+
 
 # DHITL — Membership, Affected Publics, and Federated Citizenship
 

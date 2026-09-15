@@ -1,27 +1,39 @@
 ---
-author: "Jean Hugues Noël Robert, baron Mariani"
-affiliation: "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
-license: "CC BY-SA 4.0"
+author: Jean Hugues Noël Robert, baron Mariani
+affiliation: Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica
+license: CC BY-SA 4.0
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/research/DHITL-COVENANT.md
-title: "DHITL Covenant — One Living Person, One Voice"
-date: "2026-06-23"
-status: "working-paper — covenant amendment"
-document_role: "source"
-document_kind: "covenant"
-visibility: "public"
-lifecycle_state: "working"
+title: DHITL Covenant — One Living Person, One Voice
+date: '2026-06-23'
+status: working-paper — covenant amendment
+document_role: source
+document_kind: covenant
+visibility: public
+lifecycle_state: working
 related_to:
-  - "research/DHITL.md"
-  - "Democratic Humans In The Loop"
-  - "One Human, One Voice"
-  - "living-person sovereignty"
-  - "affected-community suffrage"
-  - "Inseme federated instances"
-classification_source: "cogentia.js"
-classification_version: "1"
-classification_rule: "explicit-metadata"
-classification_confidence: "medium"
+  - research/DHITL.md
+  - Democratic Humans In The Loop
+  - One Human, One Voice
+  - living-person sovereignty
+  - affected-community suffrage
+  - Inseme federated instances
+classification_source: cogentia.js
+classification_version: '1'
+classification_rule: explicit-metadata
+classification_confidence: medium
+language: en
+update_policy: UP-DEFAULT-REVIEWED
+review:
+  status: unreviewed
+  reviewed_by: []
+provenance:
+  origin_type: unknown
+  origin_repository: unknown
+  origin_ref: unknown
+  origin_date: unknown
+  derived_from: []
 ---
+
 
 # DHITL Covenant — One Living Person, One Voice
 

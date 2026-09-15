@@ -1,21 +1,33 @@
 ---
 canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/research/constellia.md
-author: "Jean Hugues Noël Robert, baron Mariani"
-affiliation: "Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica"
-license: "CC BY-SA 4.0"
-last_stamped_at: 2026-06-01
-title: "CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES"
-date: "2026-04-23"
-status: "draft — auto-filled (frontmatter cleanup)"
-document_role: "source"
-document_kind: "architecture"
-visibility: "public"
-lifecycle_state: "working"
-classification_source: "cogentia.js"
-classification_version: "1"
-classification_rule: "architecture"
-classification_confidence: "medium"
+author: Jean Hugues Noël Robert, baron Mariani
+affiliation: Institut Mariani / C.O.R.S.I.C.A., 1 cours Paoli, F-20250 Corte, Corsica
+license: CC BY-SA 4.0
+last_stamped_at: 2026-06-01T00:00:00.000Z
+title: 'CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES'
+date: '2026-04-23'
+status: draft — auto-filled (frontmatter cleanup)
+document_role: source
+document_kind: architecture
+visibility: public
+lifecycle_state: working
+classification_source: cogentia.js
+classification_version: '1'
+classification_rule: architecture
+classification_confidence: medium
+language: en
+update_policy: UP-DEFAULT-REVIEWED
+review:
+  status: unreviewed
+  reviewed_by: []
+provenance:
+  origin_type: unknown
+  origin_repository: unknown
+  origin_ref: unknown
+  origin_date: unknown
+  derived_from: []
 ---
+
 # CONSTELLIA: A FRACTAL ARCHITECTURE FOR ENERGY, FOOD, AND DIGITAL SOVEREIGNTY IN ISLAND TERRITORIES
 
 **Jean Hugues Noël Robert** and **Guillermo Valdes**  

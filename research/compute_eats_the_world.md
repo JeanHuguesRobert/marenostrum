@@ -1,35 +1,33 @@
 ---
-classification_source: "cogentia.js"
-classification_version: "1"
-classification_rule: "working-note"
-classification_confidence: "medium"
-title: "Compute Eats the World"
-subtitle: "From software eating processes to inference driving quasi-unbounded qualitative growth"
-author: "Jean Hugues Noël Robert, baron Mariani"
-affiliation: "Institut Mariani / C.O.R.S.I.C.A. / MareNostrum"
-date: "2026-08-16"
-last_modified_at: "2026-08-16"
-status: "working-note — source continuation"
-version: "0.1"
-license: "CC BY-SA 4.0"
-language: "en"
-repository: "JeanHuguesRobert/marenostrum"
-canonical_path: "research/compute_eats_the_world.md"
-canonical_url: "https://github.com/JeanHuguesRobert/marenostrum/blob/main/research/compute_eats_the_world.md"
-document_role: "source"
-document_kind: "working-note"
-visibility: "public"
-lifecycle_state: "working"
-source_or_derived: "source-document"
+classification_source: cogentia.js
+classification_version: '1'
+classification_rule: working-note
+classification_confidence: medium
+title: Compute Eats the World
+subtitle: From software eating processes to inference driving quasi-unbounded qualitative growth
+author: Jean Hugues Noël Robert, baron Mariani
+affiliation: Institut Mariani / C.O.R.S.I.C.A. / MareNostrum
+date: '2026-08-16'
+last_modified_at: '2026-08-16'
+status: working-note — source continuation
+version: '0.1'
+license: CC BY-SA 4.0
+language: en
+canonical_url: https://github.com/JeanHuguesRobert/marenostrum/blob/main/research/compute_eats_the_world.md
+document_role: source
+document_kind: working-note
+visibility: public
+lifecycle_state: working
+source_or_derived: source-document
 human_validation_required: true
 related_documents:
-  - "research/qualitative_compute_growth.md"
-  - "research/safe_compute_exergy.md"
-  - "research/PRICING.md"
-  - "research/CONTRACTS.md"
-  - "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/potentics_of_compute.md"
-  - "https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/the_network_is_the_learning_computer.md"
-  - "https://github.com/JeanHuguesRobert/cogentia/blob/main/research/memory_and_corpus_sleep_cycle.md"
+  - research/qualitative_compute_growth.md
+  - research/safe_compute_exergy.md
+  - research/PRICING.md
+  - research/CONTRACTS.md
+  - https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/potentics_of_compute.md
+  - https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/the_network_is_the_learning_computer.md
+  - https://github.com/JeanHuguesRobert/cogentia/blob/main/research/memory_and_corpus_sleep_cycle.md
 tags:
   - qualitative-growth
   - compute
@@ -43,17 +41,18 @@ tags:
   - corsica
   - autonomy-of-capacity
 provenance:
-  origin_type: "conversation"
-  origin_repository: "JeanHuguesRobert/marenostrum"
-  origin_ref: "main"
-  origin_date: "2026-08-16"
+  origin_type: conversation
+  origin_repository: JeanHuguesRobert/marenostrum
+  origin_ref: main
+  origin_date: '2026-08-16'
   derived_from:
-    - "research/qualitative_compute_growth.md"
+    - research/qualitative_compute_growth.md
 review:
-  status: "unreviewed"
+  status: unreviewed
   reviewed_by: []
-update_policy: "UP-DEFAULT-REVIEWED"
+update_policy: UP-DEFAULT-REVIEWED
 ---
+
 
 # Compute Eats the World
 
