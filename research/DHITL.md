@@ -172,6 +172,8 @@ Photons → Energy (L1)
 
 The key insight is directional: **the political layer (L3) governs the technical layer (L5), not the reverse.** The technical layer defines *what is possible*; the political layer defines *what is permitted and required*. Current AI governance frameworks invert this relationship, allowing technical actors to define the scope of their own regulation.
 
+This also provides an architectural answer to the recursive question **“Who regulates the regulators?”** The recursion does not terminate in a supreme meta-regulator, but loops back to democratic human sovereignty: regulators remain accountable to the people from whom their authority derives. **DHITL does not replace that sovereign; it provides the physical, economic, cognitive, and technical conditions that keep democratic oversight effective, traceable, and resistant to capture.**
+
 ---
 
 ## 4. Compute Exergy: An Economic Unit for Democratic Oversight
