@@ -27,7 +27,6 @@ provenance:
   origin_date: unknown
   derived_from: []
 ---
-
 <!-- BEGIN_AUTO: trails -->
 > 🧭 **Trail: From Autonomia to DHITL**
 > ⬅️ Previous: [DHITL, Democratic Humans In The Loop](DHITL.md)

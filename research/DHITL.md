@@ -27,7 +27,6 @@ provenance:
   origin_date: unknown
   derived_from: []
 ---
-
 <!-- BEGIN_AUTO: trails -->
 > 🧭 **Trail: From Autonomia to DHITL**
 > ⬅️ Previous: [La pathologie du secret](https://github.com/JeanHuguesRobert/barons-Mariani/blob/main/research/pathologie_du_secret.md) | ➡️ Next: [Infrastructure Is All You Need](infrastructure_is_all_you_need.md)
