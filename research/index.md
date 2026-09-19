@@ -127,3 +127,20 @@ This repository hosts [DHITL](DHITL.md) — the **load-bearing architectural axi
 - [Research Index — Jean Hugues Noël Robert (Profile / Entry Point)](https://github.com/JeanHuguesRobert/JeanHuguesRobert/blob/main/research/index.md)
 - [MareNostrum](../README.md)
 <!-- END_AUTO: backlinks -->
+<!-- BEGIN_AUTO: index_catalog -->
+## Corpus catalog
+
+*Generated navigation. Editorial sections above remain human-maintained.*
+
+| Document | Role | Updated |
+|---|---|---|
+| [Calibrate and propagate the qualitative compute growth thesis](../.cogentia/issues/jeanhuguesrobert-marenostrum/issue-00004.md) | source | unknown |
+| [Clarifier DHITL : infrastructure, ouverture et transition](../.cogentia/issues/jeanhuguesrobert-marenostrum/issue-00003.md) | source | unknown |
+| [Compute Eats the World](compute_eats_the_world.md) | source | 2026-08-16 |
+| [Link DHITL membership/federation document from DHITL and covenant](../.cogentia/issues/jeanhuguesrobert-marenostrum/issue-00002.md) | source | unknown |
+| [MareNostrum](../README.md) | source | 2026-07-12 |
+| [Qualitative Growth of AI Compute](qualitative_compute_growth.md) | source | 2026-08-07 |
+| [Research: test Democratic Corrigibility as the safety invariant behind DHITL](../.cogentia/issues/jeanhuguesrobert-marenostrum/issue-00005.md) | source | unknown |
+| [RFC: Pre-submission review — "Infrastructure Is All You Need"](../.cogentia/issues/jeanhuguesrobert-marenostrum/issue-00001.md) | source | unknown |
+
+<!-- END_AUTO: index_catalog -->
